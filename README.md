@@ -12,11 +12,11 @@
 </div>
 
 
-The overall layout of this program's file folder  is as below:
+The overall layout of this program's **root folder**  is as below:
 
 ```
 
-├── UCGE   
+├── root   
     ├── adaptive
             ├── model.py
             ├── run.py
@@ -31,7 +31,7 @@ The overall layout of this program's file folder  is as below:
                     ├── merges.txt
                     ├── pytorch_model.bin
                     ....
-    ├── computer_metric.py                    
+    ├── compute_metric.py                    
     ├── model.py
     ├── run.py
     ├── test.py 
