@@ -52,7 +52,7 @@ The overall layout of this program's file folder  is as below:
 
    
 
-3. Switch back to the root directory, and edit your configurations in the **run.py** file. If you use the adaptive pre-trained model, please don't forget to load the parameters.
+3. Switch back to the **root directory**, and edit your configurations in the **run.py** file. If you use the adaptive pre-trained model, please don't forget to load the parameters.
 
    Then use the command `python run.py`, to begin the Downstream Task Fine-tuning Process.
 
