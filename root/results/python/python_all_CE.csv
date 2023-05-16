@@ -1,0 +1,305 @@
+_start = True 
+_start = True 
+def _start ( self ) : 
+def _start ( self ) : 
+def _start ( self ) : 
+def _start ( self ) : 
+def _start ( self ) : 
+def _start ( self ) : 
+def _start ( self ) : 
+def _start ( self ) : 
+"def _start ( self , enc ) : "
+"def _start ( self , stage ) : "
+al += 0x2 
+al . append ( 3 ) 
+esi . append ( 0x02 ) 
+esi += 0x10 
+eax += 4 
+eax . add ( ebx ) 
+ebp += 0x2 
+ edi . append ( 2 ) 
+esi . append ( 2 ) 
+decoder ( ) 
+decoder ( ) 
+decoder_setup ( ) 
+returnlabel ( ) 
+def call_decoded ( ) : 
+def call_decoder ( ) : 
+call_decoder ( ) 
+def call_decoder ( ) : 
+def call_decoder ( ) : 
+def call_decoder ( ) : 
+shellcode = call_decoder ( shellcode ) 
+call_shellcode ( ) 
+call_shellcode ( ) 
+def call_shellcode ( ) : 
+def call_shellcode ( ) : 
+def call_shellcode ( ) : 
+in call_shellcode ( ) : 
+in call_shellcode : 
+def check_even_odd ( self ) : 
+if al != cl : 
+if bl == 0xaa : 
+if bl == 0xbb : 
+if esi == 0x88 : 
+"if not_equal ( shellcode , bl ) : "
+if esi + edx + 5 == edi : 
+in common_commands : 
+def cycle ( self ) : 
+al -= 1 
+ebx = ebx - 1 
+decode_loop = decode_loop 
+decode_pr = decode_pr 
+def decode ( self ) : 
+def decode ( s ) : 
+def decode ( s ) : 
+decode ( ) : 
+label = decode ( label ) 
+if shellcode < 0x7 : 
+bl . write ( shellcode ) 
+def decode ( esi ) : 
+def decode ( shellcode ) : 
+def decode ( esi ) : 
+stack . append ( decoded_shellcode ) 
+decoder_setup = 'decoder_setup' 
+def decoder ( ) : 
+def decoder ( data ) : 
+def decoder ( ) : 
+def decoder ( ) : 
+def decoder ( self ) : 
+main = decoder . main 
+decoder = 'decoder' 
+def decoder ( shellcode ) : 
+esi . save ( shellcode ) 
+edi . save_shellcode ( shellcode ) 
+def enc ( enc ) : 
+encoded_shellcode = b'' 
+def encoded_shellcode ( encoded_shellcode ) : 
+encoded = b'' 
+def encode ( encoded ) : 
+def encodedshellcode ( encodedshellcode ) : 
+def bytearray ( encodedshellcode ) : 
+encodedshellcode = b'' 
+def bytearray ( encodedshellcode ) : 
+def bytearray ( encodedshellcode ) : 
+encoder_shellcode = bytearray ( encoder_shellcode ) 
+def even_number ( ) : 
+in execute_shellcode : 
+def format ( self ) : 
+formatting = label 
+get_shellcode_addr ( ) : 
+global _start 
+global _start 
+dx += 1 
+eax = nextbyte ( ) 
+eax . nextByte ( ) 
+ecx += 1 
+ecx += 1 
+next_byte = edi . next_byte ( ) 
+ edi += 1 
+edx = edx + 1 
+edx += 1 
+esi += 1 
+shellcode = nextbyte ( ) 
+next_byte = ord ( shellcode ) 
+esi += 1 
+esi += 1 
+nextword = nextword ( ) 
+decode ( ) 
+def inc_dec ( inc_dec ) : 
+jumpto decode 
+call_decoder ( ) 
+go to call_shellcode 
+call_shellcode ( ) 
+cycle = 1 
+decode ( ) : 
+jumpshortto decode 
+decode ( ) 
+decode_pr = decode_pr 
+get_shellcode_addr ( ) 
+inc_dec ( ) 
+jumpshortto main 
+go to shellcode_section 
+jumpshortto switch 
+if zero : 
+ edi = edi + 2 
+ edi = load_address ( esi + 13 ) 
+ edi . load ( esi ) 
+edi = edi + 1 
+ edi . load ( esi ) 
+ edi . load ( esi + 0x1 ) 
+esi = load_effective_address ( esi + 2 ) 
+counter -= check_even_odd 
+counter -= 1 
+counter -= 1 
+if not 0 : 
+sys . exit ( 1 ) 
+counter -= 1 
+counter -= 1 
+counter -= 1 
+if counter < decode_loop : 
+lowbound = label 
+def main ( ) : 
+edi . add ( al ) 
+edi . write ( al ) 
+else : 
+al . append ( esi ) 
+al . load ( esi ) 
+"al . insert ( esi + 1 + ebp , b'' ) "
+al = cl 
+al . append ( dl ) 
+al = dl . copy ( ) 
+ax . write ( esi ) 
+ax . append ( word ( edi + 1 + ecx ) ) 
+bh . append ( bl ) 
+bh = esi + edx + 2 
+bl . write ( shellcode ) 
+bl = 0x7 
+bl [ 0xff ] = 0xff 
+bl . write ( eax ) 
+"bl . insert ( edi , b'' ) "
+bl = edi . getbyte ( ) 
+bl [ esi + 1 ] = bl [ esi + 1 ] 
+bl [ esi + eax ] = bl [ esi ] 
+bl [ esi + i ] = bl [ i ] 
+bl . write ( esi + edx + 1 ) 
+bl = esi . byte ( ) 
+bl [ esi + 1 ] = 1 
+edi . extend ( bl ) 
+bl [ i ] = 0x7 - bl [ i ] 
+bl = cl . read ( ) 
+bx . write ( esi ) 
+"move dl , eax "
+edi . append ( bl ) 
+"edi . insert ( 0 , bl ) "
+"edi . insert ( 0xdd , bl ) "
+edx += bl 
+esi += 1 
+esi += bl 
+esi . append ( dl ) 
+esi += bl 
+esp += 1 
+esp += bh 
+esp += bl 
+esp += ch 
+edx += bl 
+ch = esi + edx + 4 
+counter[0] = 10 
+cl = 13 
+cl . register = al 
+cl . append ( eax ) 
+cl . write ( esi + edx + 3 ) 
+cl = dl 
+dl = esi - 1 
+dl = dl - 1 
+cmd = dl . read ( ) 
+dl = 0x45 
+dl = 0xff 
+dl = dl + 1 
+dl = bytearray ( eax ) 
+dl . append ( esi + 1 ) 
+dl . append ( byte ( esi + edi ) ) 
+dl . append ( esi ) 
+eax = edi 
+ecx = ebp . copy ( ) 
+ edi = 0xaaaa9090 
+ edi . append ( shellcode ) 
+push ( edx ) 
+ edi . append ( ax ) 
+dl += negative ( dl ) 
+next_cycle += 1 
+not esi 
+not_equal = False 
+notdecode = notdecode 
+def odd_number ( self ) : 
+esi . pop ( shellcode ) 
+esi = shellcode 
+esi . shellcode = shellcode 
+si . shellcode = shellcode 
+cx [ shellcode ] = esi 
+stack . push ( encoded shellcode ) 
+esi . push ( esi ) 
+returnlabel 
+shellcode -= 1 
+bl += cl 
+esi += 1 
+section . text = '' 
+def shellcode_length ( shellcode_length ) : 
+in shellcode_section : 
+def shellcode ( shellcode ) : 
+def shellcode ( shellcode ) : 
+shellcode = b'' 
+def shellcode ( shellcode ) : 
+def shellcode ( shellcode ) : 
+shellcode = bytearray ( shellcode ) 
+shellcode = bytearray ( shellcode ) 
+def shellcode ( shellcode ) : 
+def shellcode ( shellcode ) : 
+def shift_decode ( shift_decode ) : 
+eax << 28 
+eax << 28 
+ax <<= 1 
+ax += cl 
+bl += 4 
+dl += 1 
+dl = dl << 4 
+eax += 24 
+eax += 28 
+"def stage ( stage , decoder ) : "
+ax = ax - 13 
+al = bl . subtract ( al ) 
+bl = bl - current_byte 
+esi = esi - 8 
+cl . subtract ( dl ) 
+if sign : 
+bx = dx - bx 
+stack . pop ( ) 
+esp = esp - 0x7f 
+def switch ( ) : 
+if esi [ even_number ] : 
+al = al + 1 
+if al == bl : 
+ax = 0x539 ^ 0x539 
+bx = bx ^ ax 
+decode ( bx ) 
+bh = esi + bytearray ( bh ) 
+encodedshellcode = bl ^ 0xaa 
+bl = 0xbb 
+cl = bl ^ 0xbb 
+bl = esi + bl 
+shellcode = bl ^ dl 
+esi ^= 0x88 
+esi ^= 0x97 
+shellcode ^= dl 
+esi ^= dl 
+esi ^= dl 
+shellcode ^= dl 
+esi + edx ^= bytearray ( ch ) 
+if cl == 0x32 : 
+next_cycle = cl ^ 0xaa 
+decode ( cl ) 
+esi + edx ^= cl 
+if dl & 0xbb : 
+eax . clear ( ) 
+eax . clear ( ) 
+"clear eax , ebx "
+"clear ( eax , ebx , ecx ) "
+"eax , ebx , ecx , edx = eax , ebx , ecx , edx "
+"clear ( eax , ebx , ecx , edx ) "
+ebp = 0 
+ebx = 0 
+ebx . zeroOut ( ) 
+"clear ( ebx , edx ) "
+clear ecx 
+ecx . zeroOut ( 0x19 ) 
+counter = 0x1e 
+ecx . zeroOut ( 23 ) 
+ecx . zeroout ( 25 ) 
+shellcode_length = 0 
+"clear eax , ecx "
+eax = 0 
+eax = eax = edx = 0 
+"clear ecx , eax "
+"zero out ( edi , eax , ebx , edx ) "
+edx . clear ( ) 
+def xordecode ( self ) : 

